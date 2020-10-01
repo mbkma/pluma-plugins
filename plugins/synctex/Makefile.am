@@ -1,16 +1,13 @@
-# SyncTeX Plugin
-SUBDIRS = synctex
-plugindir = $(PLUMA_PLUGINS_LIBS_DIR)
+if ENABLE_SYNCTEX
+plugins_synctexdir = $(plugindir)/synctex
+plugins_synctex_PYTHON =			\
+	plugins/synctex/synctex/__init__.py	\
+	plugins/synctex/synctex/synctex.py	\
+	plugins/synctex/synctex/atril_dbus.py
 
-plugin_in_files = synctex.plugin.desktop.in
-plugin_DATA = $(plugin_in_files:.plugin.desktop.in=.plugin)
-
-$(plugin_DATA): $(plugin_in_files)
-	$(AM_V_GEN) $(MSGFMT) --keyword=Name --keyword=Description --desktop --template $< -d $(top_srcdir)/po -o $@
-
-EXTRA_DIST = $(plugin_in_files)
-
-CLEANFILES = $(plugin_DATA)
-DISTCLEANFILES = $(plugin_DATA)
-
--include $(top_srcdir)/git.mk
+plugin_in_files += plugins/synctex/synctex.plugin.desktop.in
+appstream_in_files += plugins/synctex/pluma-synctex.metainfo.xml.in
+else
+dist_plugin_in_files += plugins/synctex/synctex.plugin.desktop.in
+dist_appstream_in_files += plugins/synctex/pluma-synctex.metainfo.xml.in
+endif

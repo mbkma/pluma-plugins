@@ -6,62 +6,57 @@
 # Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003.
 # Gil Osher <dolfin@rpg.org.il>, 2004.
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2010.
-# Yosef Or Boczko <yoseforb@gmail.com>, 2013.
+# Yosef Or Boczko <yoseforb@gnome.org>, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-24 15:05+0200\n"
-"PO-Revision-Date: 2013-11-24 15:23+0200\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"POT-Creation-Date: 2015-07-19 13:21+0300\n"
+"PO-Revision-Date: 2015-07-19 13:24+0300\n"
+"Last-Translator: Yosef Or Boczko <yoseforb@gnome.org>\n"
 "Language-Team: עברית <>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural= (n!=1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:1
 msgid "Bookmarks"
 msgstr "סימניות"
 
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:2
 msgid "Easy document navigation with bookmarks"
 msgstr "ניווט פשוט במסמכים עם סימניות"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "החלפת מצב סימון"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
-msgid "Toggle bookmark status of the current line"
-msgstr "החלפת מצב הסימון של השורה הנוכחית"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Goto Next Bookmark"
 msgstr "מעבר לסימנייה הבאה"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "מעבר לסימנייה הבאה"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Goto Previous Bookmark"
 msgstr "מעבר לסימנייה הקודמת"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "מעבר לסימנייה הקודמת"
-
 #: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:1
 msgid "Bracket Completion"
 msgstr "התאמת סוגריים"
 
 #: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
 msgid "Automatically adds closing brackets."
 msgstr "הוספת סוגר לסגירה."
+
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:2
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "הוספה אוטומטית של סוגר סוגר כאשר אחד מוכנס"
 
 #. ex:et:ts=4:
 #: ../plugins/charmap/charmap/__init__.py:51
@@ -73,7 +68,17 @@ msgstr "מפת תווים"
 msgid "Insert special characters just by clicking on them."
 msgstr "הוספת תווים מיוחדים פשוט על ידי לחיצה עליהם"
 
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:1
+msgid "Charmap"
+msgstr "מפת תווים"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:2
+msgid "Select characters from a character map"
+msgstr "בחירת תווים ממפת תווים"
+
+#. ex:ts=4:et:
 #: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
 msgid "Code Comment"
 msgstr "הערת קוד"
 
@@ -81,23 +86,18 @@ msgstr "הערת קוד"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "סימון או ביטול סימון כהערה למקטע קוד נבחר."
 
-#: ../plugins/codecomment/codecomment.py:88
+#: ../plugins/codecomment/codecomment.py:114
 msgid "Co_mment Code"
 msgstr "סימון קוד כה_ערה"
 
-#: ../plugins/codecomment/codecomment.py:90
-msgid "Comment the selected code"
-msgstr "סימון הקוד הנבחר כהערה"
-
-#: ../plugins/codecomment/codecomment.py:94
+#: ../plugins/codecomment/codecomment.py:120
 msgid "U_ncomment Code"
-msgstr "_ביטול סימון כהערה לקוד"
+msgstr "_ביטול סימון קוד כהערה"
 
-#: ../plugins/codecomment/codecomment.py:96
-msgid "Uncomment the selected code"
-msgstr "ביטול סימון הקוד הנבחר כהערה"
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:2
+msgid "Comment or uncomment blocks of code"
+msgstr "סימון או ביטול סימון כהערה של קוד"
 
-#. ex:ts=4:et:
 #: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
 msgid "Color Picker"
 msgstr "בוחר צבעים"
@@ -106,21 +106,27 @@ msgstr "בוחר צבעים"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "נא לבחור בצבע מתיבת הדו־שיח ולהוסיף את הייצוג ההקסדצימלי שלו."
 
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "בחירת _צבע..."
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:1
+msgid "Color picker"
+msgstr "בוחר צבע"
 
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "נא לבחור בצבע מתיבת הדו־שיח"
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:2
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "בחירה והכנסת צבא מתיבת דו־שיח (עבור HTML, CSS, PHP)"
 
-#: ../plugins/colorpicker/colorpicker.py:178
+#: ../plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "בחירת _צבע…"
+
+#: ../plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "בחירת צבע"
 
 #. ex:ts=4:et:
 #: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:1
+#: ../plugins/colorschemer/schemer/__init__.py:41
+#: ../plugins/colorschemer/schemer.ui.h:1
 msgid "Color Scheme Editor"
 msgstr "עורך ערכת צבע"
 
@@ -128,94 +134,102 @@ msgstr "עורך ערכת צבע"
 msgid "Source code color scheme editor"
 msgstr "עורך ערכת צבעי קוד מקור"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:2
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "יצירה ועריכת ערכת צבעים המשמשת עבור הדגשת תחביר"
+
+#: ../plugins/colorschemer/schemer.ui.h:2
 msgid "Bold"
 msgstr "מודגש"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+#: ../plugins/colorschemer/schemer.ui.h:3
 msgid "Italic"
 msgstr "נטוי"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+#: ../plugins/colorschemer/schemer.ui.h:4
 msgid "Underline"
 msgstr "קו תחתי"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+#: ../plugins/colorschemer/schemer.ui.h:5
 msgid "Strikethrough"
 msgstr "קו חותך"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+#: ../plugins/colorschemer/schemer.ui.h:6
 msgid "Pick the background color"
 msgstr "בחירת צבע הרקע"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+#: ../plugins/colorschemer/schemer.ui.h:7
 msgid "Pick the foreground color"
 msgstr "בחירת צבע החזית"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+#: ../plugins/colorschemer/schemer.ui.h:8
 msgid "_Background"
 msgstr "_רקע"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+#: ../plugins/colorschemer/schemer.ui.h:9
 msgid "_Foreground"
 msgstr "_חזית"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+#: ../plugins/colorschemer/schemer.ui.h:10
 msgid "_Clear "
 msgstr "_ניקוי"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+#: ../plugins/colorschemer/schemer.ui.h:11
 msgid "Name"
 msgstr "שם"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+#: ../plugins/colorschemer/schemer.ui.h:12
 msgid "ID"
 msgstr "מזהה"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+#: ../plugins/colorschemer/schemer.ui.h:13
 msgid "Description"
 msgstr "תיאור"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+#: ../plugins/colorschemer/schemer.ui.h:14
 msgid "Author"
 msgstr "יוצר"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+#: ../plugins/colorschemer/schemer.ui.h:15
 msgid "Sample"
 msgstr "דוגמה"
 
+#: ../plugins/commander/commander/appactivatable.py:49
+msgid "Commander Mode"
+msgstr "מצב פיקוד"
+
+#. vi:ex:ts=4:et
 #: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:1
 msgid "Commander"
 msgstr "תכנית פיקוד"
 
 #: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:2
 msgid "Command line interface for advanced editing"
 msgstr "מנשק שורת פקודה לעריכה מתקדמת"
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-msgid "Commander Mode"
-msgstr "מצב פיקוד"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "הפעלת מצב פיקוד"
 
 #: ../plugins/dashboard/dashboard/dashboard.py:117
 msgid "Empty Document"
 msgstr "מסמך ריק"
 
 #: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search..."
-msgstr "יש להקליד כאן כדי לחפש..."
+msgid "Type here to search…"
+msgstr "יש להקליד כאן כדי לחפש…"
 
 #. ex:ts=4:et:
 #: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:1
 msgid "Dashboard"
 msgstr "לוח מחוונים"
 
 #: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
 msgid "A Dashboard for new tabs"
 msgstr "לוח מחוונים ללשוניות חדשות"
+
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:2
+msgid "Displays a grid of recently/most used files upon opening a new tab"
+msgstr "הצגת רשת של קבצים בשימוש אחרון/נפוץ עם פתיחת לשונית חדשה"
 
 #: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
 #: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
@@ -226,46 +240,44 @@ msgstr "ציור רווחים"
 msgid "Draw spaces and tabs"
 msgstr "ציור רווחים וטאבים"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-msgid "Show _White Space"
-msgstr "הצגת רווח _לבן"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-msgid "Show spaces and tabs"
-msgstr "הצגת רווחים וטאבים"
-
 #. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:1
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:1
 msgid "Draw spaces"
 msgstr "ציור רווחים"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "ציור רווחים וטאבים"
+
+#: ../plugins/drawspaces/gedit-drawspaces-app-activatable.c:166
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Show _White Space"
+msgstr "הצגת רווח _לבן"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:2
 msgid "Draw tabs"
 msgstr "ציור טאבים"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:3
 msgid "Draw new lines"
 msgstr "ציור שורות חדשות"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:4
 msgid "Draw non-breaking spaces"
 msgstr "ציור רווחים ללא עצירה"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:5
 msgid "Draw leading spaces"
 msgstr "ציור רווחים מובילים"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:6
 msgid "Draw spaces in text"
 msgstr "ציור רווחים בטקסט"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:7
 msgid "Draw trailing spaces"
 msgstr "ציור רווחים עוקבים"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "פעיל"
 
 #: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
 msgid "If TRUE drawing will be enabled."
@@ -275,13 +287,81 @@ msgstr "If TRUE drawing will be enabled."
 msgid "The type of spaces to be drawn."
 msgstr "The type of spaces to be drawn."
 
+#. namespace FindInFilesPlugin
+#. namespace Gedit
+#: ../plugins/findinfiles/dialog.vala:53
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:1
+#: ../plugins/findinfiles/dialog.ui.h:1
+msgid "Find in Files"
+msgstr "חיפוש בקבצים"
+
+#: ../plugins/findinfiles/dialog.vala:58
+#: ../plugins/findinfiles/result-panel.vala:63
+#: ../plugins/findinfiles/dialog.ui.h:2
+msgid "_Close"
+msgstr "_סגירה"
+
+#: ../plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "חיפוש בקבצים…"
+
+#: ../plugins/findinfiles/result-panel.vala:195
+msgid "No results found"
+msgstr "לא נמצאו תוצאות"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: ../plugins/findinfiles/result-panel.vala:217
+msgid "Stop the search"
+msgstr "לעצור את החיפוש"
+
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:2
+msgid "Find text in all files of a folder."
+msgstr "מציאת טקסט בכל הקבצים בתיקייה."
+
+#: ../plugins/findinfiles/dialog.ui.h:3
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_חיפוש"
+
+#: ../plugins/findinfiles/dialog.ui.h:4
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind "
+msgstr "_חיפוש"
+
+#: ../plugins/findinfiles/dialog.ui.h:5
+msgid "_In "
+msgstr "_ב"
+
+#: ../plugins/findinfiles/dialog.ui.h:6
+msgid "Select a _folder"
+msgstr "בחירת _תיקייה"
+
+#: ../plugins/findinfiles/dialog.ui.h:7
+msgid "_Match case"
+msgstr "ה_תאמת רישיות"
+
+#: ../plugins/findinfiles/dialog.ui.h:8
+msgid "Match _entire word only"
+msgstr "התאמת _כל מילה בלבד"
+
+#: ../plugins/findinfiles/dialog.ui.h:9
+msgid "Re_gular expression"
+msgstr "ביטוי _רגולורי"
+
 #: ../plugins/git/git.plugin.desktop.in.in.h:1
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:1
 msgid "Git"
 msgstr "Git"
 
 #: ../plugins/git/git.plugin.desktop.in.in.h:2
 msgid "Highlight lines that have been changed since the last commit"
 msgstr "הדגשת שורות ששונו מאז ה־commit האחרון"
+
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:2
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr "שימוש במידע git להצגת שורות וקבצים ששונו מההגשה האחרונה"
 
 #: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
 msgid "Join/Split Lines"
@@ -291,82 +371,26 @@ msgstr "צירוף/פיצול שורות"
 msgid "Join several lines or split long ones"
 msgstr "צירוף מספר שורות או פיצול שורות ארוכות"
 
-#: ../plugins/joinlines/joinlines.py:74
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:1
+msgid "Join lines/ Split lines"
+msgstr "צירוף/פיצול שורות"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:2
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "צירוף או פיצול שורות מרובות באמצעות Ctrl+J ו־Ctrl+Shift+J"
+
+#: ../plugins/joinlines/joinlines.py:107
 msgid "_Join Lines"
 msgstr "צי_רוף שורות"
 
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "צירוף השורות הנבחרות"
-
-#: ../plugins/joinlines/joinlines.py:77
+#: ../plugins/joinlines/joinlines.py:113
 msgid "_Split Lines"
 msgstr "פי_צול שורות"
 
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "פיצול השורה הנבחרת"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr "נוספה נקודת עריכה..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr "מצב עמודות..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr "הוסרה נקודת עריכה..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr "בוטל מצב העמודות..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr "כניסה למצב עריכת עמודות באמצעות הבחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr "כניסה למצב עריכת עמודות <b>חכם</b> באמצעות הבחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr "מצב יישור עמודות <b>חכם</b> באמצעות הבחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr "מצב יישור עמודות <b>חכם</b> עם רווחים נוספים באמצעות הבחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr "החלפת השימוש בנקודת עריכה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr "הוספת נקודת עריכה בתחילת השורה/בחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr "הוספת נקודת עריכה בסוף השורה/בחירה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr "יישור נקודות העריכה"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr "יישור נקודות העריכה ברווחים נוספים"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
+#: ../plugins/multiedit/multiedit/appactivatable.py:36
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1351
 msgid "Multi Edit Mode"
 msgstr "מצב עריכה מרובה"
-
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr "כניסה למצב עריכה מרובה"
 
 #. ex:ts=4:et:
 #: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
@@ -374,10 +398,69 @@ msgid "Multi Edit"
 msgstr "עריכה מרובה"
 
 #: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:2
 msgid "Edit document in multiple places at once"
 msgstr "עריכת מסמך במספר מקומות בו זמנית"
 
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:1
+msgid "Multi edit"
+msgstr "עריכה מרובה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "נוספה נקודת עריכה…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "מצב עמודות…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "הוסרה נקודת עריכה…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "בוטל מצב העמודות…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "כניסה למצב עריכת עמודות באמצעות הבחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "כניסה למצב עריכת עמודות <b>חכם</b> באמצעות הבחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "מצב יישור עמודות <b>חכם</b> באמצעות הבחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr "מצב יישור עמודות <b>חכם</b> עם רווחים נוספים באמצעות הבחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "החלפת השימוש בנקודת עריכה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "הוספת נקודת עריכה בתחילת השורה/בחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "הוספת נקודת עריכה בסוף השורה/בחירה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "יישור נקודות העריכה"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "יישור נקודות העריכה ברווחים נוספים"
+
+#. ex:ts=4:et:
 #: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:1
 msgid "Smart Spaces"
 msgstr "מרווחים חכמים"
 
@@ -385,16 +468,24 @@ msgstr "מרווחים חכמים"
 msgid "Forget you're not using tabulations."
 msgstr "לשכוח שאין לך שימוש בלשוניות."
 
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
+msgid "Allow to unindent like if you were using tabs while you're using spaces"
+msgstr "מאפשר ביטול הזחה גם אם היית משתמש בטאבים כאשר כעת הנך משתמש ברווחים"
+
 #: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:1
 msgid "SyncTeX"
 msgstr "SyncTeX"
 
 #: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "סנכרון בין LaTeX ו־PDF בין gedit ו־evince."
+msgstr "תאום בין LaTeX ו־PDF עם gedit ו־evince."
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "תאום בין LaTeX ו־PDF עם gedit ו־evince."
+
+#: ../plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "חיפוש קדימה"
 
@@ -466,24 +557,10 @@ msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "If true, allow applications in the terminal to make text boldface."
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "Characters that are considered \"part of a word\""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
 msgid "Default color of text in the terminal"
 msgstr "Default color of text in the terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -491,11 +568,11 @@ msgstr ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
 msgid "Default color of terminal background"
 msgstr "Default color of terminal background"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -503,11 +580,11 @@ msgstr ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
 msgid "Palette for terminal applications"
 msgstr "Palette for terminal applications"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -517,11 +594,11 @@ msgstr ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Whether to use the colors from the theme for the terminal widget"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -529,11 +606,11 @@ msgstr ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
 msgid "Whether to blink the cursor"
 msgstr "Whether to blink the cursor"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -541,11 +618,11 @@ msgstr ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
 msgid "The cursor appearance"
 msgstr "The cursor appearance"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
 msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
@@ -553,11 +630,11 @@ msgstr ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
 msgid "Whether to use the system font"
 msgstr "Whether to use the system font"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -565,11 +642,11 @@ msgstr ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
 msgid "Font"
 msgstr "גופן"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
 msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 
@@ -581,25 +658,30 @@ msgstr "מסוף מוטמע"
 msgid "Embed a terminal in the bottom pane."
 msgstr "הטמעת מסוף בחלונית התחתונה."
 
-#: ../plugins/terminal/terminal.py:316
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:1
+#: ../plugins/terminal/terminal.py:311
 msgid "Terminal"
 msgstr "מסוף"
 
-#: ../plugins/terminal/terminal.py:337
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:2
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "יישומון מסוף פשוט הנגיש מהלוח התחתון."
+
+#: ../plugins/terminal/terminal.py:332
 msgid "C_hange Directory"
 msgstr "ה_חלפת תיקייה"
 
-#: ../plugins/textsize/textsize/__init__.py:142
-msgid "_Larger Text"
-msgstr "ה_גדלת הטקסט"
+#: ../plugins/textsize/textsize/__init__.py:50
+msgid "_Normal size"
+msgstr "גודל _רגיל"
 
-#: ../plugins/textsize/textsize/__init__.py:145
+#: ../plugins/textsize/textsize/__init__.py:52
 msgid "S_maller Text"
 msgstr "ה_קטנת הטקסט"
 
-#: ../plugins/textsize/textsize/__init__.py:148
-msgid "_Normal size"
-msgstr "גודל _רגיל"
+#: ../plugins/textsize/textsize/__init__.py:54
+msgid "_Larger Text"
+msgstr "ה_גדלת הטקסט"
 
 #. ex:ts=4:et:
 #: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
@@ -607,8 +689,13 @@ msgid "Text Size"
 msgstr "גודל הטקסט"
 
 #: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:2
 msgid "Easily increase and decrease the text size"
 msgstr "הגדלה והקטנה של הטקסט בקלות"
+
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:1
+msgid "Text size"
+msgstr "גודל הטקסט"
 
 #: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
 msgid "Interactive completion"
@@ -645,6 +732,84 @@ msgstr "השלמת מילים"
 #: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
 msgid "Word completion using the completion framework"
 msgstr "השלמת מילים באמצעות תשתית ההשלמה"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:1
+msgid "Word completion"
+msgstr "השלמת מילים"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:2
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr "מציע השלמה אוטומטית בשימוש מילים שכבר מופיעות במסמך"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
+msgid "Zeitgeist dataprovider"
+msgstr "ספק נתוני Zeitgeist"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
+msgid "Logs access and leave event for documents used with gedit"
+msgstr "גישה ליומנים ועזיבת אירועים עבור מסמכים בשימוש עם gedit"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:1
+msgid "Zeitgeist Data provider"
+msgstr "ספק נתוני Zeitgeist"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:2
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-"
+"used files"
+msgstr "רישום פעילות משתמש ומתן גישה נוחה לקבצים בשימוש נפוץ ולאחרונים בשימוש."
+
+#~ msgid "Pick _Color..."
+#~ msgstr "בחירת _צבע..."
+
+#~ msgid "Characters that are considered \"part of a word\""
+#~ msgstr "Characters that are considered \"part of a word\""
+
+#~ msgid ""
+#~ "When selecting text by word, sequences of these characters are considered "
+#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
+#~ "expressing a range) should be the first character given."
+#~ msgstr ""
+#~ "When selecting text by word, sequences of these characters are considered "
+#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
+#~ "expressing a range) should be the first character given."
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "החלפת מצב הסימון של השורה הנוכחית"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "מעבר לסימנייה הבאה"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "מעבר לסימנייה הקודמת"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "סימון הקוד הנבחר כהערה"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "ביטול סימון הקוד הנבחר כהערה"
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "נא לבחור בצבע מתיבת הדו־שיח"
+
+#~ msgid "Start commander mode"
+#~ msgstr "הפעלת מצב פיקוד"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "הצגת רווחים וטאבים"
+
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "Join the selected lines"
+#~ msgstr "צירוף השורות הנבחרות"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "פיצול השורה הנבחרת"
+
+#~ msgid "Start multi edit mode"
+#~ msgstr "כניסה למצב עריכה מרובה"
 
 #~ msgid "Most Used"
 #~ msgstr "הכי נפוצים"

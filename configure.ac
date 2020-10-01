@@ -2,9 +2,9 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.63])
 
-m4_define(pluma_plugins_major_version,  1)
-m4_define(pluma_plugins_minor_version,  24)
-m4_define(pluma_plugins_micro_version,  0)
+m4_define(pluma_plugins_major_version, 1)
+m4_define(pluma_plugins_minor_version, 24)
+m4_define(pluma_plugins_micro_version, 0)
 m4_define(pluma_plugins_version, pluma_plugins_major_version.pluma_plugins_minor_version.pluma_plugins_micro_version)
 
 AC_INIT([pluma-plugins],
@@ -15,7 +15,6 @@ AC_INIT([pluma-plugins],
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([plugins])
 AC_CONFIG_MACRO_DIR([m4])
-
 AC_PREFIX_PROGRAM([pluma])
 
 AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip foreign subdir-objects -Wno-portability])
@@ -48,16 +47,9 @@ AM_CONDITIONAL(PLATFORM_WIN32, test "$platform_win32" = "yes")
 AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
 
-# ================================================================
-# Gettext stuff.
-# ================================================================
 GETTEXT_PACKAGE=pluma-plugins
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package])
-
-# ================================================================
-# Start of pkg-config checks
-# ================================================================
 
 PKG_CHECK_MODULES(PLUMA, [
 	glib-2.0 >= 2.32.0
@@ -69,20 +61,13 @@ PKG_CHECK_MODULES(PLUMA, [
 	pluma >= 1.24.0
 ])
 
-dnl ================================================================
-dnl GSettings stuff
-dnl ================================================================
 GLIB_GSETTINGS
-
-# ================================================================
-# Plugins
-# ================================================================
 
 # C plugins that don't need special dependencies
 C_PLUGINS=""
 
 # Python plugins that don't need special dependencies, besides Python
-PYTHON_PLUGINS="codecomment"
+PY_PLUGINS="codecomment"
 
 PLUGINS="$C_PLUGINS"
 disabled_plugins=""
@@ -111,16 +96,12 @@ fi
 
 AM_CONDITIONAL([ENABLE_PYTHON], [test "x$have_python" = "xyes"])
 
-# Python plugins that need special dependencies
-
 # disable all python plugins if there is no python support
 if test "x$have_python" = "xyes"
 then
-	PLUGINS="$PLUGINS $PYTHON_PLUGINS"
+	PLUGINS="$PLUGINS $PY_PLUGINS"
 
-	# ================================================================
 	# Synctex (dbus-python)
-	# ================================================================
 	DBUSPYTHON_REQUIRED=0.82
 	PKG_CHECK_MODULES([DBUSPYTHON],
 		[dbus-python >= $DBUSPYTHON_REQUIRED],
@@ -140,9 +121,7 @@ then
 		disabled_plugins="$disabled_plugins synctex (dbus-python not found)"
 	fi
 
-	# ================================================================
 	# Terminal (vte)
-	# ================================================================
 	AC_MSG_CHECKING([for terminal dependency vte])
 
 	if `$PYTHON -c "import gi; gi.require_version('Vte', '2.91')" 2>/dev/null`;
@@ -157,12 +136,7 @@ then
 	AC_MSG_RESULT($have_vte)
 
 else
-	disabled_plugins="$disabled_plugins $PYTHON_PLUGINS synctex terminal (python not found)"
-fi
-
-if test -z "$disabled_plugins"
-then
-	disabled_plugins="none"
+	disabled_plugins="$disabled_plugins $PY_PLUGINS synctex terminal (python not found)"
 fi
 
 AM_CONDITIONAL([ENABLE_SYNCTEX], test "x$have_synctex" = "xyes")
@@ -175,8 +149,6 @@ AC_SUBST(PLUGINS)
 # ================================================================
 AC_PATH_PROG(GLIB_COMPILE_RESOURCES, glib-compile-resources)
 AC_PATH_PROG(GLIB_GENMARSHAL, glib-genmarshal)
-
-AC_DEFINE(GDK_VERSION_MIN_REQUIRED, GDK_VERSION_3_8, [minimum gdk version])
 
 YELP_HELP_INIT
 
@@ -217,15 +189,9 @@ AC_CONFIG_FILES([
 Makefile
 help/Makefile
 plugins/gpdefs.py
-plugins/Makefile
-plugins/codecomment/codecomment.plugin.desktop
-plugins/codecomment/Makefile
-plugins/synctex/Makefile
-plugins/synctex/synctex.plugin.desktop
-plugins/synctex/synctex/Makefile
-plugins/terminal/Makefile
-plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
-plugins/terminal/terminal.plugin.desktop
+plugins/codecomment/codecomment.plugin.desktop.in
+plugins/synctex/synctex.plugin.desktop.in
+plugins/terminal/terminal.plugin.desktop.in
 po/Makefile.in])
 
 AC_OUTPUT

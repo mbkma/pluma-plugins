@@ -5,38 +5,33 @@
 # María Majadas <maria.majadas@hispalinux.es>, 2005.
 # Jorge González <jorgegonz@svn.gnome.org>, 2006, 2007, 2009, 2010, 2011.
 # Milagros Alessandra Infante Montero <maim92@gmail.com>, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
 #
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2013-11-26 11:56+0000\n"
-"PO-Revision-Date: 2013-11-27 11:35+0100\n"
+"POT-Creation-Date: 2015-07-29 05:27+0000\n"
+"PO-Revision-Date: 2015-08-05 \n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Spanish <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2013\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2015\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2006-2011\n"
 "María Majadas <maria.majadas@hispalinux.es>, 2005\n"
 "Milagros Alessandra Infante Montero <maim92@gmail.com>, 2013"
 
-#. (itstool) path: page/title
-#: C/index.page:7
-msgid "Gedit Plugins"
-msgstr "Complementos de gedit"
-
 #. (itstool) path: credit/name
-#: C/bookmarks.page:11 C/bracket-comp.page:11 C/character-map.page:11
+#: C/bookmarks.page:12 C/bracket-comp.page:11 C/character-map.page:11
 #: C/code-assistance.page:11 C/code-comment.page:11 C/color-picker.page:11
 #: C/commander.page:11 C/dashboard.page:11 C/draw-spaces.page:11
 #: C/join-split-lines.page:11 C/multi-edit.page:11 C/session-saver.page:11
@@ -44,18 +39,28 @@ msgstr "Complementos de gedit"
 msgid "Jim Campbell"
 msgstr "Jim Campbell"
 
+#. (itstool) path: credit/name
+#: C/bookmarks.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:18
+msgid "2014"
+msgstr "2014"
+
 #. (itstool) path: info/desc
-#: C/bookmarks.page:15
+#: C/bookmarks.page:21
 msgid "Record commonly-referenced locations with bookmarks."
 msgstr "Guardar ubicaciones usadas frecuentemente con los marcadores"
 
 #. (itstool) path: page/title
-#: C/bookmarks.page:18
+#: C/bookmarks.page:24
 msgid "Bookmarks"
 msgstr "Marcadores"
 
 #. (itstool) path: page/p
-#: C/bookmarks.page:20
+#: C/bookmarks.page:26
 msgid ""
 "<app>gedit</app> bookmarks allow you to highlight important lines of text "
 "within your document or program, making them easier to find. You can also "
@@ -67,7 +72,7 @@ msgstr ""
 "navegación por el documento."
 
 #. (itstool) path: page/p
-#: C/bookmarks.page:25
+#: C/bookmarks.page:31
 msgid ""
 "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">gedit</"
 "gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
@@ -78,7 +83,7 @@ msgstr ""
 "gui><gui>Complementos</gui> <gui>Marcadores</gui></guiseq>."
 
 #. (itstool) path: steps/title
-#: C/bookmarks.page:30
+#: C/bookmarks.page:36
 msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
@@ -87,28 +92,32 @@ msgstr ""
 "insertar o quitar marcadores:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:33
+#: C/bookmarks.page:39
 msgid "Navigate to the line where you want to insert or remove the bookmark."
 msgstr "Navegue hasta la línea en la que quiere insertar o quitar el marcador."
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:37
+#: C/bookmarks.page:43
+#| msgid ""
+#| "Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or "
+#| "click <guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem"
+#| "\">Toggle Bookmark</gui></guiseq>."
 msgid ""
-"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or click "
-"<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
-"Bookmark</gui></guiseq>."
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
 msgstr ""
-"Pulse <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, o pulse en "
-"<guiseq><gui style=\"menu\">Editar</gui> <gui style=\"menuitem\">Alternar "
-"marcador</gui></guiseq>."
+"Puñse <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, o abra el "
+"menú en la esquina superior derecha y elija <gui style=\"menuitem\">Alternar "
+"marcador</gui>."
 
-#. (itstool) path: steps/title
-#: C/bookmarks.page:44
+#. (itstool) path: list/title
+#: C/bookmarks.page:50
 msgid "To move between bookmarks:"
 msgstr "Para moverse entre marcadores:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:46
+#: C/bookmarks.page:52
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
@@ -117,7 +126,7 @@ msgstr ""
 "marcador."
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:50
+#: C/bookmarks.page:56
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
@@ -126,17 +135,20 @@ msgstr ""
 "moverse al marcador anterior."
 
 #. (itstool) path: note/p
-#: C/bookmarks.page:53
+#: C/bookmarks.page:62
+#| msgid ""
+#| "If you prefer using the mouse, you can click <guiseq><gui style=\"menu"
+#| "\">gedit</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> "
+#| "or <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to "
+#| "Previous Bookmark</gui></guiseq>."
 msgid ""
-"If you prefer using the mouse, you can click <guiseq><gui style=\"menu"
-"\">gedit</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> or "
-"<guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to "
-"Previous Bookmark</gui></guiseq>."
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
 msgstr ""
-"Si prefiere usar el ratón, puede pulsar <guiseq><gui style=\"menu\">gedit</"
-"gui><gui style=\"menuitem\">Ir al siguiente marcador</gui></guiseq> o "
-"<guiseq><gui style=\"menu\">Editar</gui><gui style=\"menuitem\">ir al "
-"marcador siguiente</gui></guiseq>."
+"Si prefiere usar el ratón, puede abrir el menú en la esquina superior "
+"derecha y elegir <gui style=\"menuitem\">Ir al siguiente marcador</gui> o "
+"<gui style=\"menuitem\">Ir al marcador siguiente</gui>."
 
 #. (itstool) path: info/desc
 #: C/bracket-comp.page:15
@@ -246,8 +258,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/character-map.page:57
+#| msgid ""
+#| "If neccessary, choose the character set to which your character belongs "
+#| "from the list at the top of the <gui style=\"tab\">Character Map</gui> "
+#| "tab (for example, Arabic)."
 msgid ""
-"If neccessary, choose the character set to which your character belongs from "
+"If necessary, choose the character set to which your character belongs from "
 "the list at the top of the <gui style=\"tab\">Character Map</gui> tab (for "
 "example, Arabic)."
 msgstr ""
@@ -1235,7 +1251,7 @@ msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr "Para activar el complemento de <app>Terminal empotrada</app>:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:38 C/text-size.page:37
+#: C/terminal.page:38 C/text-size.page:37 C/zeitgeist-dataprovider.page:28
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
@@ -1285,14 +1301,18 @@ msgstr "Tamaño del texto"
 
 #. (itstool) path: page/p
 #: C/text-size.page:27
+#| msgid ""
+#| "The text size plugin allows you to temporarily change the text size for "
+#| "better readibility in <app>gedit</app> without changing the program's "
+#| "default text size."
 msgid ""
 "The text size plugin allows you to temporarily change the text size for "
-"better readibility in <app>gedit</app> without changing the program's "
+"better readability in <app>gedit</app> without changing the program's "
 "default text size."
 msgstr ""
 "El complemento de tamaño del texto le permite cambiar temporalmente el "
-"tamaño del texto en <app>gedit</app> sin cambiar el tamaño del texto "
-"predeterminado del programa."
+"tamaño del texto en <app>gedit</app> para una mejor lectura. sin tener que "
+"cambiar el tamaño del texto predeterminado del programa."
 
 #. (itstool) path: section/title
 #: C/text-size.page:32
@@ -1401,7 +1421,7 @@ msgstr ""
 "Mientras edita, el complemento de <app>Completado de palabras</app> mostrará "
 "automáticamente una lista emergente de palabras que comiencen por las letras "
 "que ya haya escrito. Las sugerencias de palabras se basan en palabras que "
-"aparecen en cualquier parte del documento y en palabras calve predefinidas "
+"aparecen en cualquier parte del documento y en palabras clave predefinidas "
 "si su documento tiene un formato reconocido."
 
 #. (itstool) path: page/p
@@ -1414,6 +1434,53 @@ msgstr ""
 "Para insertar una palabra sugerida, pulse dos veces en la lista emergente o "
 "pulse <keyseq><key>Alt</key><key>Num</key></keyseq>, donde <key>Num</key> es "
 "el número mostrado junto a la palabra que quiere."
+
+#. (itstool) path: credit/name
+#: C/zeitgeist-dataprovider.page:10
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: info/desc
+#: C/zeitgeist-dataprovider.page:14
+msgid "Log user activity for documents which are opened in gedit"
+msgstr ""
+"Registrar la actividad del usuario para documentos que están abiertos en "
+"gedit"
+
+#. (itstool) path: page/title
+#: C/zeitgeist-dataprovider.page:17
+msgid "Zeitgeist dataprovider"
+msgstr "Proveedor de datos Zeitgeist"
+
+#. (itstool) path: page/p
+#: C/zeitgeist-dataprovider.page:19
+msgid ""
+"Zeitgeist is a service that logs user activities and events. Zeitgeist lets "
+"other applications access this information in the form of statistics and "
+"timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> records "
+"user activity for documents used with gedit giving easy access to recently-"
+"used and frequently-used files."
+msgstr ""
+"Zeitgeist es un servicio que registrar la actividad del usuario y los "
+"eventos. Zeitgeist proporciona acceso a esta información a otras "
+"aplicaciones en forma de estadísticas y líneas de tiempo. El complemento del "
+"proveedor de datos Zeitgeist para <app>gedit</app> registra la actividad del "
+"usuario para documentos usados con gedit, ofreciendo un acceso sencillo a "
+"los archivos usados frecuente y recientemente."
+
+#. (itstool) path: steps/title
+#: C/zeitgeist-dataprovider.page:26
+msgid "Enable Zeitgeist dataprovider"
+msgstr "Activa el proveedor de datos Zeitgeist"
+
+#. (itstool) path: item/p
+#: C/zeitgeist-dataprovider.page:33
+#| msgid "Select <gui style=\"menuitem\">Zietgeist Dataprovider</gui>."
+msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
+msgstr "Seleccione <gui style=\"menuitem\">Proveedor de datos Zeitgeist</gui>."
+
+#~ msgid "Gedit Plugins"
+#~ msgstr "Complementos de gedit"
 
 #~ msgctxt "_"
 #~ msgid "external ref='figures/gedit-side-pane3.png' md5='__failed__'"
@@ -2708,9 +2775,6 @@ msgstr ""
 #~ "la <gui>Consola Python</gui> aparecerá en una pestaña separada en el "
 #~ "panel inferior."
 
-#~ msgid "Shobha Tyagi"
-#~ msgstr "Shobha Tyagi"
-
 #~ msgid "Quickly open a file or set of files"
 #~ msgstr "Abrir rápidamente un archivo o un conjunto de archivos"
 
@@ -2850,11 +2914,6 @@ msgstr ""
 
 #~ msgid "To enable the <gui>Snippets</gui> plugin:"
 #~ msgstr "Para activar el complemento <gui>Recortes</gui>:"
-
-#~ msgid "Select <gui style=\"menuitem\">Snippets</gui> to enable the plugin."
-#~ msgstr ""
-#~ "Seleccione <gui style=\"menuitem\">Recortes</gui> para activar el "
-#~ "complemento."
 
 #~ msgid "Browse Snippets"
 #~ msgstr "Examinar los recortes"

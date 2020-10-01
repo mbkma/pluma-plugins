@@ -13,55 +13,48 @@
 # du baodao <centerpoint@139.com>, 2010.
 # Wylmer Wang <wantinghard@gmail.com>, 2010, 2013.
 # Aron Xu <aronxu@gnome.org>, 2010.
+# YunQiang Su <wzssyqa@gmail.com>, 2014.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2013-07-01 18:35+0000\n"
-"PO-Revision-Date: 2013-07-07 21:35+0800\n"
-"Last-Translator: 甘露(Lu Gan) <rhythm.gan@gmail.com>\n"
+"POT-Creation-Date: 2016-04-07 06:21+0000\n"
+"PO-Revision-Date: 2016-04-09 14:37+0800\n"
+"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:1
 msgid "Bookmarks"
 msgstr "书签"
 
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:2
 msgid "Easy document navigation with bookmarks"
 msgstr "使用书签的简单文件导航"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "切换书签"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
-msgid "Toggle bookmark status of the current line"
-msgstr "切换当前行的书签状态"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Goto Next Bookmark"
 msgstr "转到下一个书签"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "转到下一个书签位置"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Goto Previous Bookmark"
 msgstr "转到上一个书签"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "转到上一个书签位置"
-
 #: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:1
 msgid "Bracket Completion"
 msgstr "括号补全"
 
@@ -69,41 +62,50 @@ msgstr "括号补全"
 msgid "Automatically adds closing brackets."
 msgstr "自动添加闭合括号。"
 
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:2
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "插入括号时，自动添加闭合括号。"
+
 #. ex:et:ts=4:
-#: ../plugins/charmap/charmap/__init__.py:51
+#: ../plugins/charmap/charmap/__init__.py:56
 #: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
 msgid "Character Map"
-msgstr "字符表"
+msgstr "字符映射表"
 
 #: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
 msgid "Insert special characters just by clicking on them."
 msgstr "只需单击即可插入特殊字符。"
 
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:1
+msgid "Charmap"
+msgstr "字符映射表"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:2
+msgid "Select characters from a character map"
+msgstr "从字符映射表选择字符"
+
+#. ex:ts=4:et:
 #: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-msgid "Code comment"
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
+msgid "Code Comment"
 msgstr "代码注释"
 
 #: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
 msgid "Comment out or uncomment a selected block of code."
 msgstr "添加或取消选中代码段的注释。"
 
-#: ../plugins/codecomment/codecomment.py:88
+#: ../plugins/codecomment/codecomment.py:114
 msgid "Co_mment Code"
 msgstr "注释代码(_M)"
 
-#: ../plugins/codecomment/codecomment.py:90
-msgid "Comment the selected code"
-msgstr "注释掉选择的代码"
-
-#: ../plugins/codecomment/codecomment.py:94
+#: ../plugins/codecomment/codecomment.py:120
 msgid "U_ncomment Code"
 msgstr "取消注释(_N)"
 
-#: ../plugins/codecomment/codecomment.py:96
-msgid "Uncomment the selected code"
-msgstr "取消注释选择的代码"
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:2
+msgid "Comment or uncomment blocks of code"
+msgstr "添加或取消选中代码段的注释。"
 
-#. ex:ts=4:et:
 #: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
 msgid "Color Picker"
 msgstr "颜色拾取器"
@@ -112,21 +114,27 @@ msgstr "颜色拾取器"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "从对话框中拾取一种颜色，然后插入其十六进制代码。"
 
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "拾取颜色(_C)..."
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:1
+msgid "Color picker"
+msgstr "颜色拾取器"
 
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "从对话框中拾取一种颜色"
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:2
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "从对话框内选择和插入颜色(HTML、CSS、PHP)"
 
-#: ../plugins/colorpicker/colorpicker.py:178
+#: ../plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "拾取颜色(_C)"
+
+#: ../plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "拾取颜色"
 
 #. ex:ts=4:et:
 #: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:1
+#: ../plugins/colorschemer/schemer/__init__.py:42
+#: ../plugins/colorschemer/schemer.ui.h:1
 msgid "Color Scheme Editor"
 msgstr "色彩方案编辑器"
 
@@ -134,88 +142,92 @@ msgstr "色彩方案编辑器"
 msgid "Source code color scheme editor"
 msgstr "源代码色彩方案编辑器"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:2
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "创建和编辑语法高亮使用的色彩方案"
+
+#: ../plugins/colorschemer/schemer.ui.h:2
 msgid "Bold"
 msgstr "粗体"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+#: ../plugins/colorschemer/schemer.ui.h:3
 msgid "Italic"
 msgstr "斜体"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+#: ../plugins/colorschemer/schemer.ui.h:4
 msgid "Underline"
 msgstr "下划线"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+#: ../plugins/colorschemer/schemer.ui.h:5
 msgid "Strikethrough"
 msgstr "删除线"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+#: ../plugins/colorschemer/schemer.ui.h:6
 msgid "Pick the background color"
 msgstr "选取背景颜色"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+#: ../plugins/colorschemer/schemer.ui.h:7
 msgid "Pick the foreground color"
 msgstr "选取前景颜色"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+#: ../plugins/colorschemer/schemer.ui.h:8
 msgid "_Background"
 msgstr "背景(_B)"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+#: ../plugins/colorschemer/schemer.ui.h:9
 msgid "_Foreground"
 msgstr "前景(_F)"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+#: ../plugins/colorschemer/schemer.ui.h:10
 msgid "_Clear "
 msgstr "清除(_C)"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+#: ../plugins/colorschemer/schemer.ui.h:11
 msgid "Name"
 msgstr "名称"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+#: ../plugins/colorschemer/schemer.ui.h:12
 msgid "ID"
 msgstr "ID 号"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+#: ../plugins/colorschemer/schemer.ui.h:13
 msgid "Description"
 msgstr "描述"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+#: ../plugins/colorschemer/schemer.ui.h:14
 msgid "Author"
 msgstr "作者"
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+#: ../plugins/colorschemer/schemer.ui.h:15
 msgid "Sample"
 msgstr "例子"
 
+#: ../plugins/commander/commander/appactivatable.py:48
+msgid "Commander Mode"
+msgstr "指挥官模式"
+
+#. ex:ts=4:et
 #: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:1
 msgid "Commander"
 msgstr "命令工具"
 
 #: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:2
 msgid "Command line interface for advanced editing"
 msgstr "高级编辑的命令行接口"
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-msgid "Commander Mode"
-msgstr "指挥官模式"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "启动指挥官模式"
 
 #: ../plugins/dashboard/dashboard/dashboard.py:117
 msgid "Empty Document"
 msgstr "空白文档"
 
 #: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search..."
+msgid "Type here to search…"
 msgstr "在此输入开始搜索..."
 
 #. ex:ts=4:et:
 #: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:1
 msgid "Dashboard"
 msgstr "Dashboard"
 
@@ -223,55 +235,57 @@ msgstr "Dashboard"
 msgid "A Dashboard for new tabs"
 msgstr "新标签页的 Dashboard"
 
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:2
+msgid "Displays a grid of recently/most used files upon opening a new tab"
+msgstr "打开一个新的标签显示最近/最广泛使用文件列表"
+
 #: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
 #: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
 msgid "Draw Spaces"
 msgstr "绘制空白字符"
 
 #: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw Spaces and Tabs"
+msgid "Draw spaces and tabs"
 msgstr "绘制空格和制表符"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-msgid "Show _White Space"
-msgstr "显示空白(_W)"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-msgid "Show spaces and tabs"
-msgstr "显示空格和制表符"
-
 #. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:1
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:1
 msgid "Draw spaces"
 msgstr "绘制空格"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "绘制空格和制表符"
+
+#: ../plugins/drawspaces/gedit-drawspaces-app-activatable.c:166
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Show _White Space"
+msgstr "显示空白(_W)"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:2
 msgid "Draw tabs"
 msgstr "绘制制表符"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:3
 msgid "Draw new lines"
 msgstr "绘制换行符"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:4
 msgid "Draw non-breaking spaces"
 msgstr "绘制不间断空格"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:5
 msgid "Draw leading spaces"
 msgstr "绘制前导空白"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:6
 msgid "Draw spaces in text"
 msgstr "绘制文本中的空白字符"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:7
 msgid "Draw trailing spaces"
 msgstr "绘制尾随空格"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "已启用"
 
 #: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
 msgid "If TRUE drawing will be enabled."
@@ -281,6 +295,82 @@ msgstr "如果为 TRUE 将启用绘制。"
 msgid "The type of spaces to be drawn."
 msgstr "要绘制的空白类型。"
 
+#. namespace FindInFilesPlugin
+#. namespace Gedit
+#: ../plugins/findinfiles/dialog.vala:53
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:1
+#: ../plugins/findinfiles/dialog.ui.h:1
+msgid "Find in Files"
+msgstr "在文件中查找"
+
+#: ../plugins/findinfiles/dialog.vala:58
+#: ../plugins/findinfiles/result-panel.vala:63
+#: ../plugins/findinfiles/dialog.ui.h:2
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: ../plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "在文件中查找..."
+
+#: ../plugins/findinfiles/result-panel.vala:195
+msgid "No results found"
+msgstr "无搜索结果"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: ../plugins/findinfiles/result-panel.vala:217
+msgid "Stop the search"
+msgstr "停止搜索"
+
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:2
+msgid "Find text in all files of a folder."
+msgstr "在文件夹的所有文件查找文本"
+
+#: ../plugins/findinfiles/dialog.ui.h:3
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "查找(_F)"
+
+#: ../plugins/findinfiles/dialog.ui.h:4
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind "
+msgstr "查找(_I)"
+
+#: ../plugins/findinfiles/dialog.ui.h:5
+msgid "_In "
+msgstr "在(_I)"
+
+#: ../plugins/findinfiles/dialog.ui.h:6
+msgid "Select a _folder"
+msgstr "选择文件夹(_F)"
+
+#: ../plugins/findinfiles/dialog.ui.h:7
+msgid "_Match case"
+msgstr "区分大小写(_M)"
+
+#: ../plugins/findinfiles/dialog.ui.h:8
+msgid "Match _entire word only"
+msgstr "仅整个单词(_E)"
+
+#: ../plugins/findinfiles/dialog.ui.h:9
+msgid "Re_gular expression"
+msgstr "正则表达式(_G)"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "高亮最后一次提交后修改的行"
+
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:2
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr "使用 git 信息显示最后一次提交后修改的行和文件"
+
 #: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
 msgid "Join/Split Lines"
 msgstr "合并/拆分行"
@@ -289,82 +379,26 @@ msgstr "合并/拆分行"
 msgid "Join several lines or split long ones"
 msgstr "合并多行或拆分长行"
 
-#: ../plugins/joinlines/joinlines.py:74
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:1
+msgid "Join lines/ Split lines"
+msgstr "合并/拆分行"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:2
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "通过 Ctrl+J 以及 Ctrl+Shift+J 合并或拆分多行"
+
+#: ../plugins/joinlines/joinlines.py:107
 msgid "_Join Lines"
 msgstr "合并行(_J)"
 
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "合并选择的行"
-
-#: ../plugins/joinlines/joinlines.py:77
+#: ../plugins/joinlines/joinlines.py:113
 msgid "_Split Lines"
 msgstr "拆分行(_S)"
 
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "拆分选择的行"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr "增加的编辑点..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr "列模式..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr "移除的编辑点..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr "取消的列模式..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr "通过选择进入列编辑模式"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr "通过选择进入<b>智能</b>列编辑模式"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr "通过选择进入<b>智能</b>列编辑模式"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr "通过选择进入带额外空白的<b>智能</b>列对齐模式"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr "切换编辑点"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr "在行或选中区的开头增加编辑点"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr "在行或选中区的末尾增加编辑点"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr "对齐编辑点"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr "通过填充额外的空格对齐编辑点"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
+#: ../plugins/multiedit/multiedit/appactivatable.py:36
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1349
 msgid "Multi Edit Mode"
 msgstr "多文件编辑模式"
-
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr "启动多文件编辑模式"
 
 #. ex:ts=4:et:
 #: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
@@ -372,10 +406,69 @@ msgid "Multi Edit"
 msgstr "多文件编辑"
 
 #: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:2
 msgid "Edit document in multiple places at once"
 msgstr "一次编辑多个地方的文档"
 
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:1
+msgid "Multi edit"
+msgstr "多文件编辑"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:315
+msgid "Added edit point…"
+msgstr "增加的编辑点..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:657
+msgid "Column Mode…"
+msgstr "列模式..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:775
+msgid "Removed edit point…"
+msgstr "移除的编辑点..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:941
+msgid "Cancelled column mode…"
+msgstr "取消的列模式..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1304
+msgid "Enter column edit mode using selection"
+msgstr "通过选择进入列编辑模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1305
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "通过选择进入<b>智能</b>列编辑模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "通过选择进入<b>智能</b>列编辑模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr "通过选择进入带额外空白的<b>智能</b>列对齐模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "Toggle edit point"
+msgstr "切换编辑点"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1310
+msgid "Add edit point at beginning of line/selection"
+msgstr "在行或选中区的开头增加编辑点"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Add edit point at end of line/selection"
+msgstr "在行或选中区的末尾增加编辑点"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Align edit points"
+msgstr "对齐编辑点"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Align edit points with additional space"
+msgstr "通过填充额外的空格对齐编辑点"
+
+#. ex:ts=4:et:
 #: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:1
 msgid "Smart Spaces"
 msgstr "智能空格"
 
@@ -383,7 +476,12 @@ msgstr "智能空格"
 msgid "Forget you're not using tabulations."
 msgstr "忘记使用制表符的年代。"
 
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
+msgid "Allow to unindent like if you were using tabs while you're using spaces"
+msgstr "如果您在使用制表符时同时使用空格，允许取消缩排"
+
 #: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:1
 msgid "SyncTeX"
 msgstr "SyncTeX"
 
@@ -391,8 +489,11 @@ msgstr "SyncTeX"
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "使用 gedit 和 evince 在 LaTeX 与 PDF 之间同步。"
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "使用 gedit 和 evince 在 LaTeX 与 PDF 之间同步。"
+
+#: ../plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "向前搜索"
 
@@ -459,23 +560,10 @@ msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "如果为 true，则允许终端中程序使用加粗字体。"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "视为“单词一部分”的字符"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-"当按单词选择文字时，这些字符的序列都将视为一个单词。可以指定某段范围如“A-Z”。"
-"连字符本身(不表示范围)应作为第一个指定字符。"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
 msgid "Default color of text in the terminal"
 msgstr "终端中文本的默认颜色"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -483,11 +571,11 @@ msgstr ""
 "终端文字的默认颜色，为某一颜色规范(可以是 HTML 样式的16进制数字，或某个颜色"
 "名，如“red”)"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
 msgid "Default color of terminal background"
 msgstr "终端背景的默认颜色"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -495,11 +583,11 @@ msgstr ""
 "终端背景的默认颜色，可以是某个颜色规范(可以是 HTML 样式的16制数字，或颜色名，"
 "比如“red”)"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
 msgid "Palette for terminal applications"
 msgstr "终端程序调色板"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -508,11 +596,11 @@ msgstr ""
 "终端有一个16色的调色板可让终端中程序使用。这就是该调色板，格式是冒号分隔的颜"
 "色名列表。颜色名应当是16进制的格式，如“#FF00FF”"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "是否对终端窗口组件使用主题颜色"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -520,22 +608,22 @@ msgstr ""
 "如果设为 true，终端将使用主题颜色方案中文本输入框的颜色，而不是用户所指定的颜"
 "色。"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
 msgid "Whether to blink the cursor"
 msgstr "是否允许光标闪烁"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
 "可取值有：“system”，使用全局光标闪烁设置；或使用“on”、“off”来明确设置模式。"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
 msgid "The cursor appearance"
 msgstr "光标形状"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
 msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
@@ -543,11 +631,11 @@ msgstr ""
 "可取值有：“block”，使用块状光标；“ibeam”以使用竖线型光标；或“underline”，使用"
 "下划线型光标。"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
 msgid "Whether to use the system font"
 msgstr "是否使用系统字体"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -555,11 +643,11 @@ msgstr ""
 "如果设为 true，终端将使用桌面的全局标准字体，如果该字体是等宽字体(否则将使用"
 "最相似的字体)。"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
 msgid "Font"
 msgstr "字体"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
 msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "某个 Pango 字体名。比如“Sans 12”或“Monospace Bold 14”。"
 
@@ -571,25 +659,30 @@ msgstr "嵌入终端"
 msgid "Embed a terminal in the bottom pane."
 msgstr "在底部面板中嵌入一个终端。"
 
-#: ../plugins/terminal/terminal.py:291
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:1
+#: ../plugins/terminal/terminal.py:315
 msgid "Terminal"
 msgstr "终端"
 
-#: ../plugins/terminal/terminal.py:312
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:2
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "在底部面板中嵌入一个终端。"
+
+#: ../plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
 msgstr "切换目录(_H)"
 
-#: ../plugins/textsize/textsize/__init__.py:142
-msgid "_Larger Text"
-msgstr "较大文本(_L)"
+#: ../plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "正常大小(_N)"
 
-#: ../plugins/textsize/textsize/__init__.py:145
+#: ../plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "较小文本(_M)"
 
-#: ../plugins/textsize/textsize/__init__.py:148
-msgid "_Normal size"
-msgstr "正常大小(_N)"
+#: ../plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "较大文本(_L)"
 
 #. ex:ts=4:et:
 #: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
@@ -597,13 +690,41 @@ msgid "Text Size"
 msgstr "文本大小"
 
 #: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:2
 msgid "Easily increase and decrease the text size"
 msgstr "方便地增大或减小文本"
 
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:153
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:200
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:1
+msgid "Text size"
+msgstr "文本大小"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "交互式补全"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "最小单词长度："
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
 msgid "Document Words"
 msgstr "文档中的词"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "交互式补全"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "是否启用交互式补全。"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "最小单词长度"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "要补全的最小单词长度。"
 
 #: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
 msgid "Word Completion"
@@ -612,6 +733,83 @@ msgstr "单词补全"
 #: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
 msgid "Word completion using the completion framework"
 msgstr "使用补全框架的单词补全"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:1
+msgid "Word completion"
+msgstr "单词补全"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:2
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr "使用已存在于文档的词语进行自动补全"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
+msgid "Zeitgeist dataprovider"
+msgstr "Zeitgeist 数据供应商"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
+msgid "Logs access and leave event for documents used with gedit"
+msgstr "为使用 gedit 的文档提供日志访问和离开事件"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:1
+msgid "Zeitgeist Data provider"
+msgstr "Zeitgeist 数据供应商"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:2
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-"
+"used files"
+msgstr "记录用户操作并使您轻松浏览最近使用和经常使用文件"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "拾取颜色(_C)..."
+
+#~ msgid "Characters that are considered \"part of a word\""
+#~ msgstr "视为“单词一部分”的字符"
+
+#~ msgid ""
+#~ "When selecting text by word, sequences of these characters are considered "
+#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
+#~ "expressing a range) should be the first character given."
+#~ msgstr ""
+#~ "当按单词选择文字时，这些字符的序列都将视为一个单词。可以指定某段范围如“A-"
+#~ "Z”。连字符本身(不表示范围)应作为第一个指定字符。"
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "切换当前行的书签状态"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "转到下一个书签位置"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "转到上一个书签位置"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "注释掉选择的代码"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "取消注释选择的代码"
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "从对话框中拾取一种颜色"
+
+#~ msgid "Start commander mode"
+#~ msgstr "启动指挥官模式"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "显示空格和制表符"
+
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "Join the selected lines"
+#~ msgstr "合并选择的行"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "拆分选择的行"
+
+#~ msgid "Start multi edit mode"
+#~ msgstr "启动多文件编辑模式"
 
 #~ msgid "_Insert"
 #~ msgstr "插入(_I)"

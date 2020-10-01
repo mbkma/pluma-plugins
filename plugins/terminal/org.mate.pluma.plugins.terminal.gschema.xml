@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <schemalist>
   <enum id='org.mate.pluma.plugins.terminal.VteTerminalCursorBlinkMode'>
     <value nick='system' value='0'/>
@@ -57,6 +56,13 @@
         to the bottom.
       </description>
     </key>
+    <key name="allow-bold" type="b">
+      <default>true</default>
+      <summary>Whether to allow bold text</summary>
+      <description>
+        If true, allow applications in the terminal to make text boldface.
+      </description>
+    </key>
     <key name="foreground-color" type="s">
       <default>'#000000'</default>
       <summary>Default color of text in the terminal</summary>
@@ -78,7 +84,12 @@
     <key name="palette" type="s">
       <default>'#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'</default>
       <summary>Palette for terminal applications</summary>
-      <description>Terminals have a 16-color palette that applications inside the terminal can use. This is that palette, in the form of a colon-separated list of color names. Color names should be in hex format e.g. "#FF00FF"</description>
+      <description>
+        Terminals have a 16-color palette that applications inside
+        the terminal can use. This is that palette, in the form
+        of a colon-separated string of color names. Color names
+        should be in hex format e.g. “#FF00FF”
+      </description>
     </key>
     <key name="use-theme-colors" type="b">
       <default>true</default>

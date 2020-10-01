@@ -15,2019 +15,2079 @@
 # Rob van den Berg <linuxned@gmail.com>, 2010.
 # Kenneth Venken <kenneth.venken@gmail.com>, 2010.
 # Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
+# Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
+# Nathan Follens <nthn@unseen.is>, 2017-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 13:12+0100\n"
-"PO-Revision-Date: 2010-04-02 16:38+0200\n"
-"Last-Translator: Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2019-01-12 14:33+0000\n"
+"PO-Revision-Date: 2019-02-26 13:27+0100\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Gemakkelijke documentnavigatie met bladwijzers"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:197
-#, fuzzy
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
-msgstr "Bladwijzers"
+msgstr "Bladwijzer aan/uit"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:198
-#, fuzzy
-msgid "Toggle bookmark status of the current line"
-msgstr "De statusbalk in het huidige venster tonen of verbergen"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:200
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Goto Next Bookmark"
-msgstr ""
+msgstr "Ga naar volgende bladwijzer"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
-#, fuzzy
-msgid "Goto the next bookmark"
-msgstr "Ga naar de volgende bezochte locatie"
-
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:203
-#, fuzzy
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Goto Previous Bookmark"
-msgstr "Ga naar de vorige locatie"
+msgstr "Ga naar vorige bladwijzer"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-#, fuzzy
-msgid "Goto the previous bookmark"
-msgstr "Vorige pagina tonen"
-
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Automatically adds closing brackets."
-msgstr "Automatisch herkende tekensets"
-
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
-#, fuzzy
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
 msgid "Bracket Completion"
-msgstr "Overeenkomstige haakjes"
+msgstr "Haakjes-voltooiing"
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-#: ../plugins/charmap/gedit-charmap-plugin.c:337
-#, fuzzy
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Voegt automatisch ‘haakjes sluiten’ toe."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Als u een haakje invoegt, automatisch een haakje sluiten toevoegen"
+
+#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
-msgstr "Tekencoderingen"
+msgstr "Tekens- en symbolenlijst"
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
-msgstr "Speciale tekens invoegen door erop te klikken."
+msgstr "Speciale tekens en symbolen invoegen door erop te klikken."
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Code comment"
+# Wazige string, juiste vertaling?
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: plugins/charmap/charmap.plugin.desktop.in.in:9
+#| msgid "Accessibility key character"
+msgid "accessories-character-map"
+msgstr "accessories-character-map"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Tekenlijst"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Tekens selecteren in een tekenlijst"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
 msgstr "Commentaar"
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Een blok code van commentaar voorzien of uit commentaar halen."
 
-#: ../plugins/codecomment/codecomment.py:90
-#, fuzzy
+#: plugins/codecomment/codecomment.py:119
 msgid "Co_mment Code"
-msgstr "Commentaar"
+msgstr "Co_mmentaar"
 
-#: ../plugins/codecomment/codecomment.py:92
-#, fuzzy
-msgid "Comment the selected code"
-msgstr "Geselecteerde tekst verwijderen"
-
-#: ../plugins/codecomment/codecomment.py:96
+#: plugins/codecomment/codecomment.py:125
 msgid "U_ncomment Code"
 msgstr "Code ui_t commentaar halen"
 
-#: ../plugins/codecomment/codecomment.py:98
-#, fuzzy
-msgid "Uncomment the selected code"
-msgstr "Geselecteerde tekst verwijderen"
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Een blok code van commentaar voorzien of uit commentaar halen"
 
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
 msgid "Color Picker"
-msgstr "Kleurenschema"
+msgstr "Kleurenkiezer"
 
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
 "Een kleur uit een dialoogvenster kiezen en de hexadecimale representatie "
-"ervan invoegen. "
+"ervan invoegen."
 
-#: ../plugins/colorpicker/colorpicker.py:77
-msgid "Pick _Color..."
-msgstr ""
+#: plugins/colorpicker/colorpicker.py:133
+msgid "Pick _Color…"
+msgstr "_Kleur kiezen…"
 
-#: ../plugins/colorpicker/colorpicker.py:78
-msgid "Pick a color from a dialog"
-msgstr "Kleur uit dialoogvenster kiezen"
-
-#: ../plugins/colorpicker/colorpicker.py:188
-#, fuzzy
+#: plugins/colorpicker/colorpicker.py:173
 msgid "Pick Color"
-msgstr "Verwijzingskleur"
+msgstr "Kleur kiezen"
 
-#: ../plugins/colorpicker/colorpicker.py:195
-msgid "_Insert"
-msgstr "_Invoegen"
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Kleurenkiezer"
 
-#. ex:ts=4:et:
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-msgid "Command line interface for advanced editing"
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
 msgstr ""
+"Een kleur uit een dialoogvenster selecteren en invoegen (voor HTML, CSS, PHP)"
 
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-#, fuzzy
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Kleurenschemabewerker"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Broncode van kleurenschemabewerker"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "Het kleurenschema gebruikt voor syntax-markering maken en bewerken"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Vetgedrukt"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Schuingedrukt"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Doorgestreept"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Achtergrondkleur kiezen"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Voorgrondkleur kiezen"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "_Achtergrond"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Voorgrond"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear "
+msgstr "_Wissen "
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Naam"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "ID"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Beschrijving"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Auteur"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Voorbeeld"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Opdrachtlijn-modus"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
 msgid "Commander"
-msgstr "_Opdrachtkleur:"
+msgstr "Opdrachtlijn"
 
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-#, fuzzy
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "Spaties gebruiken"
+msgstr "Spaties weergeven"
 
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw Spaces and Tabs"
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
 msgstr "Spaties en tabs tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-#, fuzzy
-msgid "Draw leading spaces"
-msgstr "Niet-afbrekende spatie"
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show _White Space"
+msgstr "_Witspaties tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-#, fuzzy
-msgid "Draw new lines"
-msgstr "Regels inspringen"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-#, fuzzy
-msgid "Draw non-breaking spaces"
-msgstr "Niet-afbrekende spatie"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-#, fuzzy
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "Spaties invoegen"
+msgstr "Spaties tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-#, fuzzy
-msgid "Draw spaces in text"
-msgstr "Spaties invoegen"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
 msgid "Draw tabs"
 msgstr "Tabs tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-#, fuzzy
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Nieuwe regels tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Niet-afbrekende spaties tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Leidende spaties tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Spaties in tekst tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
 msgid "Draw trailing spaces"
-msgstr "Afsluitende spaties verwijderen"
+msgstr "Afsluitende spaties tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-#, fuzzy
-msgid "Show _White Space"
-msgstr "Volgende pagina tonen"
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Spaties en tabs tonen"
 
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-#, fuzzy
-msgid "Show spaces and tabs"
-msgstr "_Spaties invoegen in plaats van tabs"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
-msgstr ""
+msgstr "Als WAAR zal weergeven worden ingeschakeld."
 
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
 msgid "The type of spaces to be drawn."
+msgstr "Het type spaties om te tonen."
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "In bestanden vinden"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "_Sluiten"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_Zoeken"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind "
+msgstr "Z_oeken "
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In "
+msgstr "_In "
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Een _map selecteren"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "Hoo_fdlettergevoelig"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "_Alleen hele woorden"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "_Reguliere expressie"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Tekst zoeken in alle bestanden in een map."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Tekst zoeken in alle bestanden in een map"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "In bestanden vinden…"
+
+#: plugins/findinfiles/result-panel.vala:195
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:217
+msgid "Stop the search"
+msgstr "Zoeken stoppen"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
 msgstr ""
+"Git-informatie gebruiken om weer te geven welke regels en bestanden zijn "
+"veranderd sinds de laatste commit"
 
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join several lines or split long ones"
-msgstr "Meerdere lange regels aaneenvoegen of lange regels splitsen"
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Regels markeren die veranderd zijn sinds de laatste commit"
 
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+msgid "Join lines/ Split lines"
+msgstr "Regels samenvoegen/splitsen"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Meerdere regels samenvoegen of splitsen met Ctrl+J en Ctrl+Shift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
 msgid "Join/Split Lines"
 msgstr "Regels aaneenvoegen/splitsen"
 
-#: ../plugins/joinlines/joinlines.py:56
-#, fuzzy
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Meerdere lange regels aaneenvoegen of lange regels splitsen"
+
+#: plugins/joinlines/joinlines.py:112
 msgid "_Join Lines"
-msgstr "Regels"
+msgstr "Regels samen_voegen"
 
-#: ../plugins/joinlines/joinlines.py:57
-#, fuzzy
-msgid "Join the selected lines"
-msgstr "De geselecteerde regels uitspringen"
-
-#: ../plugins/joinlines/joinlines.py:59
+#: plugins/joinlines/joinlines.py:118
 msgid "_Split Lines"
 msgstr "Regels _splitsen"
 
-#: ../plugins/joinlines/joinlines.py:60
-#, fuzzy
-msgid "Split the selected lines"
-msgstr "De geselecteerde regels uitspringen"
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Multi-bewerken"
 
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
 msgid "Edit document in multiple places at once"
-msgstr ""
+msgstr "Een document op meerdere plaatsen tegelijk bewerken"
 
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Multi-bewerkmodus"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
 msgid "Multi Edit"
-msgstr ""
+msgstr "Multi-bewerken"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr ""
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Bewerkpunt toegevoegd…"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:637
-msgid "Column Mode..."
-msgstr ""
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Kolommodus…"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:759
-msgid "Removed edit point..."
-msgstr ""
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Bewerkpunt verwijderd…"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:922
-msgid "Cancelled column mode..."
-msgstr ""
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Kolommodus geannuleerd…"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1260
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
 msgid "Enter column edit mode using selection"
-msgstr ""
+msgstr "Kolom-bewerkmodus invoeren gebruikmakend van selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1261
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
 msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr ""
+msgstr "<b>Slimme</b> kolom-bewerkmodus invoeren gebruikmakend van selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1262
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
 msgid "<b>Smart</b> column align mode using selection"
-msgstr ""
+msgstr "<b>Slimme</b> kolomuitlijnmodus gebruikmakend van selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1263
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
 msgid "<b>Smart</b> column align mode with additional space using selection"
 msgstr ""
+"<b>Slimme</b> kolomuitlijnmodus met toegevoegde spatie gebruikmakend van "
+"selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1265
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
 msgid "Toggle edit point"
-msgstr ""
+msgstr "Bewerklocatie aan/uit"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1266
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
 msgid "Add edit point at beginning of line/selection"
-msgstr ""
+msgstr "Bewerklocatie toevoegen aan het begin van regel/selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1267
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
 msgid "Add edit point at end of line/selection"
-msgstr ""
+msgstr "Bewerklocatie toevoegen aan het einde van regel/selectie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1268
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
 msgid "Align edit points"
-msgstr ""
+msgstr "Bewerklocaties uitlijnen"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1269
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
 msgid "Align edit points with additional space"
-msgstr ""
+msgstr "Bewerklocaties uitlijnen met toegevoegde spatie"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1305
-#: ../plugins/multiedit/multiedit/windowhelper.py:70
-msgid "Multi Edit Mode"
-msgstr ""
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
+msgstr "Slimme spaties"
 
-#: ../plugins/multiedit/multiedit/windowhelper.py:70
-msgid "Start multi edit mode"
-msgstr ""
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr "Uitlijnen met tabs terwijl u eigenlijk spaties gebruikt"
 
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Easily increase and decrease the text size"
-msgstr ""
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Text Size"
-msgstr "Tabgrootte"
-
-#: ../plugins/sessionsaver/__init__.py:64
-msgid "Sa_ved sessions"
-msgstr ""
-
-#: ../plugins/sessionsaver/__init__.py:65
-#, fuzzy
-msgid "_Save current session"
-msgstr "Huidige selectie vervangen"
-
-#: ../plugins/sessionsaver/__init__.py:65
-#, fuzzy
-msgid "Save the current document list as a new session"
-msgstr "Huidige document naar nieuw venster verplaatsen"
-
-#: ../plugins/sessionsaver/__init__.py:66
-msgid "_Manage saved sessions..."
-msgstr ""
-
-#: ../plugins/sessionsaver/__init__.py:66
-#, fuzzy
-msgid "Open the saved session manager"
-msgstr "De gedit-handleiding openen"
-
-#: ../plugins/sessionsaver/__init__.py:106
-#, python-format
-msgid "Recover '%s' session"
-msgstr ""
-
-#: ../plugins/sessionsaver/dialogs.py:167
-msgid "Session Name"
-msgstr "Sessienaam"
-
-#. ex:ts=4:et:
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:1
-msgid "Save and restore your working sessions"
-msgstr "Werksessies opslaan en weer openen"
-
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:2
-msgid "Session Saver"
-msgstr "Sessies Opslaan"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:1
-#, fuzzy
-msgid "Save session"
-msgstr "Opslaan als…"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:2
-msgid "Saved Sessions"
-msgstr ""
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:3
-msgid "Session name:"
-msgstr "Sessienaam:"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
-msgid "Forget you're not using tabulations."
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you’re not using tabulations."
 msgstr "Vergeet dat u geen tabs gebruikt."
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Smart Spaces"
-msgstr "Spaties invoegen"
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Embed a terminal in the bottom pane."
-msgstr "Een terminalvenster openen in de documentlocatie"
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince"
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Embedded Terminal"
-msgstr "Ingebed object"
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince."
 
-#: ../plugins/terminal/terminal.py:307
+#: plugins/synctex/synctex/synctex.py:343
+msgid "Forward Search"
+msgstr "Voorwaarts zoeken"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:316
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../plugins/terminal/terminal.py:329
-#, fuzzy
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Een simpele terminal-widget, toegankelijk van het paneel beneden"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Of terminal-rinkelbel stil is"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Indien ingeschakeld, maak geen geluid wanneer toepassingen de ‘escape "
+"sequence’ versturen voor de terminal-rinkelbel."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Hoeveelheid regels te behouden in de terugscroll"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Hoeveelheid regels om te behouden. U kunt terugscrollen in de terminal met "
+"deze hoeveelheid regels; regels die niet in de terugscroll passen worden "
+"verworpen. Als scrollback-unlimited ingeschakeld is, wordt deze waarde "
+"genegeerd."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+"Of een ongelimiteerde hoeveelheid regels moet worden behouden in de "
+"terugscroll"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Indien ingeschakeld, zullen de terugscroll-regels nooit worden verworpen. De "
+"terugscroll-geschiedenis wordt tijdelijk op schijf opgeslagen, dus dit zou "
+"er voor kunnen zorgen dat het systeem de hoeveelheid schrijfruimte opmaakt "
+"als er veel uitvoer is naar het terminalvenster."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Of er naar de onderkant wordt gescrolld als een toets wordt ingedrukt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+"Indien ingeschakeld springt bij indrukken van een toets de schuifbalk naar "
+"beneden."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Of er naar de onderkant wordt gescrold als er nieuwe uitvoer is"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+"Indien ingeschakeld zal de terminal naar onderen scrollen als er nieuwe "
+"uitvoer is."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Whether to allow bold text"
+msgstr "Of vetgedrukte tekst wordt toegestaan"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr ""
+"Indien ingeschakeld is het toegestaan voor toepassingen in de terminal om "
+"tekst vetgedrukt te maken."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
+msgid "Default color of text in the terminal"
+msgstr "Standaardkleur van tekst in de terminal"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standaardkleur van tekst in de terminal, als een kleurspecificatie (kan een "
+"hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+msgid "Default color of terminal background"
+msgstr "Standaardkleur van terminalachtergrond"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standaardkleur van terminalachtergrond, als een kleurspecificatie (kan een "
+"hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+msgid "Palette for terminal applications"
+msgstr "Palet voor terminaltoepassingen"
+
+# Wat is de vertaling van colon?
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+"Terminals hebben een 16-kleurenpalet die door toepassingen in de terminal "
+"kunnen worden gebruikt. Dit is dat palet, in de vorm van een dubbelepunt-"
+"gescheiden lijst van kleurnamen. Kleurnamen moeten in hexadecimaal formaat "
+"zijn, bijv. ‘#FF00FF’"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Of de kleur van het thema voor de terminal-widget wordt gebruikt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Indien ingeschakeld, zal het themakleurenschema dat gebruikt wordt voor "
+"tekstinvoervakken worden gebruikt voor de terminal, in plaats van kleuren "
+"die zijn ingevoerd door de gebruiker."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+msgid "Whether to blink the cursor"
+msgstr "Of de cursor knippert"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+"De mogelijke waardes zijn ‘system’ om de systeembrede "
+"cursorknipperinstellingen te gebruiken, of ‘on’ of ‘off’ of de modus "
+"expliciet in te stellen."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+msgid "The cursor appearance"
+msgstr "De cursorvertoning"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+"De mogelijke waardes zijn ‘block’ om een blokcursor te gebruiken, ‘ibeam’ om "
+"een verticaleregelcursor te gebruiken, of ‘underline’ om een onderstreep-"
+"cursor te gebruiken."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+msgid "Whether to use the system font"
+msgstr "Of het systeemlettertype wordt gebruikt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Indien ingeschakeld zal de terminal het bureaublad-brede standaardlettertype "
+"gebruiken als het monospace is (en het meest gelijke lettertype in andere "
+"gevallen)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+msgid "Font"
+msgstr "Lettertype"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+"Een Pango-lettertypenaam. Voorbeelden zijn ‘Sans 12’ of ‘Monospace Bold 14’."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Ingebedde terminal"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Een terminalvenster inbedden in het paneel beneden."
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: plugins/terminal/terminal.plugin.desktop.in.in:9
+msgid "utilities-terminal"
+msgstr "utilities-terminal"
+
+#: plugins/terminal/terminal.py:337
 msgid "C_hange Directory"
-msgstr "Wijzigen _in:"
+msgstr "_Map wijzigen"
 
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:146
-#, fuzzy
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Tekstgrootte"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "De tekst gemakkelijk groter of kleiner maken"
+
+#: plugins/textsize/textsize/__init__.py:54
+msgid "_Normal size"
+msgstr "_Normale grootte"
+
+#: plugins/textsize/textsize/__init__.py:56
+msgid "S_maller Text"
+msgstr "_Kleinere tekst"
+
+#: plugins/textsize/textsize/__init__.py:58
+msgid "_Larger Text"
+msgstr "_Grotere tekst"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Tekstgrootte"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Vertalen"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Vertaalt tekst in verschillende talen"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Waar vertalingsuitvoer wordt weergegeven"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr ""
+"Indien ingeschakeld wordt de uitvoer van de vertaling in het documentvenster "
+"ingevoegd indien niet in het Output Translate Window."
+
+# ? - Nathan
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+msgid "'eng|spa'"
+msgstr "'en|nl'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "Language pair used"
+msgstr "Gebruikt taalpaar"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used to translate from one language to another"
+msgstr ""
+"Taalpaar dat wordt gebruikt om van de ene naar de andere taal te vertalen"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+msgid "API key for remote web service"
+msgstr "API-sleutel voor de externe webdienst"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+msgid "Remote web service to use"
+msgstr "Te gebruiken externe webdienst"
+
+#: plugins/translate/translate/__init__.py:73
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Vertalingen aangeboden door {0}"
+
+#: plugins/translate/translate/__init__.py:76
+msgid "Translate Console"
+msgstr "Vertalingsconsole"
+
+#: plugins/translate/translate/__init__.py:152
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Geselecteerde tekst vertalen [{0}]"
+
+#: plugins/translate/translate/preferences.py:85
+msgid "API Key"
+msgstr "API-sleutel"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"U dient een gratis API-sleutel te verkrijgen op <a href='https://tech.yandex."
+"com/translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Talen voor vertaling:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Waar moet vertaling uitgevoerd worden:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Zelfde documentvenster"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Vertalingsconsole (onderpaneel)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Vertalingsdienst:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Interactieve aanvulling"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Minimum woordgrootte:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Woordaanvulling"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Automatische aanvulling voorstellen gebruikmakend van woorden die al in het "
+"document voorkomen"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
 msgid "Document Words"
-msgstr "Documentinhoud"
+msgstr "Woorden in document"
 
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Interactieve aanvulling"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Of interactieve aanvulling ingeschakeld is."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Minimum woordgrootte"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "De minimum woordgrootte om aan te vullen."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr "Overeenkomstige haakjes"
+msgstr "Woordaanvulling"
 
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
-msgid "SyncTeX"
-msgstr ""
+#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
+msgid "Zeitgeist Data provider"
+msgstr "Zeitgeist-gegevensverstrekker"
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-"
+"used files"
 msgstr ""
+"Neemt gebruikersactiviteiten op en geeft gemakkelijk toegang tot vaak "
+"gebruikte en recente bestanden"
 
-#: ../plugins/synctex/synctex/synctex.py:280
-#: ../plugins/synctex/synctex/synctex.py:281
+#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
+msgid "Zeitgeist dataprovider"
+msgstr "Zeitgeist-gegevensverstrekker"
+
+#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
+msgid "Logs access and leave event for documents used with gedit"
+msgstr ""
+"Logboek-toegang en verlaat-gebeurtenissen voor documenten gebruikt met gedit"
+
+#~ msgid "Empty Document"
+#~ msgstr "Leeg document"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Hier typen om te zoeken…"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "A Dashboard for new tabs"
+#~ msgstr "Een dashboard voor nieuwe tabbladen"
+
+#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
+#~ msgstr ""
+#~ "Een raster van recent/meest gebruikte bestanden weergeven bij het openen "
+#~ "van een nieuw tabblad"
+
 #, fuzzy
-msgid "Forward Search"
-msgstr "Voorwaartse verwijzing"
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "De statusbalk in het huidige venster tonen of verbergen"
 
-#: ../plugins/taglist/gedit-taglist-plugin.c:165
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:697
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:713
-msgid "Tags"
-msgstr "Tags"
+#, fuzzy
+#~ msgid "Goto the next bookmark"
+#~ msgstr "Ga naar de volgende bezochte locatie"
 
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:608
-msgid "Select the group of tags you want to use"
-msgstr "Selecteer de tag-groep die u wilt gebruiken."
+#, fuzzy
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "Vorige pagina tonen"
 
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:627
-msgid "_Preview"
-msgstr "_Voorbeeld"
+#, fuzzy
+#~ msgid "Comment the selected code"
+#~ msgstr "Geselecteerde tekst verwijderen"
 
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:694
-msgid "Available Tag Lists"
-msgstr "Beschikbare tag-lijsten"
+#, fuzzy
+#~ msgid "Uncomment the selected code"
+#~ msgstr "Geselecteerde tekst verwijderen"
 
-#. ex:ts=8:noet:
-#: ../plugins/taglist/HTML.tags.xml.in.h:1
-msgid "Abbreviated form"
-msgstr "Afgekorte vorm"
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "Kleur uit dialoogvenster kiezen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:2
-msgid "Abbreviation"
-msgstr "Afkorting"
+#~ msgid "_Insert"
+#~ msgstr "_Invoegen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:3
-msgid "Above"
-msgstr "Boven"
+#, fuzzy
+#~ msgid "Show spaces and tabs"
+#~ msgstr "_Spaties invoegen in plaats van tabs"
 
-# Wazige string, juiste vertaling?
-#: ../plugins/taglist/HTML.tags.xml.in.h:4
-msgid "Accessibility key character"
-msgstr "Toegankelijkheidstoets-teken"
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:5
-msgid "Acronym"
-msgstr "Acroniem"
+#, fuzzy
+#~ msgid "Join the selected lines"
+#~ msgstr "De geselecteerde regels uitspringen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:6
-msgid "Align"
-msgstr "Uitlijnen"
+#, fuzzy
+#~ msgid "Split the selected lines"
+#~ msgstr "De geselecteerde regels uitspringen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:7
-msgid "Alignment character"
-msgstr "Uitlijningsteken"
+#, fuzzy
+#~ msgid "_Save current session"
+#~ msgstr "Huidige selectie vervangen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:8
-msgid "Alternative"
-msgstr "Alternatief"
+#, fuzzy
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Huidige document naar nieuw venster verplaatsen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:9
-msgid "Anchor"
-msgstr "Anker"
+#, fuzzy
+#~ msgid "Open the saved session manager"
+#~ msgstr "De gedit-handleiding openen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:10
-msgid "Anchor URI"
-msgstr "Anker-URI"
+#~ msgid "Session Name"
+#~ msgstr "Sessienaam"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:11
-msgid "Applet class file code"
-msgstr "Code van het applet-classbestand"
+#~ msgid "Save and restore your working sessions"
+#~ msgstr "Werksessies opslaan en weer openen"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:13
-msgid "Applet class file code (deprecated)"
-msgstr "Code van het applet-classbestand (achterhaald)"
+#~ msgid "Session Saver"
+#~ msgstr "Sessies Opslaan"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:14
-msgid "Array"
-msgstr "Array"
+#, fuzzy
+#~ msgid "Save session"
+#~ msgstr "Opslaan als…"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:15
-msgid "Associated information"
-msgstr "Geassocieerde informatie"
+#~ msgid "Session name:"
+#~ msgstr "Sessienaam:"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:16
-msgid "Author info"
-msgstr "Auteursinfo"
+#~ msgid "Tags"
+#~ msgstr "Tags"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:17
-msgid "Axis related headers"
-msgstr "As-gerelateerde kopteksten"
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Selecteer de tag-groep die u wilt gebruiken."
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:18
-msgid "Background color"
-msgstr "Achtergrondkleur"
+#~ msgid "_Preview"
+#~ msgstr "_Voorbeeld"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:20
-msgid "Background color (deprecated)"
-msgstr "Achtergrondkleur (achterhaald)"
+#~ msgid "Available Tag Lists"
+#~ msgstr "Beschikbare tag-lijsten"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:21
-msgid "Background texture tile"
-msgstr "Getegeld achtergrondpatroon"
+#~ msgid "Abbreviated form"
+#~ msgstr "Afgekorte vorm"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:23
-msgid "Background texture tile (deprecated)"
-msgstr "Getegeld achtergrondpatroon (achterhaald)"
+#~ msgid "Abbreviation"
+#~ msgstr "Afkorting"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:24
-msgid "Base URI"
-msgstr "Basis-URI"
+#~ msgid "Above"
+#~ msgstr "Boven"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:25
-msgid "Base font"
-msgstr "Basislettertype"
+#~ msgid "Acronym"
+#~ msgstr "Acroniem"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:27
-msgid "Base font (deprecated)"
-msgstr "Basislettertype (achterhaald)"
+#~ msgid "Align"
+#~ msgstr "Uitlijnen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:28
-msgid "Bold"
-msgstr "Vet"
+#~ msgid "Alignment character"
+#~ msgstr "Uitlijningsteken"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:29
-msgid "Border"
-msgstr "Rand"
+#~ msgid "Alternative"
+#~ msgstr "Alternatief"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:31
-msgid "Border (deprecated)"
-msgstr "Rand (achterhaald)"
+#~ msgid "Anchor"
+#~ msgstr "Anker"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:32
-msgid "Border color"
-msgstr "Randkleur:"
+#~ msgid "Anchor URI"
+#~ msgstr "Anker-URI"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:33
-msgid "Cell rowspan"
-msgstr "Cel-rijomspanning"
+#~ msgid "Applet class file code"
+#~ msgstr "Code van het applet-classbestand"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:34
-msgid "Center"
-msgstr "Gecentreerd"
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Code van het applet-classbestand (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:36
-msgid "Center (deprecated)"
-msgstr "Gecentreerd (achterhaald)"
+#~ msgid "Array"
+#~ msgstr "Array"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:37
-msgid "Character encoding of linked resource"
-msgstr "Tekenset van bron waarnaar verwezen wordt"
+#~ msgid "Associated information"
+#~ msgstr "Geassocieerde informatie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:38
-msgid "Checked (state)"
-msgstr "Aangekruist (status)"
+#~ msgid "Axis related headers"
+#~ msgstr "As-gerelateerde kopteksten"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:39
-msgid "Checked state"
-msgstr "Aangekruiste staat"
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Achtergrondkleur (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:40
-msgid "Citation"
-msgstr "Citaat"
+#~ msgid "Background texture tile"
+#~ msgstr "Getegeld achtergrondpatroon"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:41
-msgid "Cite reason for change"
-msgstr "Meld reden voor wijziging"
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Getegeld achtergrondpatroon (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:42
-msgid "Class implementation ID"
-msgstr "Classimplementatie-ID"
+#~ msgid "Base URI"
+#~ msgstr "Basis-URI"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:43
-msgid "Class list"
-msgstr "Classlijst"
+#~ msgid "Base font"
+#~ msgstr "Basislettertype"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Basislettertype (achterhaald)"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Rand (achterhaald)"
+
+#~ msgid "Border color"
+#~ msgstr "Randkleur:"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Cel-rijomspanning"
+
+#~ msgid "Center"
+#~ msgstr "Gecentreerd"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Gecentreerd (achterhaald)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Tekenset van bron waarnaar verwezen wordt"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Aangekruist (status)"
+
+#~ msgid "Checked state"
+#~ msgstr "Aangekruiste staat"
+
+#~ msgid "Citation"
+#~ msgstr "Citaat"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Meld reden voor wijziging"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "Classimplementatie-ID"
+
+#~ msgid "Class list"
+#~ msgstr "Classlijst"
 
 # Help, wat moet dit zijn?
 # Er is een tag genaamd 'clear' die bepaalt hoe tekst bij plaatjes gezet wordt.
 # clear="left"  zet plaatjes aan de linkerkant
 # clear="right" zet plaatjes aan de rechterkant
 # bij clear="all" komt de tekst onder het plaatje
-#: ../plugins/taglist/HTML.tags.xml.in.h:44
-msgid "Clear text flow control"
-msgstr "Tekstplaatsing met 'clear'"
+#~ msgid "Clear text flow control"
+#~ msgstr "Tekstplaatsing met 'clear'"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:45
-msgid "Code content type"
-msgstr "Code inhoudstype"
+#~ msgid "Code content type"
+#~ msgstr "Code inhoudstype"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:46
-msgid "Color of selected links"
-msgstr "Kleur van geselecteerde verwijzingen"
+#~ msgid "Color of selected links"
+#~ msgstr "Kleur van geselecteerde verwijzingen"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:48
-msgid "Color of selected links (deprecated)"
-msgstr "Kleur van geselecteerde verwijzingen (achterhaald)"
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Kleur van geselecteerde verwijzingen (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:49
-msgid "Column span"
-msgstr "Kolomomspanning"
+#~ msgid "Column span"
+#~ msgstr "Kolomomspanning"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:50
-msgid "Columns"
-msgstr "Kolommen"
+#~ msgid "Columns"
+#~ msgstr "Kolommen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:51
-msgid "Comment"
-msgstr "Commentaar"
+#~ msgid "Comment"
+#~ msgstr "Commentaar"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:52
-msgid "Computer code fragment"
-msgstr "Fragment computercode"
+#~ msgid "Computer code fragment"
+#~ msgstr "Fragment computercode"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:53
-msgid "Content scheme"
-msgstr "Inhoudsschema"
+#~ msgid "Content scheme"
+#~ msgstr "Inhoudsschema"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:54
-msgid "Content type"
-msgstr "Inhoudstype"
+#~ msgid "Content type"
+#~ msgstr "Inhoudstype"
 
-#. The "type" attribute is deprecated for the "ol" tag only,
-#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:57
-msgid "Content type (deprecated)"
-msgstr "Inhoudstype (achterhaald)"
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Inhoudstype (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:58
-msgid "Coordinates"
-msgstr "Coördinaten"
+#~ msgid "Coordinates"
+#~ msgstr "Coördinaten"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:59
-msgid "DIV Style container"
-msgstr "DIV-stijl-container"
+#~ msgid "DIV Style container"
+#~ msgstr "DIV-stijl-container"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:60
-msgid "DIV container"
-msgstr "DIV-container"
+#~ msgid "DIV container"
+#~ msgstr "DIV-container"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:61
-msgid "Date and time of change"
-msgstr "Datum en tijd van wijziging"
+#~ msgid "Date and time of change"
+#~ msgstr "Datum en tijd van wijziging"
 
-#. NOTE: used in "object" tag
-#: ../plugins/taglist/HTML.tags.xml.in.h:63
-msgid "Declare flag"
-msgstr "Declaratievlag"
+#~ msgid "Declare flag"
+#~ msgstr "Declaratievlag"
 
 # de download-performance van een pagina kan worden verbeterd
 # als de browser het attribuut niet eerst hoeft te verwerken
 # en kan doorgaan met het downloaden en verwerken met de rest
 # van de pagina, dus: uitstel van executie
 # uitstelen/uitstel attribuut
-#. Translators: DEFER is an optional attribute of the <script> tag.
-#. It indicates that the script is not going to generate any document
-#. content. The browser can continue parsing and drawing the page.
-#: ../plugins/taglist/HTML.tags.xml.in.h:67
-msgid "Defer attribute"
-msgstr "Uitstellen-attribuut"
+#~ msgid "Defer attribute"
+#~ msgstr "Uitstellen-attribuut"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:68
-msgid "Definition description"
-msgstr "Definitiebeschrijving"
+#~ msgid "Definition description"
+#~ msgstr "Definitiebeschrijving"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:69
-msgid "Definition list"
-msgstr "Definitielijst"
+#~ msgid "Definition list"
+#~ msgstr "Definitielijst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:70
-msgid "Definition term"
-msgstr "Definitieterm"
+#~ msgid "Definition term"
+#~ msgstr "Definitieterm"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:71
-msgid "Deleted text"
-msgstr "Verwijderde tekst"
+#~ msgid "Deleted text"
+#~ msgstr "Verwijderde tekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:72
-msgid "Direction"
-msgstr "Richting"
+#~ msgid "Direction"
+#~ msgstr "Richting"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:73
-msgid "Directionality"
-msgstr "Richting"
+#~ msgid "Directionality"
+#~ msgstr "Richting"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:75
-msgid "Directionality (deprecated)"
-msgstr "Richting (achterhaald)"
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Richting (achterhaald)"
 
 # Juiste vertaling?!
-#: ../plugins/taglist/HTML.tags.xml.in.h:76
-msgid "Directory list"
-msgstr "Overzichtslijst"
+#~ msgid "Directory list"
+#~ msgstr "Overzichtslijst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:77
-msgid "Disabled"
-msgstr "Uitgeschakeld"
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:78
-msgid "Document base"
-msgstr "Basis van document"
+#~ msgid "Document base"
+#~ msgstr "Basis van document"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:79
-msgid "Document body"
-msgstr "Documentinhoud"
+#~ msgid "Document body"
+#~ msgstr "Documentinhoud"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:80
-msgid "Document head"
-msgstr "Documentkop"
+#~ msgid "Document head"
+#~ msgstr "Documentkop"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:81
-msgid "Document title"
-msgstr "Documenttitel"
+#~ msgid "Document title"
+#~ msgstr "Documenttitel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:82
-msgid "Document type"
-msgstr "Documenttype"
+#~ msgid "Document type"
+#~ msgstr "Documenttype"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:83
-msgid "Element ID"
-msgstr "Elementen-ID"
+#~ msgid "Element ID"
+#~ msgstr "Elementen-ID"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:84
-msgid "Embedded object"
-msgstr "Ingebed object"
+#~ msgid "Embedded object"
+#~ msgstr "Ingebed object"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:85
-#: ../plugins/taglist/Latex.tags.xml.in.h:9
-msgid "Emphasis"
-msgstr "Nadruk"
+#~ msgid "Emphasis"
+#~ msgstr "Nadruk"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:86
-msgid "Encode type"
-msgstr "Coderingstype"
+#~ msgid "Encode type"
+#~ msgstr "Coderingstype"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:87
-msgid "Figure"
-msgstr "Figuur"
+#~ msgid "Figure"
+#~ msgstr "Figuur"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:88
-msgid "Font face"
-msgstr "Lettertypenaam"
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Lettertypenaam (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:90
-msgid "Font face (deprecated)"
-msgstr "Lettertypenaam (achterhaald)"
+#~ msgid "For label"
+#~ msgstr "Voor label"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:91
-msgid "For label"
-msgstr "Voor label"
+#~ msgid "Forced line break"
+#~ msgstr "Gedwongen regelafbreking"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:92
-msgid "Forced line break"
-msgstr "Gedwongen regelafbreking"
+#~ msgid "Form"
+#~ msgstr "Formulier"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:93
-msgid "Form"
-msgstr "Formulier"
+#~ msgid "Form action handler"
+#~ msgstr "Formulier-actieafhandeling"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:94
-msgid "Form action handler"
-msgstr "Formulier-actieafhandeling"
+#~ msgid "Form control group"
+#~ msgstr "Formuliercontrolegroep"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:95
-msgid "Form control group"
-msgstr "Formuliercontrolegroep"
+#~ msgid "Form field label text"
+#~ msgstr "Labeltekst formulierveld"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:96
-msgid "Form field label text"
-msgstr "Labeltekst formulierveld"
+#~ msgid "Form input"
+#~ msgstr "Formulierinvoer"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:97
-msgid "Form input"
-msgstr "Formulierinvoer"
+#~ msgid "Form input type"
+#~ msgstr "Formulierinvoertype"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:98
-msgid "Form input type"
-msgstr "Formulierinvoertype"
+#~ msgid "Form method"
+#~ msgstr "Formuliermethode"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:99
-msgid "Form method"
-msgstr "Formuliermethode"
+#~ msgid "Forward link"
+#~ msgstr "Voorwaartse verwijzing"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:100
-msgid "Forward link"
-msgstr "Voorwaartse verwijzing"
+#~ msgid "Frame"
+#~ msgstr "Frame"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:101
-msgid "Frame"
-msgstr "Frame"
+#~ msgid "Frame border"
+#~ msgstr "Framerand"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:102
-msgid "Frame border"
-msgstr "Framerand"
+#~ msgid "Frame render parts"
+#~ msgstr "Weergavegedeeltes frame"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:103
-msgid "Frame render parts"
-msgstr "Weergavegedeeltes frame"
+#~ msgid "Frame source"
+#~ msgstr "Framebron"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:104
-msgid "Frame source"
-msgstr "Framebron"
+#~ msgid "Frame spacing"
+#~ msgstr "Framespatiëring"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:105
-msgid "Frame spacing"
-msgstr "Framespatiëring"
+#~ msgid "Frame target"
+#~ msgstr "Framedoel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:106
-msgid "Frame target"
-msgstr "Framedoel"
+#~ msgid "Frameborder"
+#~ msgstr "Framerand"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:107
-msgid "Frameborder"
-msgstr "Framerand"
+#~ msgid "Frameset"
+#~ msgstr "Frameset"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:108
-msgid "Frameset"
-msgstr "Frameset"
+#~ msgid "Frameset columns"
+#~ msgstr "Framset-kolommen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:109
-msgid "Frameset columns"
-msgstr "Framset-kolommen"
+#~ msgid "Frameset rows"
+#~ msgstr "Frameset-rijen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:110
-msgid "Frameset rows"
-msgstr "Frameset-rijen"
+#~ msgid "Framespacing"
+#~ msgstr "Framespatiëring"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:111
-msgid "Framespacing"
-msgstr "Framespatiëring"
+#~ msgid "Generic embedded object"
+#~ msgstr "Generiek ingebed object"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:112
-msgid "Generic embedded object"
-msgstr "Generiek ingebed object"
+#~ msgid "Generic metainformation"
+#~ msgstr "Generieke meta-informatie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:113
-msgid "Generic metainformation"
-msgstr "Generieke meta-informatie"
+#~ msgid "Generic span"
+#~ msgstr "Generieke span"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:114
-msgid "Generic span"
-msgstr "Generieke span"
+#~ msgid "HREF URI"
+#~ msgstr "HREF URI"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:115
-msgid "HREF URI"
-msgstr "HREF URI"
+#~ msgid "HTML root element"
+#~ msgstr "HTML topelement"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:116
-msgid "HTML root element"
-msgstr "HTML topelement"
+#~ msgid "HTML version"
+#~ msgstr "HTML-versie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:117
-msgid "HTML version"
-msgstr "HTML-versie"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:118
 #, fuzzy
-msgid "HTML — Special Characters"
-msgstr "HTML - speciale tekens"
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML - speciale tekens"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:119
 #, fuzzy
-msgid "HTML — Tags"
-msgstr "HTML - tags"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:120
-msgid "HTTP header name"
-msgstr "HTTP-headernaam"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:121
-msgid "Header cell IDs"
-msgstr "Headercell-ID's"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:122
-msgid "Heading"
-msgstr "Kop"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:123
-msgid "Heading 1"
-msgstr "Kop 1"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:124
-msgid "Heading 2"
-msgstr "Kop 2"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:125
-msgid "Heading 3"
-msgstr "Kop 3"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:126
-msgid "Heading 4"
-msgstr "Kop 4"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:127
-msgid "Heading 5"
-msgstr "Kop 5"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:128
-msgid "Heading 6"
-msgstr "Kop 6"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:129
-msgid "Height"
-msgstr "Hoogte"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:130
-msgid "Horizontal rule"
-msgstr "Horizontale lijn"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:131
-msgid "Horizontal space"
-msgstr "Horizontale ruimte"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:133
-msgid "Horizontal space (deprecated)"
-msgstr "Horizontale ruimte (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:134
-msgid "I18N BiDi override"
-msgstr "I18N BiDi override"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:135
-msgid "Image"
-msgstr "Afbeelding"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:136
-msgid "Image map"
-msgstr "Afbeeldingskaart"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:137
-msgid "Image map area"
-msgstr "Gebied afbeeldingskaart"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:138
-msgid "Image map name"
-msgstr "Naam afbeeldingskaart"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:139
-msgid "Image source"
-msgstr "Afbeeldingsbron"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:140
-msgid "Inline frame"
-msgstr "Inline frame"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:141
-msgid "Inline layer"
-msgstr "Inline laag"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:142
-msgid "Inserted text"
-msgstr "Ingevoegde tekst"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:143
-msgid "Instance definition"
-msgstr "Instantie-definitie"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:144
-msgid "Italic text"
-msgstr "Schuingedrukte tekst"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:145
-msgid "Java applet"
-msgstr "Java-applet"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:147
-msgid "Java applet (deprecated)"
-msgstr "Java-applet (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:148
-msgid "Label"
-msgstr "Label"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:149
-msgid "Language code"
-msgstr "Taalcode"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:150
-msgid "Large text style"
-msgstr "Grote tekststijl"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:151
-msgid "Layer"
-msgstr "Laag"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:152
-msgid "Link color"
-msgstr "Verwijzingskleur"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:154
-msgid "Link color (deprecated)"
-msgstr "Verwijzingskleur (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:155
-msgid "List item"
-msgstr "Lijst-item"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:156
-msgid "List of MIME types for file upload"
-msgstr "Lijst van MIME-types voor bestandsupload"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:157
-msgid "List of supported character sets"
-msgstr "Lijst van ondersteunde tekensets"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:158
-msgid "Listing"
-msgstr "Opsomming"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:159
-msgid "Local change to font"
-msgstr "Plaatselijke lettertypewijziging"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:160
-msgid "Long description link"
-msgstr "Lange omschrijving verwijzing"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:161
-msgid "Long quotation"
-msgstr "Lang citaat"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:162
-msgid "Mail link"
-msgstr "E-mailverwijzing"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:164
-msgid "Margin pixel height"
-msgstr "Pixelhoogte marge"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:166
-msgid "Margin pixel width"
-msgstr "Pixelbreedte marge"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:167
-msgid "Marquee"
-msgstr "Lichtkrant"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:168
-msgid "Maximum length of text field"
-msgstr "Maximale lengte van tekstveld"
-
-#. Here I take some liberties: There's no mandatory attributes,
-#. but those are most common, and will likely be used.
-#: ../plugins/taglist/HTML.tags.xml.in.h:171
-msgid "Media-independent link"
-msgstr "Media-onafhankelijke verwijzing"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:172
-msgid "Menu list"
-msgstr "Menulijst"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:174
-msgid "Menu list (deprecated)"
-msgstr "Menulijst (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:175
-msgid "Multi-line text field"
-msgstr "Meerregelig tekstveld"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:176
-msgid "Multicolumn"
-msgstr "Multikolom"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:177
-msgid "Multiple"
-msgstr "Meerdere"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:178
-msgid "Name"
-msgstr "Naam"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:179
-msgid "Named property value"
-msgstr "Benoemde eigenschapswaarde"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:180
-msgid "Next ID"
-msgstr "Volgend ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:181
-msgid "No URI"
-msgstr "Geen URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:182
-msgid "No embedded objects"
-msgstr "Geen ingebedde objecten"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:183
-msgid "No frames"
-msgstr "Geen frames"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:184
-msgid "No layers"
-msgstr "Geen lagen"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:185
-msgid "No line break"
-msgstr "Geen regelafbreking"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:186
-msgid "No resize"
-msgstr "Niet herschalen"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:187
-msgid "No script"
-msgstr "Geen script"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:188
-msgid "No shade"
-msgstr "Geen schaduw"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:190
-msgid "No shade (deprecated)"
-msgstr "Geen schaduw (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:191
-msgid "No word wrap"
-msgstr "Geen regelterugloop"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:193
-msgid "No word wrap (deprecated)"
-msgstr "Geen regelterugloop (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:194
-msgid "Non-breaking space"
-msgstr "Niet-afbrekende spatie"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:195
-msgid "Note"
-msgstr "Notitie"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:196
-msgid "Object applet file"
-msgstr "Object-appletbestand"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:198
-msgid "Object applet file (deprecated)"
-msgstr "Object-appletbestand (achterhaald)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:199
-msgid "Object data reference"
-msgstr "Object-datareferentie"
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML - tags"
+
+#~ msgid "HTTP header name"
+#~ msgstr "HTTP-headernaam"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "Headercell-ID's"
+
+#~ msgid "Heading"
+#~ msgstr "Kop"
+
+#~ msgid "Heading 1"
+#~ msgstr "Kop 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Kop 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Kop 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Kop 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Kop 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Kop 6"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Horizontale lijn"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Horizontale ruimte"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Horizontale ruimte (achterhaald)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "I18N BiDi override"
+
+#~ msgid "Image"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Image map"
+#~ msgstr "Afbeeldingskaart"
+
+#~ msgid "Image map area"
+#~ msgstr "Gebied afbeeldingskaart"
+
+#~ msgid "Image map name"
+#~ msgstr "Naam afbeeldingskaart"
+
+#~ msgid "Image source"
+#~ msgstr "Afbeeldingsbron"
+
+#~ msgid "Inline frame"
+#~ msgstr "Inline frame"
+
+#~ msgid "Inline layer"
+#~ msgstr "Inline laag"
+
+#~ msgid "Inserted text"
+#~ msgstr "Ingevoegde tekst"
+
+#~ msgid "Instance definition"
+#~ msgstr "Instantie-definitie"
+
+#~ msgid "Java applet"
+#~ msgstr "Java-applet"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Java-applet (achterhaald)"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Layer"
+#~ msgstr "Laag"
+
+#~ msgid "Link color"
+#~ msgstr "Verwijzingskleur"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Verwijzingskleur (achterhaald)"
+
+#~ msgid "List item"
+#~ msgstr "Lijst-item"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "Lijst van MIME-types voor bestandsupload"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Lijst van ondersteunde tekensets"
+
+#~ msgid "Listing"
+#~ msgstr "Opsomming"
+
+#~ msgid "Local change to font"
+#~ msgstr "Plaatselijke lettertypewijziging"
+
+#~ msgid "Long description link"
+#~ msgstr "Lange omschrijving verwijzing"
+
+#~ msgid "Long quotation"
+#~ msgstr "Lang citaat"
+
+#~ msgid "Mail link"
+#~ msgstr "E-mailverwijzing"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Pixelhoogte marge"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Pixelbreedte marge"
+
+#~ msgid "Marquee"
+#~ msgstr "Lichtkrant"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Maximale lengte van tekstveld"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Media-onafhankelijke verwijzing"
+
+#~ msgid "Menu list"
+#~ msgstr "Menulijst"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Menulijst (achterhaald)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Meerregelig tekstveld"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Multikolom"
+
+#~ msgid "Named property value"
+#~ msgstr "Benoemde eigenschapswaarde"
+
+#~ msgid "Next ID"
+#~ msgstr "Volgend ID"
+
+#~ msgid "No URI"
+#~ msgstr "Geen URI"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Geen ingebedde objecten"
+
+#~ msgid "No frames"
+#~ msgstr "Geen frames"
+
+#~ msgid "No layers"
+#~ msgstr "Geen lagen"
+
+#~ msgid "No line break"
+#~ msgstr "Geen regelafbreking"
+
+#~ msgid "No script"
+#~ msgstr "Geen script"
+
+#~ msgid "No shade"
+#~ msgstr "Geen schaduw"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Geen schaduw (achterhaald)"
+
+#~ msgid "No word wrap"
+#~ msgstr "Geen regelterugloop"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Geen regelterugloop (achterhaald)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Niet-afbrekende spatie"
+
+#~ msgid "Note"
+#~ msgstr "Notitie"
+
+#~ msgid "Object applet file"
+#~ msgstr "Object-appletbestand"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Object-appletbestand (achterhaald)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Object-datareferentie"
 
 # Juiste vertaling?!
-#: ../plugins/taglist/HTML.tags.xml.in.h:200
-msgid "Offset for alignment character"
-msgstr "Afstand voor uitlijningsteken"
+#~ msgid "Offset for alignment character"
+#~ msgstr "Afstand voor uitlijningsteken"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:201
-msgid "OnBlur event"
-msgstr "OnBlur-gebeurtenis"
+#~ msgid "OnBlur event"
+#~ msgstr "OnBlur-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:202
-msgid "OnChange event"
-msgstr "OnChange-gebeurtenis"
+#~ msgid "OnChange event"
+#~ msgstr "OnChange-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:203
-msgid "OnClick event"
-msgstr "OnClick-gebeurtenis"
+#~ msgid "OnClick event"
+#~ msgstr "OnClick-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:204
-msgid "OnDblClick event"
-msgstr "OnDblClick-gebeurtenis"
+#~ msgid "OnDblClick event"
+#~ msgstr "OnDblClick-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:205
-msgid "OnFocus event"
-msgstr "OnFocus-gebeurtenis"
+#~ msgid "OnFocus event"
+#~ msgstr "OnFocus-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:206
-msgid "OnKeyDown event"
-msgstr "OnKeyDown-gebeurtenis"
+#~ msgid "OnKeyDown event"
+#~ msgstr "OnKeyDown-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:207
-msgid "OnKeyPress event"
-msgstr "OnKeyPress-gebeurtenis"
+#~ msgid "OnKeyPress event"
+#~ msgstr "OnKeyPress-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:208
-msgid "OnKeyUp event"
-msgstr "OnKeyUp-gebeurtenis"
+#~ msgid "OnKeyUp event"
+#~ msgstr "OnKeyUp-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:209
-msgid "OnLoad event"
-msgstr "OnLoad-gebeurtenis"
+#~ msgid "OnLoad event"
+#~ msgstr "OnLoad-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:210
-msgid "OnMouseDown event"
-msgstr "OnMouseDown-gebeurtenis"
+#~ msgid "OnMouseDown event"
+#~ msgstr "OnMouseDown-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:211
-msgid "OnMouseMove event"
-msgstr "OnMouseMove-gebeurtenis"
+#~ msgid "OnMouseMove event"
+#~ msgstr "OnMouseMove-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:212
-msgid "OnMouseOut event"
-msgstr "OnMouseOut-gebeurtenis"
+#~ msgid "OnMouseOut event"
+#~ msgstr "OnMouseOut-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:213
-msgid "OnMouseOver event"
-msgstr "OnMouseOver-gebeurtenis"
+#~ msgid "OnMouseOver event"
+#~ msgstr "OnMouseOver-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:214
-msgid "OnMouseUp event"
-msgstr "OnMouseUp-gebeurtenis"
+#~ msgid "OnMouseUp event"
+#~ msgstr "OnMouseUp-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:215
-msgid "OnReset event"
-msgstr "OnReset-gebeurtenis"
+#~ msgid "OnReset event"
+#~ msgstr "OnReset-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:216
-msgid "OnSelect event"
-msgstr "OnSelect-gebeurtenis"
+#~ msgid "OnSelect event"
+#~ msgstr "OnSelect-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:217
-msgid "OnSubmit event"
-msgstr "OnSubmit-gebeurtenis"
+#~ msgid "OnSubmit event"
+#~ msgstr "OnSubmit-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:218
-msgid "OnUnload event"
-msgstr "OnUnload-gebeurtenis"
+#~ msgid "OnUnload event"
+#~ msgstr "OnUnload-gebeurtenis"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:219
-msgid "Option group"
-msgstr "Optiegroep"
+#~ msgid "Option group"
+#~ msgstr "Optiegroep"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:220
-msgid "Option selector"
-msgstr "Optieselectie"
+#~ msgid "Option selector"
+#~ msgstr "Optieselectie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:221
-msgid "Ordered list"
-msgstr "Geordende lijst"
+#~ msgid "Ordered list"
+#~ msgstr "Geordende lijst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:222
-msgid "Output media"
-msgstr "Uitvoermedia"
+#~ msgid "Output media"
+#~ msgstr "Uitvoermedia"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:223
-msgid "Paragraph"
-msgstr "Alinea"
+#~ msgid "Paragraph"
+#~ msgstr "Alinea"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:224
-msgid "Paragraph class"
-msgstr "Alineaklasse"
+#~ msgid "Paragraph class"
+#~ msgstr "Alineaklasse"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:225
-msgid "Paragraph style"
-msgstr "Alineastijl"
+#~ msgid "Paragraph style"
+#~ msgstr "Alineastijl"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:226
-msgid "Preformatted listing"
-msgstr "Vooraf vormgegeven opsomming"
+#~ msgid "Preformatted listing"
+#~ msgstr "Vooraf vormgegeven opsomming"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:227
-msgid "Preformatted text"
-msgstr "Vooraf opgemaakte tekst"
+#~ msgid "Preformatted text"
+#~ msgstr "Vooraf opgemaakte tekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:228
-msgid "Profile metainfo dictionary"
-msgstr "Profiel-metainfo woordenboek"
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Profiel-metainfo woordenboek"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:229
-msgid "Prompt message"
-msgstr "Vraagbericht"
+#~ msgid "Prompt message"
+#~ msgstr "Vraagbericht"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:230
-msgid "Push button"
-msgstr "Drukknop"
+#~ msgid "Push button"
+#~ msgstr "Drukknop"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:231
-msgid "Quote"
-msgstr "Aanhalingsteken"
+#~ msgid "Quote"
+#~ msgstr "Aanhalingsteken"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:232
-msgid "Range"
-msgstr "Bereik"
+#~ msgid "Range"
+#~ msgstr "Bereik"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:233
-msgid "ReadOnly text and password"
-msgstr "AlleenLezen tekst-en-wachtwoord"
+#~ msgid "ReadOnly text and password"
+#~ msgstr "AlleenLezen tekst-en-wachtwoord"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:234
-msgid "Reduced spacing"
-msgstr "Gereduceerde spatiëring"
+#~ msgid "Reduced spacing"
+#~ msgstr "Gereduceerde spatiëring"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:236
-msgid "Reduced spacing (deprecated)"
-msgstr "Gereduceerde spatiëring (achterhaald)"
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Gereduceerde spatiëring (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:237
-msgid "Reverse link"
-msgstr "Omgekeerde verwijzing"
+#~ msgid "Reverse link"
+#~ msgstr "Omgekeerde verwijzing"
 
 # Betere vertaling?
-#: ../plugins/taglist/HTML.tags.xml.in.h:238
-msgid "Root"
-msgstr "Beginpunt"
+#~ msgid "Root"
+#~ msgstr "Beginpunt"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:239
-msgid "Rows"
-msgstr "Rijen"
+#~ msgid "Rows"
+#~ msgstr "Rijen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:240
-msgid "Rulings between rows and columns"
-msgstr "Regels tussen rijen en kolommen"
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Regels tussen rijen en kolommen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:241
-msgid "Sample program output, scripts"
-msgstr "Voorbeeld-programmauitvoer, scripts"
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Voorbeeld-programmauitvoer, scripts"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:242
-msgid "Scope covered by header cells"
-msgstr "Bereik gedekt door header-cellen"
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Bereik gedekt door header-cellen"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:244
-msgid "Script language name"
-msgstr "Naam scripttaal"
+#~ msgid "Script language name"
+#~ msgstr "Naam scripttaal"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:245
-msgid "Script statements"
-msgstr "Script-statements"
+#~ msgid "Script statements"
+#~ msgstr "Script-statements"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:246
-msgid "Scrollbar"
-msgstr "Schuifbalk"
+#~ msgid "Scrollbar"
+#~ msgstr "Schuifbalk"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:247
-msgid "Selectable option"
-msgstr "Selecteerbare optie"
+#~ msgid "Selectable option"
+#~ msgstr "Selecteerbare optie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:248
-msgid "Selected"
-msgstr "Geselecteerd"
+#~ msgid "Selected"
+#~ msgstr "Geselecteerd"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:249
-msgid "Server-side image map"
-msgstr "Server-side afbeeldingskaart"
+#~ msgid "Server-side image map"
+#~ msgstr "Server-side afbeeldingskaart"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:250
-msgid "Shape"
-msgstr "Vorm"
+#~ msgid "Shape"
+#~ msgstr "Vorm"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:251
-msgid "Short inline quotation"
-msgstr "Kort tussengevoegd citaat"
+#~ msgid "Short inline quotation"
+#~ msgstr "Kort tussengevoegd citaat"
 
 # Dit schijnt al een 'deprecated' tag te zijn
 # Creates a single-line text input control.
-#: ../plugins/taglist/HTML.tags.xml.in.h:252
-msgid "Single line prompt"
-msgstr "Één-lijns invoerregel"
+#~ msgid "Single line prompt"
+#~ msgstr "Één-lijns invoerregel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:253
-msgid "Size"
-msgstr "Grootte"
+#~ msgid "Size"
+#~ msgstr "Grootte"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:255
-msgid "Size (deprecated)"
-msgstr "Grootte (achterhaald)"
+#~ msgid "Size (deprecated)"
+#~ msgstr "Grootte (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:256
-msgid "Small text style"
-msgstr "Kleine tekststijl"
+#~ msgid "Soft line break"
+#~ msgstr "Zachte regelafbreking"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:257
-msgid "Soft line break"
-msgstr "Zachte regelafbreking"
+#~ msgid "Sound"
+#~ msgstr "Geluid"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:258
-msgid "Sound"
-msgstr "Geluid"
+#~ msgid "Source"
+#~ msgstr "Bron"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:259
-msgid "Source"
-msgstr "Bron"
+#~ msgid "Space-separated archive list"
+#~ msgstr "Archieflijst gescheiden door spaties"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:260
-msgid "Space-separated archive list"
-msgstr "Archieflijst gescheiden door spaties"
+#~ msgid "Spacer"
+#~ msgstr "Afstandshouder"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:261
-msgid "Spacer"
-msgstr "Afstandshouder"
+#~ msgid "Spacing between cells"
+#~ msgstr "Spatiëring tussen cellen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:262
-msgid "Spacing between cells"
-msgstr "Spatiëring tussen cellen"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:263
-msgid "Spacing within cells"
-msgstr "Spatiëring binnen cellen"
+#~ msgid "Spacing within cells"
+#~ msgstr "Spatiëring binnen cellen"
 
 # Betere vertaling? Omspanning?
-#: ../plugins/taglist/HTML.tags.xml.in.h:264
-msgid "Span"
-msgstr "Span"
+#~ msgid "Span"
+#~ msgstr "Span"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:265
-msgid "Square root"
-msgstr "Vierkantswortel"
+#~ msgid "Square root"
+#~ msgstr "Vierkantswortel"
 
 # This attribute contains a text message to be displayed while the object is loading.
-#: ../plugins/taglist/HTML.tags.xml.in.h:266
-msgid "Standby load message"
-msgstr "'Ogenblik geduld'-bericht"
+#~ msgid "Standby load message"
+#~ msgstr "'Ogenblik geduld'-bericht"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:267
-msgid "Starting sequence number"
-msgstr "Begingetal opsomming"
+#~ msgid "Starting sequence number"
+#~ msgstr "Begingetal opsomming"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:269
-msgid "Starting sequence number (deprecated)"
-msgstr "Begingetal opsomming (achterhaald)"
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Begingetal opsomming (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:270
-msgid "Strike-through text"
-msgstr "Doorgestreepte tekst"
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Doorgestreepte tekst (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:272
-msgid "Strike-through text (deprecated)"
-msgstr "Doorgestreepte tekst (achterhaald)"
+#~ msgid "Strike-through text style"
+#~ msgstr "Doorgestreepte tekststijl"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:273
-msgid "Strike-through text style"
-msgstr "Doorgestreepte tekststijl"
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Doorgestreepte tekststijl (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:275
-msgid "Strike-through text style (deprecated)"
-msgstr "Doorgestreepte tekststijl (achterhaald)"
+#~ msgid "Strong emphasis"
+#~ msgstr "Sterke nadruk"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:276
-msgid "Strong emphasis"
-msgstr "Sterke nadruk"
+#~ msgid "Style info"
+#~ msgstr "Stijlinfo"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:277
-msgid "Style info"
-msgstr "Stijlinfo"
+#~ msgid "Subscript"
+#~ msgstr "Subscript"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:278
-msgid "Subscript"
-msgstr "Subscript"
+#~ msgid "Superscript"
+#~ msgstr "Superscript"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:279
-msgid "Superscript"
-msgstr "Superscript"
+#~ msgid "Tab order position"
+#~ msgstr "Tabvolgorde-postitie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:280
-msgid "Tab order position"
-msgstr "Tabvolgorde-postitie"
+#~ msgid "Table"
+#~ msgstr "Tabel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:281
-msgid "Table"
-msgstr "Tabel"
+#~ msgid "Table body"
+#~ msgstr "Tabelinhoud"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:282
-msgid "Table body"
-msgstr "Tabelinhoud"
+#~ msgid "Table caption"
+#~ msgstr "Tabelbijschrift"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:283
-msgid "Table caption"
-msgstr "Tabelbijschrift"
+#~ msgid "Table column group properties"
+#~ msgstr "Tabelkolomgroep-eigenschappen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:284
-msgid "Table column group properties"
-msgstr "Tabelkolomgroep-eigenschappen"
+#~ msgid "Table column properties"
+#~ msgstr "Tabelkolom-eigenschappen"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:285
-msgid "Table column properties"
-msgstr "Tabelkolom-eigenschappen"
+#~ msgid "Table data cell"
+#~ msgstr "Tabeldatacel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:286
-msgid "Table data cell"
-msgstr "Tabeldatacel"
+#~ msgid "Table footer"
+#~ msgstr "Tabelvoettekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:287
-msgid "Table footer"
-msgstr "Tabelvoettekst"
+#~ msgid "Table header"
+#~ msgstr "Tabelkoptekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:288
-msgid "Table header"
-msgstr "Tabelkoptekst"
+#~ msgid "Table header cell"
+#~ msgstr "Tabelkoptekstcel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:289
-msgid "Table header cell"
-msgstr "Tabelkoptekstcel"
+#~ msgid "Table row"
+#~ msgstr "Tabelrij"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:290
-msgid "Table row"
-msgstr "Tabelrij"
+#~ msgid "Table summary"
+#~ msgstr "Tabelsamenvatting"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:291
-msgid "Table summary"
-msgstr "Tabelsamenvatting"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:292
 #, fuzzy
-msgid "Target — Blank"
-msgstr "Doel - Leeg"
+#~ msgid "Target — Blank"
+#~ msgstr "Doel - Leeg"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:293
 #, fuzzy
-msgid "Target — Parent"
-msgstr "Doel - Ouder"
+#~ msgid "Target — Parent"
+#~ msgstr "Doel - Ouder"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:294
 #, fuzzy
-msgid "Target — Self"
-msgstr "Doel - Zelf"
+#~ msgid "Target — Self"
+#~ msgstr "Doel - Zelf"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:295
 #, fuzzy
-msgid "Target — Top"
-msgstr "Doel - Bovenop"
+#~ msgid "Target — Top"
+#~ msgstr "Doel - Bovenop"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:296
-msgid "Teletype or monospace text style"
-msgstr "Teletype- of monospatiëringstekststijl"
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Teletype- of monospatiëringstekststijl"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:297
-msgid "Text"
-msgstr "Tekst"
+#~ msgid "Text"
+#~ msgstr "Tekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:298
-msgid "Text color"
-msgstr "Tekstkleur"
+#~ msgid "Text color"
+#~ msgstr "Tekstkleur"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:300
-msgid "Text color (deprecated)"
-msgstr "Tekstkleur (achterhaald)"
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Tekstkleur (achterhaald)"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:301
-msgid "Text entered by user"
-msgstr "Door gebruiker ingevoerde tekst"
+#~ msgid "Text entered by user"
+#~ msgstr "Door gebruiker ingevoerde tekst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:302
-msgid "Title"
-msgstr "Titel"
+#~ msgid "Title"
+#~ msgstr "Titel"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:303
-msgid "Top margin in pixels"
-msgstr "Bovenmarge in pixels"
+#~ msgid "Top margin in pixels"
+#~ msgstr "Bovenmarge in pixels"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:304
-msgid "URL"
-msgstr "URL"
+#~ msgid "URL"
+#~ msgstr "URL"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:305
-msgid "Underlined text style"
-msgstr "Onderstreepte tekststijl"
+#~ msgid "Unordered list"
+#~ msgstr "Ongeordende lijst"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:306
-msgid "Unordered list"
-msgstr "Ongeordende lijst"
+#~ msgid "Use image map"
+#~ msgstr "Afbeeldingskaart gebruiken"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:307
-msgid "Use image map"
-msgstr "Afbeeldingskaart gebruiken"
+#~ msgid "Value"
+#~ msgstr "Waarde"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:308
-msgid "Value"
-msgstr "Waarde"
+#~ msgid "Value interpretation"
+#~ msgstr "Waarde-interpretatie"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:309
-msgid "Value interpretation"
-msgstr "Waarde-interpretatie"
+#~ msgid "Variable or program argument"
+#~ msgstr "Variabel of programma-argument"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:310
-msgid "Variable or program argument"
-msgstr "Variabel of programma-argument"
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Verticale celuitlijning"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:311
-msgid "Vertical cell alignment"
-msgstr "Verticale celuitlijning"
+#~ msgid "Vertical space"
+#~ msgstr "Verticale ruimte"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:312
-msgid "Vertical space"
-msgstr "Verticale ruimte"
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Verticale ruimte (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:314
-msgid "Vertical space (deprecated)"
-msgstr "Verticale ruimte (achterhaald)"
+#~ msgid "Visited link color"
+#~ msgstr "Kleur bezochte verwijzing"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:315
-msgid "Visited link color"
-msgstr "Kleur bezochte verwijzing"
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Kleur bezochte verwijzing (achterhaald)"
 
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:317
-msgid "Visited link color (deprecated)"
-msgstr "Kleur bezochte verwijzing (achterhaald)"
+#~ msgid "Width"
+#~ msgstr "Breedte"
 
-#: ../plugins/taglist/HTML.tags.xml.in.h:318
-msgid "Width"
-msgstr "Breedte"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:319
 #, fuzzy
-msgid "XHTML 1.0 — Tags"
-msgstr "XHTML 1.0 - tags"
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 - tags"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:1
-msgid "Bibliography (cite)"
-msgstr "Bibliografie (cite)"
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliografie (cite)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:2
-msgid "Bibliography (item)"
-msgstr "Bibliografie (item)"
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliografie (item)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:3
-msgid "Bibliography (shortcite)"
-msgstr "Bibliografie (shortcite)"
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliografie (shortcite)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:4
-msgid "Bibliography (thebibliography)"
-msgstr "Bibliografie (thebibliography)"
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliografie (thebibliography)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:5
-msgid "Brackets ()"
-msgstr "Haakjes ()"
+#~ msgid "Brackets ()"
+#~ msgstr "Haakjes ()"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:6
-msgid "Brackets <>"
-msgstr "Haakjes <>"
+#~ msgid "Brackets <>"
+#~ msgstr "Haakjes <>"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:7
-msgid "Brackets []"
-msgstr "Haakjes []"
+#~ msgid "Brackets []"
+#~ msgstr "Haakjes []"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:8
-msgid "Brackets {}"
-msgstr "Haakjes {}"
+#~ msgid "Brackets {}"
+#~ msgstr "Haakjes {}"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:10
-msgid "File input"
-msgstr "Bestandsinvoer"
+#~ msgid "File input"
+#~ msgstr "Bestandsinvoer"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:11
-msgid "Footnote"
-msgstr "Voetnoot"
+#~ msgid "Footnote"
+#~ msgstr "Voetnoot"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:12
-msgid "Function cosine"
-msgstr "Cosinusfunctie"
+#~ msgid "Function cosine"
+#~ msgstr "Cosinusfunctie"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:13
-msgid "Function e^"
-msgstr "Functie e^"
+#~ msgid "Function e^"
+#~ msgstr "Functie e^"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:14
-msgid "Function exp"
-msgstr "Functie exp"
+#~ msgid "Function exp"
+#~ msgstr "Functie exp"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:15
-msgid "Function log"
-msgstr "Functie log"
+#~ msgid "Function log"
+#~ msgstr "Functie log"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:16
-msgid "Function log10"
-msgstr "Functie log10"
+#~ msgid "Function log10"
+#~ msgstr "Functie log10"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:17
-msgid "Function sine"
-msgstr "Functie sinus"
+#~ msgid "Function sine"
+#~ msgstr "Functie sinus"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:18
-msgid "Greek alpha"
-msgstr "Griekse alpha"
+#~ msgid "Greek alpha"
+#~ msgstr "Griekse alpha"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:19
-msgid "Greek beta"
-msgstr "Griekse bèta"
+#~ msgid "Greek beta"
+#~ msgstr "Griekse bèta"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:20
-msgid "Greek epsilon"
-msgstr "Griekse epsilon"
+#~ msgid "Greek epsilon"
+#~ msgstr "Griekse epsilon"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:21
-msgid "Greek gamma"
-msgstr "Griekse gamma"
+#~ msgid "Greek gamma"
+#~ msgstr "Griekse gamma"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:22
-msgid "Greek lambda"
-msgstr "Griekse labda"
+#~ msgid "Greek lambda"
+#~ msgstr "Griekse labda"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:23
-msgid "Greek rho"
-msgstr "Griekse rho"
+#~ msgid "Greek rho"
+#~ msgstr "Griekse rho"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:24
-msgid "Greek tau"
-msgstr "Griekse tau"
+#~ msgid "Greek tau"
+#~ msgstr "Griekse tau"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:25
-msgid "Header 0 (chapter)"
-msgstr "Kop 0 (hoofdstuk)"
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Kop 0 (hoofdstuk)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:26
-msgid "Header 0 (chapter*)"
-msgstr "Kop 0 (hoofdstuk*)"
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Kop 0 (hoofdstuk*)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:27
-msgid "Header 1 (section)"
-msgstr "Kop 1 (sectie)"
+#~ msgid "Header 1 (section)"
+#~ msgstr "Kop 1 (sectie)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:28
-msgid "Header 1 (section*)"
-msgstr "Kop 1 (sectie*)"
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Kop 1 (sectie*)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:29
-msgid "Header 2 (subsection)"
-msgstr "Kop 2 (subsectie)"
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Kop 2 (subsectie)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:30
-msgid "Header 2 (subsection*)"
-msgstr "Kop 2 (subsectie*)"
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Kop 2 (subsectie*)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:31
-msgid "Header 3 (subsubsection)"
-msgstr "Kop 3 (subsubsectie)"
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Kop 3 (subsubsectie)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:32
-msgid "Header 3 (subsubsection*)"
-msgstr "Kop 3 (subsubsectie*)"
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Kop 3 (subsubsectie*)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:33
-msgid "Header 4 (paragraph)"
-msgstr "Kop 4 (alinea)"
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Kop 4 (alinea)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:34
-msgid "Header appendix"
-msgstr "Kop appendix"
+#~ msgid "Header appendix"
+#~ msgstr "Kop appendix"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:35
-msgid "Item"
-msgstr "Item"
+#~ msgid "Item"
+#~ msgstr "Item"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:36
-msgid "Item with label"
-msgstr "Item met label"
+#~ msgid "Item with label"
+#~ msgstr "Item met label"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:37
 #, fuzzy
-msgid "Latex — Tags"
-msgstr "Latex - tags"
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex - tags"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:38
-msgid "List description"
-msgstr "Lijstomschrijving"
+#~ msgid "List enumerate"
+#~ msgstr "Lijstopsomming"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:39
-msgid "List enumerate"
-msgstr "Lijstopsomming"
+#~ msgid "List itemize"
+#~ msgstr "Lijstitems"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:40
-msgid "List itemize"
-msgstr "Lijstitems"
+#~ msgid "Maths (display)"
+#~ msgstr "Wiskunde (weergave)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:41
-msgid "Maths (display)"
-msgstr "Wiskunde (weergave)"
+#~ msgid "Maths (inline)"
+#~ msgstr "Wiskunde (inline)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:42
-msgid "Maths (inline)"
-msgstr "Wiskunde (inline)"
+#~ msgid "Operator fraction"
+#~ msgstr "Operator gedeeld door"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:43
-msgid "Operator fraction"
-msgstr "Operator gedeeld door"
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator integral (display)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:44
-msgid "Operator integral (display)"
-msgstr "Operator integral (display)"
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator integral (inline)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:45
-msgid "Operator integral (inline)"
-msgstr "Operator integral (inline)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:46
-msgid "Operator sum (display)"
-msgstr "Operator sum (weergave)"
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator sum (weergave)"
 
 # inline?!
-#: ../plugins/taglist/Latex.tags.xml.in.h:47
-msgid "Operator sum (inline)"
-msgstr "Operator sum (inline)"
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator sum (inline)"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:48
-msgid "Reference label"
-msgstr "Referentielabel"
+#~ msgid "Reference label"
+#~ msgstr "Referentielabel"
 
 # Referentie-referentie?!
-#: ../plugins/taglist/Latex.tags.xml.in.h:49
-msgid "Reference ref"
-msgstr "Referentie-ref"
+#~ msgid "Reference ref"
+#~ msgstr "Referentie-ref"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:50
-msgid "Symbol <<"
-msgstr "Symbool <<"
+#~ msgid "Symbol <<"
+#~ msgstr "Symbool <<"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:51
-msgid "Symbol <="
-msgstr "Symbool <="
+#~ msgid "Symbol <="
+#~ msgstr "Symbool <="
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:52
-msgid "Symbol >="
-msgstr "Symbool >="
+#~ msgid "Symbol >="
+#~ msgstr "Symbool >="
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:53
-msgid "Symbol >>"
-msgstr "Symbool >>"
+#~ msgid "Symbol >>"
+#~ msgstr "Symbool >>"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:54
-msgid "Symbol and"
-msgstr "Symbool and"
+#~ msgid "Symbol and"
+#~ msgstr "Symbool and"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:55
-msgid "Symbol const"
-msgstr "Symbool const"
+#~ msgid "Symbol const"
+#~ msgstr "Symbool const"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:56
-msgid "Symbol d-by-dt"
-msgstr "Symbool d-by-dt"
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Symbool d-by-dt"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:57
-msgid "Symbol d-by-dt-partial"
-msgstr "Symbool d-by-dt-partial"
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Symbool d-by-dt-partial"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:58
-msgid "Symbol d2-by-dt2-partial"
-msgstr "Symbool d2-by-dt2-partial"
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Symbool d2-by-dt2-partial"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:59
-msgid "Symbol dagger"
-msgstr "Symbool dagger"
+#~ msgid "Symbol dagger"
+#~ msgstr "Symbool dagger"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:60
-msgid "Symbol em-dash ---"
-msgstr "Symbool em-dash ---"
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Symbool em-dash ---"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:61
-msgid "Symbol en-dash --"
-msgstr "Symbool en-dash --"
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Symbool en-dash --"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:62
-msgid "Symbol equiv"
-msgstr "Symbool equiv"
+#~ msgid "Symbol equiv"
+#~ msgstr "Symbool equiv"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:63
-msgid "Symbol infinity"
-msgstr "Symbool infinity"
+#~ msgid "Symbol infinity"
+#~ msgstr "Symbool infinity"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:64
-msgid "Symbol mathspace ,"
-msgstr "Symbool mathspace ,"
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Symbool mathspace ,"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:65
-msgid "Symbol mathspace ."
-msgstr "Symbool mathspace ."
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Symbool mathspace ."
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:66
-msgid "Symbol mathspace _"
-msgstr "Symbool mathspace _"
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Symbool mathspace _"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:67
-msgid "Symbol mathspace __"
-msgstr "Symbool mathspace __"
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Symbool mathspace __"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:68
-msgid "Symbol simeq"
-msgstr "Symbool simeq"
+#~ msgid "Symbol simeq"
+#~ msgstr "Symbool simeq"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:69
-msgid "Symbol star"
-msgstr "Symbool star"
+#~ msgid "Symbol star"
+#~ msgstr "Symbool star"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:70
-msgid "Typeface bold"
-msgstr "Vet lettertype"
+#~ msgid "Typeface bold"
+#~ msgstr "Vet lettertype"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:71
-msgid "Typeface italic"
-msgstr "Schuingedrukt lettertype"
+#~ msgid "Typeface italic"
+#~ msgstr "Schuingedrukt lettertype"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:72
-msgid "Typeface slanted"
-msgstr "Scheef lettertype"
+#~ msgid "Typeface slanted"
+#~ msgstr "Scheef lettertype"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:73
-msgid "Typeface type"
-msgstr "Type-lettertype"
+#~ msgid "Typeface type"
+#~ msgstr "Type-lettertype"
 
-#: ../plugins/taglist/Latex.tags.xml.in.h:74
-msgid "Unbreakable text"
-msgstr "Onafbreekbare tekst"
+#~ msgid "Unbreakable text"
+#~ msgstr "Onafbreekbare tekst"
 
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:1
-msgid ""
-"Provides a method to easily insert commonly used tags/strings into a "
-"document without having to type them."
-msgstr ""
-"Op een gemakkelijke manier veelgebruikte tags en tekenreeksen invoegen in "
-"een document, zonder ze te hoeven typen."
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "Op een gemakkelijke manier veelgebruikte tags en tekenreeksen invoegen in "
+#~ "een document, zonder ze te hoeven typen."
 
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:2
-msgid "Tag list"
-msgstr "Tag-lijst"
+#~ msgid "Tag list"
+#~ msgstr "Tag-lijst"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:1
 #, fuzzy
-msgid "XSLT — Axes"
-msgstr "XSLT - assen"
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT - assen"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:2
 #, fuzzy
-msgid "XSLT — Elements"
-msgstr "XSLT - elementen"
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT - elementen"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:3
 #, fuzzy
-msgid "XSLT — Functions"
-msgstr "XSLT - functies"
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT - functies"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:4
-msgid "ancestor"
-msgstr "voorouder"
+#~ msgid "ancestor"
+#~ msgstr "voorouder"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:5
-msgid "ancestor-or-self"
-msgstr "voorouder-of-zelf"
+#~ msgid "ancestor-or-self"
+#~ msgstr "voorouder-of-zelf"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:6
-msgid "attribute"
-msgstr "attribuut"
+#~ msgid "attribute"
+#~ msgstr "attribuut"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:7
-msgid "child"
-msgstr "kind"
+#~ msgid "child"
+#~ msgstr "kind"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:8
-msgid "descendant"
-msgstr "afstammeling"
+#~ msgid "descendant"
+#~ msgstr "afstammeling"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:9
-msgid "descendant-or-self"
-msgstr "afstammeling-of-zelf"
+#~ msgid "descendant-or-self"
+#~ msgstr "afstammeling-of-zelf"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:10
-msgid "following"
-msgstr "volgend"
+#~ msgid "following"
+#~ msgstr "volgend"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:11
-msgid "following-sibling"
-msgstr "zuster-volgend"
+#~ msgid "following-sibling"
+#~ msgstr "zuster-volgend"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:12
-msgid "namespace"
-msgstr "naamruimte"
+#~ msgid "namespace"
+#~ msgstr "naamruimte"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:13
-msgid "parent"
-msgstr "ouder"
+#~ msgid "parent"
+#~ msgstr "ouder"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:14
-msgid "preceding"
-msgstr "voorgaand"
+#~ msgid "preceding"
+#~ msgstr "voorgaand"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:15
-msgid "preceding-sibling"
-msgstr "zuster-voorgaand"
+#~ msgid "preceding-sibling"
+#~ msgstr "zuster-voorgaand"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:16
-msgid "self"
-msgstr "zelf"
+#~ msgid "self"
+#~ msgstr "zelf"
 
-#: ../plugins/taglist/XUL.tags.xml.in.h:1
 #, fuzzy
-msgid "XUL — Tags"
-msgstr "XUL — tags"
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — tags"

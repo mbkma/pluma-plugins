@@ -1,141 +1,149 @@
-# gedit's Finnish translation.
-# Copyright (C) 2008-2010 Free Software Foundation, Inc.
+# Polish translation for gedit-plugins help.
+# Copyright © 2017-2018 the gedit-plugins authors.
+# This file is distributed under the same license as the gedit-plugins help.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017-2018.
+# Aviary.pl <community-poland@mozilla.org>, 2017-2018.
 #
-#
-# comments from sampo555 regarding translation:
-# "Tulostusohjeen puolella alkoi vähän ideat loppumaan järkevien
-#  käännösten osalta, joten ainakin sitä voisi joku vilkaista.
-#  Typojakin jäi varmasti muutama, vaikka ajoinkin käännökset oikoluvun
-#  läpi. Mitään suurempia ongelmia käännöksissä ei kuitenkaan pitäisi olla..."
-#
-# sampo555 <sampo_75@windowslive.com>, 2012.
-# Valto Wirkola <valto.wirkola@yahoo.com>, 2008-2010.
-# Tommi Vainikainen <thv@iki.fi> (Legal Notices), 2006.
-# Lasse Liehu <lasse.liehu@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2014-05-21 05:15+0000\n"
-"PO-Revision-Date: 2014-05-21 12:49+0300\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
-"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
-"Language: fi\n"
+"Project-Id-Version: gedit-plugins-help\n"
+"POT-Creation-Date: 2018-03-10 14:53+0000\n"
+"PO-Revision-Date: 2018-03-10 17:42+0100\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"sampo555 <sampo_75 [at] windowslive [dot] com>, 2012.\n"
-"Valto Wirkola <valto [dot] wirkola [at] yahoo [dot] com>, 2008, 2010\n"
-"Tommi Vainikainen <thv [at] iki [dot] fi>, 2006."
+"Piotr Drąg <piotrdrag@gmail.com>, 2017-2018\n"
+"Aviary.pl <community-poland@mozilla.org>, 2017-2018"
 
 #. (itstool) path: credit/name
-#: C/bookmarks.page:11 C/bracket-comp.page:11 C/character-map.page:11
-#: C/code-assistance.page:11 C/code-comment.page:11 C/color-picker.page:11
-#: C/commander.page:11 C/dashboard.page:11 C/draw-spaces.page:11
-#: C/join-split-lines.page:11 C/multi-edit.page:11 C/session-saver.page:11
-#: C/terminal.page:12 C/text-size.page:12 C/word-completion.page:11
+#: C/bookmarks.page:12 C/bracket-comp.page:11 C/character-map.page:11
+#: C/code-comment.page:11 C/color-picker.page:11 C/commander.page:11
+#: C/dashboard.page:11 C/draw-spaces.page:11 C/join-split-lines.page:11
+#: C/multi-edit.page:11 C/terminal.page:12 C/text-size.page:12
+#: C/word-completion.page:11
 msgid "Jim Campbell"
-msgstr ""
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:18
+msgid "2014"
+msgstr "2014"
 
 #. (itstool) path: info/desc
-#: C/bookmarks.page:15
+#: C/bookmarks.page:21
 msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
+msgstr "Zapisywanie często używanych miejsc za pomocą zakładek."
 
 #. (itstool) path: page/title
-#: C/bookmarks.page:18
+#: C/bookmarks.page:24
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zakładki"
 
 #. (itstool) path: page/p
-#: C/bookmarks.page:20
+#: C/bookmarks.page:26
 msgid ""
 "<app>gedit</app> bookmarks allow you to highlight important lines of text "
 "within your document or program, making them easier to find. You can also "
 "move up or down between bookmarks, making document navigation a bit faster."
 msgstr ""
+"Zakładki programu <app>gedit</app> umożliwiają wyróżnianie ważnych wierszy "
+"tekstu w dokumencie lub programie, ułatwiając ich odnajdywanie. Można także "
+"przechodzić między zakładkami, nieco przyspieszając nawigację po dokumencie."
 
 #. (itstool) path: page/p
-#: C/bookmarks.page:25
-#, fuzzy
-#| msgid ""
-#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
-#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
-#| "gui></guiseq>."
+#: C/bookmarks.page:31
 msgid ""
 "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">gedit</"
 "gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
-"Käynnistä <app>gconf-editor</app> ja valitse <guiseq><gui>apps</"
-"gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</gui></"
-"guiseq>."
+"Aby włączyć wtyczkę zakładek, wybierz <guiseq><gui style=\"menu\">gedit</"
+"gui> <gui style=\"menuitem\">Preferencje</gui><gui>Wtyczki</gui> "
+"<gui>Zakładki</gui></guiseq>."
 
 #. (itstool) path: steps/title
-#: C/bookmarks.page:30
+#: C/bookmarks.page:36
 msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
 msgstr ""
+"Zakładki są wstawiane i usuwane za pomocą tego samego działania. Aby wstawić "
+"lub usunąć zakładkę:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:33
+#: C/bookmarks.page:39
 msgid "Navigate to the line where you want to insert or remove the bookmark."
-msgstr ""
+msgstr "Przejdź do wiersza, w którym wstawić lub z którego usunąć zakładkę."
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:37
+#: C/bookmarks.page:43
 msgid ""
-"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or click "
-"<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
-"Bookmark</gui></guiseq>."
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
 msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> "
+"lub otwórz menu w górnym prawym rogu i wybierz <gui style=\"menuitem"
+"\">Przełącz zakładkę</gui>."
 
-#. (itstool) path: steps/title
-#: C/bookmarks.page:44
+#. (itstool) path: list/title
+#: C/bookmarks.page:50
 msgid "To move between bookmarks:"
-msgstr ""
+msgstr "Aby przechodzić między zakładkami:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:46
+#: C/bookmarks.page:52
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
 msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>B</key></keyseq>, aby przejść "
+"do następnej zakładki."
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:50
+#: C/bookmarks.page:56
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></"
+"keyseq>, aby przejść do poprzedniej zakładki."
 
 #. (itstool) path: note/p
-#: C/bookmarks.page:53
+#: C/bookmarks.page:62
 msgid ""
-"If you prefer using the mouse, you can click <guiseq><gui style=\"menu"
-"\">gedit</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> or "
-"<guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to "
-"Previous Bookmark</gui></guiseq>."
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
 msgstr ""
+"Jeśli wygodniej jest używać myszy, to można otworzyć menu w górnym prawym "
+"rogu i wybrać <gui style=\"menuitem\">Przejdź do następnej zakładki</gui> "
+"lub <gui style=\"menuitem\">Przejdź do poprzedniej zakładki</gui>."
 
 #. (itstool) path: info/desc
 #: C/bracket-comp.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Automatyczne uzupełnianie nawiasów zamykających."
 
 #. (itstool) path: page/title
 #: C/bracket-comp.page:18
-#, fuzzy
-#| msgid "Bracket Matching"
 msgid "Bracket Completion"
-msgstr "Hakasulkujen vastaavuus"
+msgstr "Uzupełnianie nawiasów"
 
 #. (itstool) path: page/p
 #: C/bracket-comp.page:20
@@ -143,51 +151,42 @@ msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets "
 "for curly braces, parentheses and square brackets."
 msgstr ""
+"Wtyczka <app>Uzupełnianie nawiasów</app> automatycznie uzupełnia zamykające "
+"nawiasy klamrowe, okrągłe i kwadratowe."
 
 #. (itstool) path: page/p
 #: C/bracket-comp.page:23
-#, fuzzy
-#| msgid ""
-#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
-#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
-#| "gui></guiseq>."
 msgid ""
 "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
 "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Bracket "
 "Completion</gui></guiseq>."
 msgstr ""
-"Käynnistä <app>gconf-editor</app> ja valitse <guiseq><gui>apps</"
-"gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</gui></"
-"guiseq>."
+"Aby włączyć wtyczkę, wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui "
+"style=\"menuitem\">Preferencje</gui><gui>Wtyczki</gui> <gui>Uzupełnianie "
+"nawiasów</gui></guiseq>."
 
 #. (itstool) path: note/p
 #: C/bracket-comp.page:28
 msgid "This plugin does not automatically insert closing HTML or XML tags."
-msgstr ""
+msgstr "Ta wtyczka nie wstawia zamykających znaczników HTML i XML."
 
 #. (itstool) path: credit/name
 #: C/character-map.page:15 C/word-completion.page:15
 msgid "Paul Weaver"
-msgstr ""
+msgstr "Paul Weaver"
 
 #. (itstool) path: info/desc
 #: C/character-map.page:19
 msgid "Insert special characters just by clicking on them."
-msgstr ""
+msgstr "Wstawianie znaków specjalnych przez klikanie ich."
 
 #. (itstool) path: page/title
 #: C/character-map.page:22
 msgid "Character Map"
-msgstr ""
+msgstr "Tablica znaków"
 
 #. (itstool) path: page/p
 #: C/character-map.page:31
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
 msgid ""
 "The <app>Character Map</app> plugin enables you to insert characters into "
 "your document that you may not be able to type easily using your keyboard. "
@@ -195,15 +194,15 @@ msgid ""
 "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Character Map</"
 "gui></guiseq>."
 msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
+"Wtyczka <app>Tablica znaków</app> umożliwia wstawianie do dokumentu znaków, "
+"których nie da się łatwo wpisać za pomocą klawiatury. Aby ją włączyć, "
+"wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferencje</gui><gui>Wtyczki</gui> <gui>Tablica znaków</gui></guiseq>."
 
 #. (itstool) path: section/title
 #: C/character-map.page:38
 msgid "Using Character Map"
-msgstr ""
+msgstr "Używanie tablicy znaków"
 
 #. (itstool) path: section/p
 #: C/character-map.page:40
@@ -212,115 +211,62 @@ msgid ""
 "\">Character Map</gui> tab of the side panel (<guiseq><gui>View</"
 "gui><gui>Side Panel</gui></guiseq>)."
 msgstr ""
+"Po włączeniu wtyczki można dodawać znaki z karty <gui style=\"tab\">Tablica "
+"znaków</gui> panelu bocznego (<guiseq><gui>Widok</gui><gui>Panel boczny</"
+"gui></guiseq>)."
 
 #. (itstool) path: item/p
 #: C/character-map.page:46
 msgid ""
 "Place the cursor at the point in your document at which you would like your "
 "special character."
-msgstr ""
+msgstr "Umieść kursor w miejscu, w którym wstawić znak specjalny."
 
 #. (itstool) path: item/p
 #: C/character-map.page:50
-#, fuzzy
-#| msgid ""
-#| "To activate the <app>side pane</app>, select <guiseq><gui>View</"
-#| "gui><gui>Side Pane</gui></guiseq>, or just press the <key>F9</key> key."
 msgid ""
 "Open the side panel by selecting <guiseq><gui>View</gui> <gui>Side Panel</"
 "gui></guiseq>, or by pressing <key>F9</key>."
 msgstr ""
-"<app>Sivupaneelin </app> käyttöönotto onnistuu valitsemalla "
-"<guiseq><gui>Näytä</gui><gui>Sivupaneeli</gui></guiseq> tai painamalla "
-"<key>F9</key>-näppäintä."
+"Otwórz panel boczny wybierając <guiseq><gui>Widok</gui> <gui>Panel boczny</"
+"gui></guiseq> lub naciskając klawisz <key>F9</key>."
 
 #. (itstool) path: item/p
 #: C/character-map.page:54
 msgid "Select the <gui>Character Map</gui> tab in the side panel."
-msgstr ""
+msgstr "Wybierz kartę <gui>Tablica znaków</gui> w panelu bocznym."
 
 #. (itstool) path: item/p
 #: C/character-map.page:57
 msgid ""
-"If neccessary, choose the character set to which your character belongs from "
+"If necessary, choose the character set to which your character belongs from "
 "the list at the top of the <gui style=\"tab\">Character Map</gui> tab (for "
 "example, Arabic)."
 msgstr ""
+"Jeśli to potrzebne, wybierz zestaw znaków, do którego należy znak z listy na "
+"górze karty <gui style=\"tab\">Tablica znaków</gui> (na przykład „Arabskie”)."
 
 #. (itstool) path: item/p
 #: C/character-map.page:62
 msgid "Double click your desired character to insert it."
-msgstr ""
+msgstr "Podwójnie kliknij znak, aby go wstawić."
 
 #. (itstool) path: note/p
 #: C/character-map.page:67
 msgid ""
 "You must click on the editing view of your document to continue editing "
 "normally."
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/code-assistance.page:15
-msgid "Real-time error highlighting for supported languages."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/code-assistance.page:18
-msgid "Code Assistance"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/code-assistance.page:23
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
-msgid ""
-"The <app>gedit-code-assistance</app> plugin provides real-time error "
-"highlighting for C, C++ and Objective-C. To enable this plugin, select "
-"<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</"
-"gui> <gui>Plugins</gui><gui>Code Assistance</gui></guiseq>."
-msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
-
-#. (itstool) path: section/title
-#: C/code-assistance.page:41
-msgid "How the code assistance plugin works"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/code-assistance.page:43
-msgid ""
-"The plugin currently relies on information in the makefile to deduce the "
-"Clang error-highlighting rules. It examines the <_:code-1/> rules and "
-"determines which targets depend on the the file that is being parsed. The "
-"plugin then extracts the compiler flags by simulating an execution of those "
-"targets."
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/code-assistance.page:49
-msgid ""
-"This is not completely fool proof, of course. In the future, the plugin will "
-"allow you to manually specify the compile flags."
-msgstr ""
+msgstr "Należy kliknąć dokument, aby kontynuować pisanie."
 
 #. (itstool) path: info/desc
 #: C/code-comment.page:15
 msgid "Comment-out or uncomment a block of code."
-msgstr ""
+msgstr "Komentowanie i odkomentowanie bloku kodu."
 
 #. (itstool) path: page/title
 #: C/code-comment.page:18
-#, fuzzy
-#| msgid "Comment"
 msgid "Code comment"
-msgstr "Kommentti"
+msgstr "Komentarze w kodzie"
 
 #. (itstool) path: page/p
 #: C/code-comment.page:20
@@ -329,63 +275,54 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
+"Komentarze w kodzie to części tekstu, które ułatwiają zrozumienie kodu "
+"programu, ale nie wpływają na jego działanie. Komentarze są oddzielane od "
+"pozostałych części programu specjalnymi znakami."
 
 #. (itstool) path: page/p
 #: C/code-comment.page:25
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
 msgid ""
 "The <app>code comment</app> plugin makes it easier to quickly create or "
 "remove code comments. To enable the code comment plugin, select <guiseq><gui "
 "style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</gui> "
 "<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
 msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
+"Wtyczka <app>Komentarze w kodzie</app> ułatwia szybkie tworzenie i usuwanie "
+"komentarzy w kodzie. Aby ją włączyć, wybierz <guiseq><gui style=\"menu"
+"\">gedit</gui><gui style=\"menuitem\">Preferencje</gui> <gui>Wtyczki</"
+"gui><gui>Komentarze w kodzie</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/code-comment.page:31
 msgid "To create or remove a comment:"
-msgstr ""
+msgstr "Aby utworzyć lub usunąć komentarz:"
 
 #. (itstool) path: item/p
 #: C/code-comment.page:33
 msgid ""
 "Highlight the portion of text where you want to add or remove a comment."
-msgstr ""
+msgstr "Zaznacz część tekstu, w którym dodać lub usunąć komentarz."
 
 #. (itstool) path: item/p
 #: C/code-comment.page:37
-#, fuzzy
-#| msgid ""
-#| "Open the Replace tool by clicking <guiseq><gui>Search</gui><gui>Replace</"
-#| "gui></guiseq> or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
 msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">gedit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
-"Avaa korvaustyökalu valitsemalla <guiseq><gui>Etsi</gui><gui>Korvaa</gui></"
-"guiseq> tai paina <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+"Aby dodać komentarz, kliknij <guiseq><gui style=\"menu\">gedit</gui> "
+"<gui>Skomentuj kod</gui></guiseq> lub naciśnij klawisze <keyseq><key>Ctrl</"
+"key> <key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/code-comment.page:42
-#, fuzzy
-#| msgid ""
-#| "Open the Replace tool by clicking <guiseq><gui>Search</gui><gui>Replace</"
-#| "gui></guiseq> or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
 msgid ""
 "To remove a comment, click <guiseq><gui style=\"menu\">gedit</gui> "
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
-"Avaa korvaustyökalu valitsemalla <guiseq><gui>Etsi</gui><gui>Korvaa</gui></"
-"guiseq> tai paina <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+"Aby usunąć komentarz, kliknij <guiseq><gui style=\"menu\">gedit</gui> "
+"<gui>Odkomentuj kod</gui></guiseq> lub naciśnij klawisze <keyseq><key>Shift</"
+"key> <key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/code-comment.page:49
@@ -395,18 +332,22 @@ msgid ""
 "your language or syntax, you can select it from the language list in the "
 "bottom <gui>Status bar</gui>."
 msgstr ""
+"<app>gedit</app> automatycznie użyje właściwego stylu komentarzy na "
+"podstawie języka lub składni pliku. Jeśli program <app>gedit</app> nie "
+"zidentyfikuje języka lub składni, to można ją wybrać z listy języków na dole "
+"<gui>Paska stanu</gui>."
 
 #. (itstool) path: info/desc
 #: C/color-picker.page:15
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
+"Wybieranie koloru z okna dialogowego i wstawianie jego szesnastkowego "
+"odpowiednika."
 
 #. (itstool) path: page/title
 #: C/color-picker.page:18
-#, fuzzy
-#| msgid "Color Scheme"
 msgid "Color Picker"
-msgstr "Värimalli"
+msgstr "Wybór koloru"
 
 #. (itstool) path: page/p
 #: C/color-picker.page:20
@@ -415,70 +356,56 @@ msgid ""
 "that represent a certain color. This can make it easier to choose and use "
 "the correct color in your programs."
 msgstr ""
+"Wtyczka <app>Wybór koloru</app> pomaga wstawiać kod odpowiadający danemu "
+"kolorowi. Ułatwia to wybieranie i używanie właściwych kolorów w programie."
 
 #. (itstool) path: page/p
 #: C/color-picker.page:24
-#, fuzzy
-#| msgid ""
-#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
-#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
-#| "gui></guiseq>."
 msgid ""
 "To enable the color picker plugin, select <guiseq><gui style=\"menu\">gedit</"
 "gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</gui><gui>Color "
 "Picker</gui></guiseq>."
 msgstr ""
-"Käynnistä <app>gconf-editor</app> ja valitse <guiseq><gui>apps</"
-"gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</gui></"
-"guiseq>."
+"Aby włączyć tę wtyczkę, wybierz <guiseq><gui style=\"menu\">gedit</gui><gui "
+"style=\"menuitem\">Preferencje</gui> <gui>Wtyczki</gui><gui>Wybór koloru</"
+"gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/color-picker.page:29
 msgid "To open and use the color picker:"
-msgstr ""
+msgstr "Aby otworzyć i użyć okna wyboru koloru:"
 
 #. (itstool) path: item/p
 #: C/color-picker.page:31
 msgid ""
 "Place your cursor at the point in your document where you want to insert the "
 "color code."
-msgstr ""
+msgstr "Umieść kursor w miejscu, w którym wstawić kod koloru."
 
 #. (itstool) path: item/p
 #: C/color-picker.page:35
-#, fuzzy
-#| msgid ""
-#| "Select <guiseq><gui>Tools</gui><gui>Autocheck Spelling</gui></guiseq> to "
-#| "make <app>gedit</app> highlight spelling errors while you type."
 msgid ""
 "Select <guiseq><gui>Tools</gui><gui>Pick Color…</gui></guiseq>. The color "
 "picker dialog will appear."
 msgstr ""
-"Valitsemalla <guiseq><gui>Työkalut</gui><gui>Korosta väärinkirjoitetut "
-"sanat</gui></guiseq>, <app>gedit</app> korostaa kirjoitusvirheet "
-"automaattisesti."
+"Wybierz <guiseq><gui>Narzędzia</gui><gui>Wybierz kolor…</gui></guiseq>. "
+"Pojawi się okno wyboru koloru."
 
 #. (itstool) path: item/p
 #: C/color-picker.page:39
 msgid "Click on the desired color in the color picker window."
-msgstr ""
+msgstr "Kliknij dany kolor w oknie wyboru koloru."
 
 #. (itstool) path: item/p
 #: C/color-picker.page:42
 msgid ""
 "The appropriate color code will be inserted where you had placed your cursor."
-msgstr ""
+msgstr "Odpowiedni kod koloru zostanie wstawiany w miejscu kursora."
 
 #. (itstool) path: item/p
 #: C/color-picker.page:46
-#, fuzzy
-#| msgid ""
-#| "To close the <guilabel>Check Spelling</guilabel> dialog, click "
-#| "<guibutton>Close</guibutton>."
 msgid "To close the <app>color picker</app>, click <gui>Close</gui>."
-msgstr ""
-"Sulkeaksesi <guilabel>Tarkista oikeinkirjoitus</guilabel>-dialogin, napsauta "
-"<guibutton>Sulje</guibutton>."
+msgstr "Aby zamknąć okno wyboru koloru, kliknij przycisk <gui>Zamknij</gui>."
 
 #. (itstool) path: note/p
 #: C/color-picker.page:52
@@ -486,6 +413,8 @@ msgid ""
 "You can make fine-grained adjustments to the color by adjusting the values "
 "for Hue, Saturation, Value, Red, Green, or Blue."
 msgstr ""
+"Można dostosować barwę, nasycenie, wartości, poziom czerwieni, zieleni "
+"i niebieskiego."
 
 #. (itstool) path: note/p
 #: C/color-picker.page:54
@@ -494,27 +423,22 @@ msgid ""
 "boxes in the color picker, and selecting <gui>Save color here</gui>. This "
 "will make it easier to insert commonly-used colors later."
 msgstr ""
+"Oprócz tego można zapisywać kolory klikając kolorowe pole w oknie wyboru "
+"koloru prawym przyciskiem myszy i klikając <gui>Zapisz kolor</gui>. Ułatwi "
+"to wstawianie często używanych kolorów."
 
 #. (itstool) path: info/desc
 #: C/commander.page:15
 msgid "Use a command-line interface for advanced editing."
-msgstr ""
+msgstr "Interfejs wiersza poleceń do zaawansowanej redakcji tekstu."
 
 #. (itstool) path: page/title
 #: C/commander.page:18
-#, fuzzy
-#| msgid "Command"
 msgid "Commander"
-msgstr "Komento"
+msgstr "Commander"
 
 #. (itstool) path: page/p
 #: C/commander.page:20
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
 msgid ""
 "The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
 "users that allows you to perform command-line actions on the current file. "
@@ -522,88 +446,80 @@ msgid ""
 "gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
 "gui><gui>Commander</gui></guiseq>."
 msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
+"Wtyczka <app>Commander</app> jest przeznaczona dla zaawansowanych "
+"użytkowników programu <app>gedit</app>, umożliwiająca wykonywanie działań "
+"wiersza poleceń na bieżącym pliku. Aby ją włączyć, wybierz <guiseq><gui "
+"style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferencje</gui> "
+"<gui>Wtyczki</gui><gui>Commander</gui></guiseq>."
 
 #. (itstool) path: page/p
 #: C/commander.page:26
-#, fuzzy
-#| msgid ""
-#| "To open a file in <app>gedit</app>, click the <gui>Open</gui> button, or "
-#| "press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
 msgid ""
 "Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
 "key><key>.</key></keyseq>."
 msgstr ""
-"Tiedoston avaaminen <app>geditissä</app> onnistuu napsauttamalla <gui>Avaa</"
-"gui>-painiketta tai käyttämällä näppäinyhdistelmää <keyseq><key>Ctrl</"
-"key><key>O</key></keyseq>."
+"Po włączeniu wtyczki aktywuj ją naciskając klawisze <keyseq><key>Ctrl</"
+"key><key>.</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/commander.page:30
 msgid "The last key in the above key combination is a period."
-msgstr ""
+msgstr "Drugi klawisz to klawisz kropki."
 
 #. (itstool) path: td/p
 #: C/commander.page:36
 msgid "Action"
-msgstr "Toiminto"
+msgstr "Działanie"
 
 #. (itstool) path: td/p
 #: C/commander.page:37
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Skrót klawiszowy"
 
 #. (itstool) path: td/p
 #: C/commander.page:42
 msgid "See an overview of available commands"
-msgstr ""
+msgstr "Wyświetlenie przeglądu dostępnych poleceń"
 
 #. (itstool) path: td/p
 #: C/commander.page:43
 msgid "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/commander.page:46
-#, fuzzy
-#| msgid "Number of words in the current document."
 msgid "Find a word within the current file"
-msgstr "Sanojen määrän asiakirjassa."
+msgstr "Wyszukanie słowa w bieżącym pliku"
 
 #. (itstool) path: td/p
 #: C/commander.page:48
 msgid "<key>/</key> <input>foo</input>"
-msgstr ""
+msgstr "<key>/</key> <input>coś</input>"
 
 #. (itstool) path: td/p
 #: C/commander.page:49
 msgid "This will find the word <input>foo</input>."
-msgstr ""
+msgstr "Wyszuka słowo <input>coś</input>."
 
 #. (itstool) path: td/p
 #: C/commander.page:53
-#, fuzzy
-#| msgid "Number of words in the current document."
 msgid "Replace a word within the current file"
-msgstr "Sanojen määrän asiakirjassa."
+msgstr "Zastąpienie słowa w bieżącym pliku"
 
 #. (itstool) path: td/p
 #: C/commander.page:55
 msgid "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
-msgstr ""
+msgstr "<keyseq><key>/</key><key>/</key></keyseq> <input>coś niecoś</input>"
 
 #. (itstool) path: td/p
 #: C/commander.page:57
 msgid "This will replace <input>foo</input> with <input>bar</input>."
-msgstr ""
+msgstr "Zastąpi słowo <input>coś</input> słowem <input>niecoś</input>."
 
 #. (itstool) path: td/p
 #: C/commander.page:62
 msgid "Move the cursor to a certain line number in your file"
-msgstr ""
+msgstr "Przeniesienie kursora do podanego numeru wiersza w pliku"
 
 #. (itstool) path: td/p
 #: C/commander.page:64
@@ -611,16 +527,18 @@ msgid ""
 "go <input>[line number]</input> <em>or</em> just <key>G</key> <input>[line "
 "number]</input>"
 msgstr ""
+"go <input>[numer wiersza]</input> <em>lub</em> <key>G</key> <input>[numer "
+"wiersza]</input>"
 
 #. (itstool) path: td/p
 #: C/commander.page:69
 msgid "Toggle the bookmark indicator for the current line"
-msgstr ""
+msgstr "Przełączenie wskaźnika zakładki dla bieżącego wiersza"
 
 #. (itstool) path: td/p
 #: C/commander.page:70
 msgid "bookmark <em>or</em> just <key>B</key>"
-msgstr ""
+msgstr "bookmark <em>lub</em> <key>B</key>"
 
 #. (itstool) path: note/p
 #: C/commander.page:76
@@ -630,16 +548,20 @@ msgid ""
 "appropriate plugin installed and activated, you will receive an error "
 "message."
 msgstr ""
+"Część poleceń, na przykład <app>bookmark</app>, wymaga zainstalowania "
+"i włączenia odpowiedniej wtyczki. Bez wtyczki zostanie wyświetlony komunikat "
+"o błędzie."
 
 #. (itstool) path: info/desc
 #: C/dashboard.page:15
 msgid "Display recently-used and most-used files on startup."
 msgstr ""
+"Wyświetlanie ostatnio i najczęściej używanych plików podczas uruchamiania."
 
 #. (itstool) path: page/title
 #: C/dashboard.page:18
 msgid "Dashboard"
-msgstr ""
+msgstr "Ekran nowej karty"
 
 #. (itstool) path: page/p
 #: C/dashboard.page:20
@@ -651,6 +573,11 @@ msgid ""
 "guiseq>. You will need to restart <app>gedit</app> to activate the "
 "<app>Dashboard</app> plugin."
 msgstr ""
+"Wtyczka <app>Ekran nowej karty</app> zapewnia szybki dostęp do ostatnio "
+"i najczęściej używanych plików. Aby ją włączyć, wybierz <guiseq><gui style="
+"\"menu\">gedit</gui><gui style=\"menuitem\">Preferencje</gui> <gui>Wtyczki</"
+"gui><gui>Ekran nowej karty</gui></guiseq>. Następnie należy ponownie "
+"uruchomić program <app>gedit</app>."
 
 #. (itstool) path: page/p
 #: C/dashboard.page:27
@@ -658,11 +585,13 @@ msgid ""
 "The <app>dashboard</app> also includes a <gui>Search</gui> window, allowing "
 "you to search for files that may not appear in the list of files."
 msgstr ""
+"<app>Ekran nowej karty</app> zawiera także okno <gui>Wyszukiwanie</gui>, "
+"umożliwiając wyszukiwanie plików, których nie ma na liście."
 
 #. (itstool) path: section/title
 #: C/dashboard.page:32
 msgid "Recently used files"
-msgstr ""
+msgstr "Ostatnio używane pliki"
 
 #. (itstool) path: section/p
 #: C/dashboard.page:34
@@ -672,11 +601,14 @@ msgid ""
 "document</gui> to create a new file. Click on any of the other files to open "
 "that file."
 msgstr ""
+"Na początku ekran nowej karty wyświetli skrót do <gui>pustego dokumentu</"
+"gui> i siedem ostatnio użytych plików. Kliknij <gui>pusty dokument</gui>, "
+"aby utworzyć nowy plik. Kliknij jeden z pozostałych plików, aby go otworzyć."
 
 #. (itstool) path: section/title
 #: C/dashboard.page:42
 msgid "Most frequently-used files"
-msgstr ""
+msgstr "Najczęściej używane pliki"
 
 #. (itstool) path: section/p
 #: C/dashboard.page:44
@@ -686,37 +618,32 @@ msgid ""
 "document</gui> to create a new file. Click on any of the other files to open "
 "that file."
 msgstr ""
+"Podobnie, ekran nowej karty wyświetla skrót do <gui>pustego dokumentu</gui> "
+"i siedem najczęściej używanych plików. Kliknij <gui>pusty dokument</gui>, "
+"aby utworzyć nowy plik. Kliknij jeden z pozostałych plików, aby go otworzyć."
 
 #. (itstool) path: note/p
 #: C/dashboard.page:50
-#, fuzzy
-#| msgid ""
-#| "To save a file in <app>gedit</app>, click on the disk-drive icon with the "
-#| "word <gui>Save</gui> next to it. You may also select <guiseq><gui>File</"
-#| "gui><gui>Save</gui></guiseq>, or just press <keyseq><key>Ctrl</"
-#| "key><key>S</key></keyseq>."
 msgid ""
 "Once activated, the <app>dashboard</app> will be displayed by default when "
 "you open <app>gedit</app>. You can also open the <app>dashboard</app> by "
 "clicking <guiseq><gui>File</gui><gui>New</gui></guiseq>, or by pressing "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>."
 msgstr ""
-"Muutosten tallentaminen tiedostoon <app>geditissä</app> onnistuu "
-"napsauttamalla levyaseman kuvaa, jonka vieressä lukee <gui>tallenna</gui>. "
-"Voit myös valita <guiseq><gui>Tiedosto</gui><gui>Tallenna</gui></guiseq> tai "
-"käyttää näppäinyhdistelmää <keyseq><key>Ctrl</key><key>S</key></keyseq>."
+"Po włączeniu <app>Ekran nowej karty</app> będzie domyślnie wyświetlany po "
+"otwarciu programu <app>gedit</app>. Można go także otworzyć klikając "
+"<guiseq><gui>Plik</gui><gui>Nowy</gui></guiseq> lub naciskając klawisze "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>."
 
 #. (itstool) path: info/desc
 #: C/draw-spaces.page:15
 msgid "Show white space between words or portions of code."
-msgstr ""
+msgstr "Wyświetlanie białych znaków między słowami i częściami kodu."
 
 #. (itstool) path: page/title
 #: C/draw-spaces.page:18
-#, fuzzy
-#| msgid "Remove Trailing Spaces"
 msgid "Draw Spaces"
-msgstr "Poista ohjausvälit"
+msgstr "Wyświetlanie spacji"
 
 #. (itstool) path: page/p
 #: C/draw-spaces.page:20
@@ -726,6 +653,9 @@ msgid ""
 "whitespace visible, you can more easily see how whitespace is used in a "
 "document, and can apply spacing strategies more consistently."
 msgstr ""
+"Wtyczka <app>Wyświetlanie spacji</app> może oznaczać spacje, tabulacje "
+"i inne rodzaje białych znaków małymi, widocznymi znacznikami. Dzięki temu "
+"można łatwiej stosować konsekwentne zasady wstawiania białych znaków."
 
 #. (itstool) path: page/p
 #: C/draw-spaces.page:25
@@ -736,6 +666,10 @@ msgid ""
 "highlighting the plugin and selecting <gui style=\"menuitem\">Preferences</"
 "gui>."
 msgstr ""
+"Aby włączyć tę wtyczkę, wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui "
+"style=\"menuitem\">Preferencje</gui><gui>Wtyczki</gui> <gui>Wyświetlanie "
+"spacji</gui></guiseq>. Po włączeniu można ustawić jej opcje zaznaczając "
+"wtyczkę i klikając przycisk <gui style=\"menuitem\">Preferencje</gui>."
 
 #. (itstool) path: list/title
 #: C/draw-spaces.page:32
@@ -743,54 +677,48 @@ msgid ""
 "By default, the <app>Draw Spaces</app> plugin will mark the following types "
 "of whitespace in a file:"
 msgstr ""
+"Domyślnie wtyczka <app>Wyświetlanie spacji</app> oznacza te rodzaje białych "
+"znaków:"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:34
 msgid "Spaces"
-msgstr ""
+msgstr "Spacje"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:35
 msgid "Tabs"
-msgstr "Välilehdet"
+msgstr "Tabulacje"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:36
-#, fuzzy
-#| msgid "Remove Trailing Spaces"
 msgid "Leading spaces"
-msgstr "Poista ohjausvälit"
+msgstr "Spacje na początku wiersza"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:37
-#, fuzzy
-#| msgid "Snippet text"
 msgid "Spaces in text"
-msgstr "Leiketeksti"
+msgstr "Spacje w tekście"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:38
-#, fuzzy
-#| msgid "Remove Trailing Spaces"
 msgid "Trailing spaces"
-msgstr "Poista ohjausvälit"
+msgstr "Spacje na końcu wiersza"
 
 #. (itstool) path: list/title
 #: C/draw-spaces.page:42
 msgid "You can also set the plugin to mark:"
-msgstr ""
+msgstr "Można także włączyć oznaczanie:"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:43
-#, fuzzy
-#| msgid "Lines"
 msgid "New lines"
-msgstr "Rivit"
+msgstr "Nowe wiersze"
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:44
 msgid "Non-breaking spaces"
-msgstr ""
+msgstr "Niełamliwe spacje"
 
 #. (itstool) path: note/p
 #: C/draw-spaces.page:48
@@ -798,21 +726,22 @@ msgid ""
 "Though you will be able to see the dots when you work on a file, the dots "
 "will not be visible when you print a file to paper."
 msgstr ""
+"Kropki będą widoczne podczas redagowania pliku, ale nie będą drukowane."
 
 #. (itstool) path: credit/name
 #: C/git.page:11
 msgid "Aleksandra Hankus"
-msgstr ""
+msgstr "Aleksandra Hankus"
 
 #. (itstool) path: info/desc
 #: C/git.page:15
 msgid "Highlight lines that have been changed since the last commit."
-msgstr ""
+msgstr "Wyróżnianie wierszy zmienionych od ostatniego zatwierdzenia."
 
 #. (itstool) path: page/title
 #: C/git.page:18
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #. (itstool) path: page/p
 #: C/git.page:20
@@ -821,22 +750,19 @@ msgid ""
 "the last commit. Lines will be highlighted only on files that are already "
 "tracked by git."
 msgstr ""
+"Wtyczka <app>Git</app> wyróżni wiersze zmienione od ostatniego "
+"zatwierdzenia. Działa to tylko w przypadku plików już znajdujących się "
+"w systemie kontroli wersji Git."
 
 #. (itstool) path: page/p
 #: C/git.page:24
-#, fuzzy
-#| msgid ""
-#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
-#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
-#| "gui></guiseq>."
 msgid ""
 "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
 "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Git</gui></"
 "guiseq>."
 msgstr ""
-"Käynnistä <app>gconf-editor</app> ja valitse <guiseq><gui>apps</"
-"gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</gui></"
-"guiseq>."
+"Aby ją włączyć, wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style="
+"\"menuitem\">Preferencje</gui><gui>Wtyczki</gui> <gui>Git</gui></guiseq>."
 
 #. (itstool) path: page/p
 #: C/git.page:28
@@ -844,40 +770,37 @@ msgid ""
 "The changes are shown in the margin of the document in three different "
 "colors:"
 msgstr ""
+"Zmiany będą wyświetlane na marginesie dokumentu w trzech różnych kolorach:"
 
 #. (itstool) path: item/title
 #: C/git.page:32
 msgid "Green"
-msgstr ""
+msgstr "Zielony"
 
 #. (itstool) path: item/p
 #: C/git.page:33
 msgid "Shows the new lines added to the document."
-msgstr ""
+msgstr "Wyświetla nowe wiersze dodane do dokumentu."
 
 #. (itstool) path: item/title
 #: C/git.page:36
 msgid "Orange"
-msgstr ""
+msgstr "Pomarańczowy"
 
 #. (itstool) path: item/p
 #: C/git.page:37
-#, fuzzy
-#| msgid "Removes all spaces from the end of lines in the document."
 msgid "Shows the lines that have been modified in the document."
-msgstr "Poistaa kaikki välilyöntimerkit asiakirjan rivien lopuista."
+msgstr "Wyświetla wiersze zmodyfikowane w dokumencie."
 
 #. (itstool) path: item/title
 #: C/git.page:40
 msgid "Red"
-msgstr ""
+msgstr "Czerwony"
 
 #. (itstool) path: item/p
 #: C/git.page:41
-#, fuzzy
-#| msgid "Select the lines of text you want to sort."
 msgid "Shows the parts of the document that have been deleted."
-msgstr "Valitse tekstirivit, jotka haluat järjestää."
+msgstr "Wyświetla usunięte części dokumentu."
 
 #. (itstool) path: note/p
 #: C/git.page:46
@@ -885,16 +808,18 @@ msgid ""
 "Hover the mouse pointer on the red or orange margin to view the original "
 "text in a tool tip."
 msgstr ""
+"Najedź kursorem myszy na czerwony lub pomarańczowy margines, aby wyświetlić "
+"oryginalny tekst jako podpowiedź."
 
 #. (itstool) path: info/desc
 #: C/join-split-lines.page:15
 msgid "Join several lines of text or split long lines."
-msgstr ""
+msgstr "Łączenie wielu wierszy tekstu i rozdzielanie długich wierszy."
 
 #. (itstool) path: page/title
 #: C/join-split-lines.page:18
 msgid "Join/Split Lines"
-msgstr ""
+msgstr "Łączenie/dzielenie wierszy"
 
 #. (itstool) path: page/p
 #: C/join-split-lines.page:20
@@ -902,27 +827,24 @@ msgid ""
 "The <app>Join/Split Lines</app> plugin can join shorter lines into one "
 "longer line, or can split a long line into multiple shorter lines."
 msgstr ""
+"Wtyczka <app>Łączenie/dzielenie wierszy</app> może łączyć krótsze wiersze "
+"w jeden dłuższy, albo rozdzielać długi wiersz na wiele krótszych."
 
 #. (itstool) path: page/p
 #: C/join-split-lines.page:23
-#, fuzzy
-#| msgid ""
-#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
-#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
-#| "gui></guiseq>."
 msgid ""
 "To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
 "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Join/Split "
 "Lines</gui></guiseq>."
 msgstr ""
-"Käynnistä <app>gconf-editor</app> ja valitse <guiseq><gui>apps</"
-"gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</gui></"
-"guiseq>."
+"Aby włączyć tę wtyczkę, wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui "
+"style=\"menuitem\">Preferencje</gui><gui>Wtyczki</gui> <gui>Łączenie/"
+"dzielenie wierszy</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/join-split-lines.page:28
 msgid "To join multiple lines into one longer line:"
-msgstr ""
+msgstr "Aby połączyć wiele wierszy w jeden dłuższy:"
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:30
@@ -931,47 +853,38 @@ msgid ""
 "or you can press <keyseq><key>Shift</key><key>Up Arrow</key> </keyseq> or "
 "<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
 msgstr ""
+"Zaznacz wiersze do połączenia. Można to zrobić za pomocą myszy albo nacisnąć "
+"klawisze <keyseq><key>Shift</key><key>Strzałka w górę</key> </keyseq> lub "
+"<keyseq><key>Shift</key><key>Strzałka w dół</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:35
 msgid "Press <keyseq><key>Ctrl</key><key>J</key></keyseq>."
-msgstr ""
+msgstr "Naciśnij klawisze <keyseq><key>Ctrl</key><key>J</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:36
-#, fuzzy
-#| msgid "Move the selected line down one line."
 msgid "The lines that you selected will be joined into one longer line."
-msgstr "Siirtää valittua riviä yhden rivin verran alaspäin."
+msgstr "Zaznaczone wiersze zostaną połączone w jeden dłuższy."
 
 #. (itstool) path: steps/title
 #: C/join-split-lines.page:41
 msgid "To split one line into multiple lines:"
-msgstr ""
+msgstr "Aby rozdzielić jeden wiersz na wiele wierszy:"
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:43
-#, fuzzy
-#| msgid ""
-#| "Select the lines that you want to indent. To indent or unindent a single "
-#| "line, place the cursor anywhere on that line."
 msgid ""
 "Select the line that you want to split by placing your cursor anywhere on "
 "that line."
-msgstr ""
-"Valitse rivit, jotka haluat sisentää. Sisentääksesi tai ulontaaksesi "
-"yksittäisen rivin, aseta osoitin tälle riville."
+msgstr "Zaznacz wiersz do rozdzielenia umieszczając kursor w tym wierszu."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:47
-#, fuzzy
-#| msgid ""
-#| "Press <keyseq><key>Ctrl</key><key>G</key></keyseq> or <keyseq> <key>Ctrl</"
-#| "key><key>Shift</key><key>G</key></keyseq>."
 msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
 msgstr ""
-"Paina <keyseq><key>Ctrl</key><key>G</key></keyseq> tai <keyseq> <key>Ctrl</"
-"key><key>Vaihto</key><key>G</key></keyseq>."
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></"
+"keyseq>."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:49
@@ -980,11 +893,14 @@ msgid ""
 "where it is safe to split a line, and the length of each line will not "
 "exceed 80 characters."
 msgstr ""
+"Wiersz zostanie podzielony na wiele wierszy. Spacje są używane do ustalania "
+"bezpiecznego miejsca podziału wiersza, a długość każdego wiersza nie "
+"przekroczy 80 znaków."
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
-msgstr ""
+msgstr "https://creativecommons.org/licenses/by-sa/3.0/deed.pl"
 
 #. (itstool) path: license/p
 #: C/legal-plugins.xml:5
@@ -994,51 +910,41 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
+"Na warunkach licencji Creative Commons Attribution-ShareAlike 4.0 Unported. "
+"Aby uzyskać jej kopię, odwiedź <_:link-1/> lub wyślij list do Creative "
+"Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
 
 #. (itstool) path: credit/years
 #: C/multi-edit.page:13
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: info/desc
 #: C/multi-edit.page:16
 msgid "Edit a document in multiple places at once."
-msgstr ""
+msgstr "Modyfikowanie dokumentu w wielu miejscach naraz."
 
 #. (itstool) path: page/title
 #: C/multi-edit.page:19
-#, fuzzy
-#| msgid "Quit Gedit."
 msgid "Multi Edit"
-msgstr "Sulkee Gedit:in."
+msgstr "Edycja w wielu miejscach"
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:21
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
 msgid ""
 "The <app>Multi Edit</app> plugin allows you to edit a document in multiple "
 "places at once. This can be helpful when performing tedious editing tasks. "
 "To enable the Multi Edit plugin, select <guiseq><gui style=\"menu\">gedit</"
 "gui> <gui>Preferences</gui><gui>Plugins</gui><gui>Multi Edit</gui></guiseq>."
 msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
+"Wtyczka <app>Edycja w wielu miejscach</app> umożliwia modyfikowanie "
+"dokumentu w wielu miejscach jednocześnie. Jest to przydatne podczas "
+"wykonywania żmudnych zadań redaktorskich. Aby ją włączyć, wybierz "
+"<guiseq><gui style=\"menu\">gedit</gui> <gui>Preferencje</gui><gui>Wtyczki</"
+"gui><gui>Edycja w wielu miejscach</gui></guiseq>."
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:26
-#, fuzzy
-#| msgid ""
-#| "If you make a mistake while using <app>gedit</app>, you can undo it by "
-#| "pressing <keyseq><key>Ctrl</key><key>Z</key></keyseq>, or by clicking "
-#| "<guiseq><gui>Edit</gui><gui>Undo</gui></guiseq>. Doing so will cause "
-#| "<app>gedit</app> to undo one set of similar actions."
 msgid ""
 "After you have enabled the plugin, turn-on Multi Edit mode by pressing "
 "<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or clicking "
@@ -1046,25 +952,26 @@ msgid ""
 "You can then select the points in your file that you would like start "
 "editing."
 msgstr ""
-"Jos teet virheen käyttäessäsi <app>geditiä</app>, voit kumota sen "
-"näppäinyhdistelmällä <keyseq><key>Ctrl</key><key>Z</key></keyseq> tai "
-"valitsemalla <guiseq><gui>Muokkaa</gui><gui>Kumoa</gui></guiseq>. Kumoaminen "
-"kumoaa kerralla sarjan samanlaisia toimintoja."
+"Po włączeniu wtyczki włącz tryb edycji w wielu miejscach naciskając klawisze "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq> lub klikając "
+"<guiseq><gui style=\"menu\">gedit</gui><gui>Tryb edycji w wieli miejscach</"
+"gui></guiseq>. Następnie można wybrać punkty w pliku, które zacząć "
+"modyfikować."
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:32
 msgid "To insert editing points in your file:"
-msgstr ""
+msgstr "Aby wstawić punkty modyfikowania w pliku:"
 
 #. (itstool) path: item/p
 #: C/multi-edit.page:35
 msgid "Place your cursor at your first desired editing point."
-msgstr ""
+msgstr "Umieść kursor w pierwszym wybranym punkcie modyfikowania."
 
 #. (itstool) path: item/p
 #: C/multi-edit.page:38
 msgid "Press <keyseq><key>Ctrl</key><key>E</key></keyseq>."
-msgstr ""
+msgstr "Naciśnij klawisze <keyseq><key>Ctrl</key><key>E</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/multi-edit.page:41
@@ -1072,11 +979,14 @@ msgid ""
 "Move to your next editing point, and press <keyseq><key>Ctrl</key> <key>E</"
 "key></keyseq> again."
 msgstr ""
+"Przejdź do następnego punktu modyfikowania i ponownie naciśnij klawisze "
+"<keyseq><key>Ctrl</key> <key>E</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/multi-edit.page:45
 msgid "Continue inserting editing points, adding as many as you need."
 msgstr ""
+"Kontynuuj wstawianie punktów modyfikowania, dodając ich tyle, ile potrzeba."
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:49
@@ -1084,6 +994,7 @@ msgid ""
 "Once you have inserted all of your editing points, you can make your desired "
 "edits."
 msgstr ""
+"Po wstawieniu wszystkich punktów modyfikowania można zacząć modyfikować."
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:52
@@ -1092,134 +1003,25 @@ msgid ""
 "of the editing points. Pressing the <key>Esc</key> key again will turn off "
 "Multi Edit mode, returning the editor back to its normal state."
 msgstr ""
-
-#. (itstool) path: info/desc
-#: C/session-saver.page:15
-msgid "Save and restore your working sessions."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/session-saver.page:18
-msgid "Session Saver"
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/session-saver.page:20
-#, fuzzy
-#| msgid ""
-#| "Using the spell-check feature in <app>gedit</app> requires that you first "
-#| "enable the spell-check plugin. To enable the plugin, select "
-#| "<guiseq><gui>Edit </gui><gui>Preferences</gui><gui>Plugins</"
-#| "gui><gui>Spell Checker</gui> </guiseq>."
-msgid ""
-"The <app>Session Saver</app> plugin saves groups of files together so that "
-"you can open them together at a later time. To enable the plugin, select "
-"<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</"
-"gui> <gui>Plugins</gui><gui>Session Saver</gui></guiseq>."
-msgstr ""
-"Oikeinkirjoituksen tarkistus <app>geditissä</app> vaatii oikoluku-lisäosan "
-"käyttöönottoa. Lisäosa voidaan ottaa käyttöön valitsemalla "
-"<guiseq><gui>Muokkaa </gui><gui>Asetukset</gui><gui>Lisäosat</"
-"gui><gui>Oikoluku</gui> </guiseq>."
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:26
-msgid "To save a new session:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:28
-msgid ""
-"Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Save current "
-"session</gui></guiseq>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:32
-msgid "Type a session name in the <gui>Save session</gui> dialog box."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:35
-#, fuzzy
-#| msgid "Click <guibutton>Open</guibutton>."
-msgid "Click <gui>Save</gui>."
-msgstr "Napsauta <guibutton>Avaa</guibutton>."
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:40
-msgid "To open an existing session:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:42
-msgid "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui></guiseq>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:45
-msgid "Click the name of your desired session."
-msgstr ""
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:50
-msgid "To delete an existing session:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:52
-#| msgid ""
-#| "Select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Font &amp; "
-#| "Colors</gui></guiseq>."
-msgid ""
-"Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Manage saved "
-"sessions</gui></guiseq>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/session-saver.page:56
-#, fuzzy
-#| msgid "Select the lines of text you want to sort."
-msgid "Select the name of the session that you want to delete."
-msgstr "Valitse tekstirivit, jotka haluat järjestää."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:59
-#, fuzzy
-#| msgid "Click <guibutton>Open</guibutton>."
-msgid "Click <gui>Delete</gui>."
-msgstr "Napsauta <guibutton>Avaa</guibutton>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:62
-#, fuzzy
-#| msgid "Click <guibutton>Open</guibutton>."
-msgid "Click <gui>Close</gui>."
-msgstr "Napsauta <guibutton>Avaa</guibutton>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:63
-msgid ""
-"The session name will still be listed in your list of sessions until you "
-"close <app>gedit</app>."
-msgstr ""
+"Aby usunąć punkty modyfikowania, naciśnij klawisz <key>Esc</key>. Spowoduje "
+"to usunięcie wszystkich punktów modyfikowania. Ponowne naciśnięcie klawisza "
+"<key>Esc</key> wyłączy tryb edycji w wieli miejscach, wracając do zwykłego "
+"trybu."
 
 #. (itstool) path: credit/name
 #: C/terminal.page:16 C/text-size.page:16 C/word-completion.page:19
 msgid "Sindhu S"
-msgstr ""
+msgstr "Sindhu S"
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
-#, fuzzy
-#| msgid "Show / hide the bottom pane."
 msgid "Add a terminal console to the bottom pane."
-msgstr "Näytä / piilota alapaneeli"
+msgstr "Terminal w dolnym panelu."
 
 #. (itstool) path: page/title
 #: C/terminal.page:25
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Osadzony terminal"
 
 #. (itstool) path: page/p
 #: C/terminal.page:27
@@ -1229,157 +1031,225 @@ msgid ""
 "pane of the <app>gedit</app> window. This will let you run scripts, install "
 "needed software, or test your program without leaving <app>gedit</app>."
 msgstr ""
+"<app>gedit</app> umożliwia osadzenie <app>Terminala GNOME</app> w dolnym "
+"panelu okna programu. Umożliwia to wykonywanie skryptów, instalowanie "
+"potrzebnego oprogramowania i testowanie programu bez opuszczania edytora "
+"<app>gedit</app>."
 
 #. (itstool) path: section/title
 #: C/terminal.page:33
 msgid "Enable Embedded Terminal"
-msgstr ""
+msgstr "Włączanie osadzonego terminalu"
 
 #. (itstool) path: steps/title
 #: C/terminal.page:36
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
-msgstr ""
+msgstr "Aby włączyć wtyczkę <app>Osadzony terminal</app>:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:38 C/text-size.page:37
-#| msgid ""
-#| "Select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Font &amp; "
-#| "Colors</gui></guiseq>."
+#: C/terminal.page:38 C/text-size.page:37 C/translate.page:30
+#: C/zeitgeist-dataprovider.page:28
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferencje</gui> <gui style=\"tab\">Wtyczki</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/terminal.page:43
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
+"Zaznacz <gui style=\"menuitem\">Osadzony terminal</gui>, aby włączyć wtyczkę."
 
 #. (itstool) path: section/title
 #: C/terminal.page:51
 msgid "Using Embedded Terminal"
-msgstr ""
+msgstr "Używanie osadzonego terminala"
 
 #. (itstool) path: section/p
 #: C/terminal.page:53
 msgid "Once you have enabled the plugin, to add a terminal to the bottom pane:"
-msgstr ""
+msgstr "Po włączeniu wtyczki dodaj terminal do dolnego panelu:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:58
-#, fuzzy
-#| msgid ""
-#| "Open the Replace tool by clicking <guiseq><gui>Search</gui><gui>Replace</"
-#| "gui></guiseq> or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom "
 "Pane</gui></guiseq>. Alternatively, you can press <keyseq><key>Ctrl</"
 "key><key>F9</key></keyseq>."
 msgstr ""
-"Avaa korvaustyökalu valitsemalla <guiseq><gui>Etsi</gui><gui>Korvaa</gui></"
-"guiseq> tai paina <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+"Wybierz <guiseq><gui style=\"menu\">Widok</gui> <gui style=\"menuitem"
+"\">Dolny panel</gui></guiseq>. Można także nacisnąć klawisze "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
 
 #. (itstool) path: info/desc
 #: C/text-size.page:22
 msgid "Increase or decrease text size."
-msgstr ""
+msgstr "Zwiększanie i zmniejszanie rozmiaru tekstu."
 
 #. (itstool) path: page/title
 #: C/text-size.page:25
 msgid "Text Size"
-msgstr ""
+msgstr "Rozmiar tekstu"
 
 #. (itstool) path: page/p
 #: C/text-size.page:27
 msgid ""
 "The text size plugin allows you to temporarily change the text size for "
-"better readibility in <app>gedit</app> without changing the program's "
+"better readability in <app>gedit</app> without changing the program's "
 "default text size."
 msgstr ""
+"Ta wtyczka umożliwia tymczasową zmianę rozmiaru tekstu w programie "
+"<app>gedit</app> bez zmiany domyślnego rozmiaru."
 
 #. (itstool) path: section/title
 #: C/text-size.page:32
-#, fuzzy
-#| msgid "Enabling a Plugin"
 msgid "Enable Text Size Plugin"
-msgstr "Liitännäisten kytkeminen päälle"
+msgstr "Włączanie wtyczki rozmiaru tekstu"
 
 #. (itstool) path: steps/title
 #: C/text-size.page:35
 msgid "To enable Text Size plugin:"
-msgstr ""
+msgstr "Aby włączyć wtyczkę rozmiaru tekstu:"
 
 #. (itstool) path: item/p
 #: C/text-size.page:42
 msgid "Select <gui style=\"menuitem\">Text Size</gui> to enable the plugin."
 msgstr ""
+"Zaznacz <gui style=\"menuitem\">Rozmiar tekstu</gui>, aby włączyć wtyczkę."
 
 #. (itstool) path: section/title
 #: C/text-size.page:50
 msgid "Use the <app>Text Size</app> plugin"
-msgstr ""
+msgstr "Używanie wtyczki <app>Rozmiar tekstu</app>"
 
 #. (itstool) path: section/p
 #: C/text-size.page:52
 msgid ""
 "Once you have enabled the plugin, do any of the following to change the text "
 "size in <app>gedit</app>:"
-msgstr ""
+msgstr "Po włączeniu wtyczki można:"
 
 #. (itstool) path: item/p
 #: C/text-size.page:57
-#, fuzzy
-#| msgid ""
-#| "To open a file in <app>gedit</app>, click the <gui>Open</gui> button, or "
-#| "press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
 msgid ""
 "To <em>increase</em> the text size, press <keyseq><key>Ctrl</key><key>+</"
 "key></keyseq>."
 msgstr ""
-"Tiedoston avaaminen <app>geditissä</app> onnistuu napsauttamalla <gui>Avaa</"
-"gui>-painiketta tai käyttämällä näppäinyhdistelmää <keyseq><key>Ctrl</"
-"key><key>O</key></keyseq>."
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>+</key></keyseq>, aby "
+"<em>zwiększyć</em> rozmiar tekstu."
 
 #. (itstool) path: item/p
 #: C/text-size.page:61
-#, fuzzy
-#| msgid ""
-#| "To open a file in <app>gedit</app>, click the <gui>Open</gui> button, or "
-#| "press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
 msgid ""
 "To <em>decrease</em> the text size, press <keyseq><key>Ctrl</key><key>-</"
 "key></keyseq>."
 msgstr ""
-"Tiedoston avaaminen <app>geditissä</app> onnistuu napsauttamalla <gui>Avaa</"
-"gui>-painiketta tai käyttämällä näppäinyhdistelmää <keyseq><key>Ctrl</"
-"key><key>O</key></keyseq>."
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>-</key></keyseq>, aby "
+"<em>zmniejszyć</em> rozmiar tekstu."
 
 #. (itstool) path: item/p
 #: C/text-size.page:65
-#, fuzzy
-#| msgid ""
-#| "To open a file in <app>gedit</app>, click the <gui>Open</gui> button, or "
-#| "press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
 msgid ""
 "To <em>reset</em> the text size to the default size, press "
 "<keyseq><key>Ctrl</key><key>0</key></keyseq>."
 msgstr ""
-"Tiedoston avaaminen <app>geditissä</app> onnistuu napsauttamalla <gui>Avaa</"
-"gui>-painiketta tai käyttämällä näppäinyhdistelmää <keyseq><key>Ctrl</"
-"key><key>O</key></keyseq>."
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>0</key></keyseq>, aby "
+"<em>przywrócić</em> domyślny rozmiar tekstu."
+
+#. (itstool) path: credit/name
+#: C/translate.page:11
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/translate.page:17
+msgid "Translate text into different languages"
+msgstr "Tłumaczenie tekstu na różne języki"
+
+#. (itstool) path: page/title
+#: C/translate.page:20
+msgid "Translate"
+msgstr "Tłumaczenie"
+
+#. (itstool) path: page/p
+#: C/translate.page:22
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Wtyczka <app>Tłumaczenie</app> umożliwia tłumaczenie tekstu z programu "
+"<app>gedit</app> za pomocą serwisów Apertium i Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:25
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Włączanie i konfigurowanie wtyczki tłumaczenia"
+
+#. (itstool) path: steps/title
+#: C/translate.page:28
+msgid "To enable the <app>Translate</app> plugin:"
+msgstr "Aby włączyć wtyczkę <app>Tłumaczenie</app>:"
+
+#. (itstool) path: item/p
+#: C/translate.page:35
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Tłumaczenie</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: item/p
+#: C/translate.page:40
+msgid ""
+"Select <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Preferencje</gui>, aby skonfigurować "
+"używany serwis tłumaczenia i parę języków."
+
+#. (itstool) path: section/title
+#: C/translate.page:47
+msgid "Using the Translate plugin"
+msgstr "Używanie wtyczki tłumaczenia"
+
+#. (itstool) path: steps/title
+#: C/translate.page:50
+msgid "To translate a text:"
+msgstr "Aby przetłumaczyć tekst:"
+
+#. (itstool) path: item/p
+#: C/translate.page:52
+msgid "Select the part of text that you would like to translate."
+msgstr "Zaznacz część tekstu do przetłumaczenia."
+
+#. (itstool) path: item/p
+#: C/translate.page:55
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>K</key></keyseq> lub użyj menu "
+"kontekstowego, aby go przetłumaczyć."
+
+#. (itstool) path: item/p
+#: C/translate.page:56
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Tłumaczenie pojawi się w dokumencie lub w dolnym panelu, w zależności od "
+"konfiguracji."
 
 #. (itstool) path: info/desc
 #: C/word-completion.page:25
 msgid "Autocomplete words or portions of code as you type."
-msgstr ""
+msgstr "Automatyczne uzupełnianie słów lub części tekstu podczas pisania."
 
 #. (itstool) path: page/title
 #: C/word-completion.page:28
-#, fuzzy
-#| msgid "Bracket Matching"
 msgid "Word Completion"
-msgstr "Hakasulkujen vastaavuus"
+msgstr "Uzupełnianie wyrazów"
 
 #. (itstool) path: page/p
 #: C/word-completion.page:30
@@ -1387,22 +1257,25 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type. To enable the plugin:"
 msgstr ""
+"Wtyczka <app>Uzupełnianie wyrazów</app> może przyspieszyć pisanie przez "
+"podpowiadanie końcówek słów podczas pisania. Aby ją włączyć:"
 
 #. (itstool) path: item/p
 #: C/word-completion.page:35
-#| msgid ""
-#| "Select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Font &amp; "
-#| "Colors</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Edycja</gui> <gui style=\"menuitem"
+"\">Preferencje</gui> <gui style=\"tab\">Wtyczki</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/word-completion.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Zaznacz <gui style=\"menuitem\">Uzupełnianie wyrazów</gui>, aby włączyć "
+"wtyczkę."
 
 #. (itstool) path: page/p
 #: C/word-completion.page:45
@@ -1413,6 +1286,10 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
+"Podczas pisania wtyczka <app>Uzupełnianie wyrazów</app> będzie automatycznie "
+"wyświetlała listę słów zaczynających się od już wpisanych liter. Podpowiedzi "
+"są tworzone na podstawie słów pojawiających się w innych miejscach dokumentu "
+"i wcześniej określonych słów, jeśli dokument jest w znanym formacie."
 
 #. (itstool) path: page/p
 #: C/word-completion.page:51
@@ -1421,3 +1298,48 @@ msgid ""
 "<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
 "number displayed next to your desired word."
 msgstr ""
+"Aby wstawić podpowiadane słowo, kliknij je podwójnie na liście lub naciśnij "
+"klawisze <keyseq><key>Alt</key><key>liczba</key></keyseq>, gdzie "
+"<key>liczba</key> to liczba wyświetlana obok danego słowa."
+
+#. (itstool) path: credit/name
+#: C/zeitgeist-dataprovider.page:10
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: info/desc
+#: C/zeitgeist-dataprovider.page:14
+msgid "Log user activity for documents which are opened in gedit"
+msgstr ""
+"Zapisywanie aktywności użytkownika dla dokumentów otwartych w programie gedit"
+
+#. (itstool) path: page/title
+#: C/zeitgeist-dataprovider.page:17
+msgid "Zeitgeist dataprovider"
+msgstr "Dostawca danych usługi Zeitgeist"
+
+#. (itstool) path: page/p
+#: C/zeitgeist-dataprovider.page:19
+msgid ""
+"Zeitgeist is a service that logs user activities and events. Zeitgeist lets "
+"other applications access this information in the form of statistics and "
+"timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> records "
+"user activity for documents used with gedit giving easy access to recently-"
+"used and frequently-used files."
+msgstr ""
+"Zeitgeist to usługa zapisująca aktywność i wydarzenia użytkownika. Zeitgeist "
+"umożliwia innym programom używanie tych informacji w formie statystyk i osi "
+"czasu. Wtyczka dostawcy danych usługi Zeitgeist dla programu <app>gedit</"
+"app> zapisuje aktywność użytkownika dla otwieranych dokumentów, zapewniając "
+"łatwy dostęp do ostatnio i często używanych plików."
+
+#. (itstool) path: steps/title
+#: C/zeitgeist-dataprovider.page:26
+msgid "Enable Zeitgeist dataprovider"
+msgstr "Włączanie dostawcy danych usługi Zeitgeist"
+
+#. (itstool) path: item/p
+#: C/zeitgeist-dataprovider.page:33
+msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Dostawca danych usługi Zeitgeist</gui>."
