@@ -64,7 +64,7 @@ PKG_CHECK_MODULES(PLUMA, [
 GLIB_GSETTINGS
 
 # C plugins that don't need special dependencies
-C_PLUGINS=""
+C_PLUGINS="bookmarks"
 
 # Python plugins that don't need special dependencies, besides Python
 PY_PLUGINS="codecomment"
@@ -189,6 +189,7 @@ AC_CONFIG_FILES([
 Makefile
 help/Makefile
 plugins/gpdefs.py
+plugins/bookmarks/bookmarks.plugin.desktop.in
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/synctex/synctex.plugin.desktop.in
 plugins/terminal/terminal.plugin.desktop.in

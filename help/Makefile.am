@@ -3,6 +3,7 @@
 HELP_ID = pluma
 
 HELP_FILES = \
+	bookmarks.page \
 	code-comment.page \
 	legal-plugins.xml \
 	terminal.page

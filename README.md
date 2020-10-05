@@ -18,6 +18,7 @@ How to choose which plugins to build:
 
 where pl1, pl2 ... are one of the following:
 
+- **bookmarks** - *Easy document navigation with bookmarks.*
 - **codecomment** - *Comment and uncomment blocks of code.*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
 - **terminal** - *Embed a terminal in the bottom pane.*

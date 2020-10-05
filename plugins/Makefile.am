@@ -12,6 +12,7 @@ appstream_in_files =
 dist_appstream_in_files =
 gsettings_SCHEMAS =
 
+include plugins/bookmarks/Makefile.am
 include plugins/codecomment/Makefile.am
 include plugins/synctex/Makefile.am
 include plugins/terminal/Makefile.am
